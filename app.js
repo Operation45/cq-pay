@@ -4,15 +4,26 @@ dotenv.load();
 
 var _ = require('lodash');
 var express = require('express');
+var cors = require('cors');
 var path = require('path');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var session = require('express-session');
-var csrf = require('lusca').csrf();
+//var csrf = require('lusca').csrf();
 var config = require('./config');
+var Striper = require('./lib/striper');
 
 var app = express();
+
+var CORSWhiteList = [];
+
+var corsOptions = {
+  origin: function(origin, callback) {
+    //callback(null, _.contains(CORSWhiteList, origin));
+    callback(null, true);
+  }
+}
 
 app.set('port', config.port);
 app.set('env', config.env);
@@ -27,12 +38,20 @@ app.use(session({
 }));
 
 // CSRF
-app.use(function(req, res, next) {
+/*app.use(function(req, res, next) {
   if (_.contains(csrfExclude, req.path)) return next();
   else csrf(req, res, next);
-});
+});*/
 
 //app.use(express.static(path.join(__dirname, 'public')));
+
+app.post('/pay', cors(corsOptions), function(req, res, next) {
+  Striper.subscribeCustomer(req.body).then(function(customer){
+    return res.json(customer);
+  }, function(err){
+    return res.json(err);
+  });
+});
 
 
 /// catch 404 and forwarding to error handler
