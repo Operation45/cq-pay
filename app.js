@@ -12,7 +12,7 @@ var bodyParser = require('body-parser');
 var session = require('express-session');
 //var csrf = require('lusca').csrf();
 var config = require('./config');
-var Striper = require('./lib/striper');
+var Striper = require('./lib/Striper');
 
 var app = express();
 
