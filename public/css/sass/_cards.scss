@@ -1,0 +1,24 @@
+.cards {
+  margin-top:0;
+
+  section {
+    border: 1px solid lighten($black, 60);
+    padding:$generalMargin;
+    background-color: white;
+    @include dropshadow();
+
+  }
+
+  section {
+    @include span-columns(4 of 8);
+    flex-grow:1;
+  }
+
+  @include media($mobile) {
+      display:block;
+
+      section {
+        @include span-columns(4 of 4);
+      }
+  }
+}
