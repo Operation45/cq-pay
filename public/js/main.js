@@ -1,4 +1,4 @@
-var pubKey = "pk_test_NacYaWKIA7HYL1lr9HSfSa1O";
+var pubKey = "pk_live_rnxLhbEf4ErqyyxxwoStRUxh";
 var payURL = "/pay";
 
 function stripePaymentSubmit(token) {
