@@ -43,7 +43,7 @@ app.use(session({
   else csrf(req, res, next);
 });*/
 
-//app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.post('/pay', cors(corsOptions), function(req, res, next) {
   Striper.subscribeCustomer(req.body).then(function(customer){
@@ -78,8 +78,7 @@ if (app.get('env') === 'development') {
 // production error handler
 // no stacktraces leaked to user
 app.use(function(err, req, res, next) {
-  res.status(err.status || 500);
-  res.render('error', {
+  res.status(err.status || 500).json({
     message: err.message,
     error: {}
   });

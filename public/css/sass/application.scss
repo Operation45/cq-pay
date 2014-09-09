@@ -1,0 +1,307 @@
+@import "../bourbon/bourbon";
+@import "grid-settings";
+@import "round-corners";
+@import "../neat/neat";
+
+// Basic variables
+
+$basesize: 16px;
+$black: tint(black, 30%);
+$white: white;
+$orange: #ffa500;
+
+$generalMargin: 30px;
+
+// Font mixins!
+
+@mixin sans-font($weight: 700, $style: normal) {
+  font-family: "franklin-gothic-urw";
+  font-weight: $weight;
+  font-style: $style;
+}
+
+@mixin heading-font($weight: 700, $style: normal) {
+  font-family: "abril-titling-condensed";
+  font-weight: $weight;
+  font-style: $style;
+}
+
+@mixin copy-font($weight: 400, $style: normal) {
+  font-family: "ff-tisa-web-pro";
+  font-weight: $weight;
+  font-style: $style;
+}
+
+// Round corner mixin
+
+$default_rounded_amount: 2px;
+@mixin round-corner($position, $amount: $default_rounded_amount) {
+    border-#{$position}-radius: $amount;
+    -webkit-border-#{$position}-radius: $amount;
+}
+
+// superquick dropshadow mixin
+
+@mixin dropshadow() {
+  -webkit-box-shadow: 1px 1px 4px 0px rgba(50, 50, 50, 0.3);
+  -moz-box-shadow:    1px 1px 4px 0px rgba(50, 50, 50, 0.3);
+  box-shadow:         1px 1px 4px 0px rgba(50, 50, 50, 0.3);
+}
+
+// reset webkit browser margins
+
+* {
+    margin: 0;
+}
+
+// Set up our fonts
+
+body {
+    @include outer-container;
+
+    // specify some font basics
+    @include copy-font(400, normal);
+    font-size: $basesize;
+    background-color:rgb(249, 246, 238);
+    color: $black;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+body > .header, body > .content {
+  flex-grow:1;
+}
+
+.header {
+    color: $white;
+    text-align:center;
+}
+
+h1 {
+    @include heading-font(800, normal);
+    font-size: $basesize * 3;
+    line-height: $basesize * 3.2;
+    color:$white;
+
+    // some spacing
+    max-width: 70%;
+    margin-top: 20px;
+
+    @include media($tablet) {
+        font-size: $basesize * 2.5;
+        line-height: $basesize * 2.5;
+    }
+
+    @include media($mobile) {
+        font-size: $basesize * 2.3;
+        line-height: $basesize * 2.3;
+    }
+}
+
+h2, h4 {
+    @include heading-font(700, normal);
+}
+
+.header h2 {
+    @include sans-font(700, normal);
+}
+
+.header h3 {
+    margin-top:$generalMargin;
+    margin-bottom:$generalMargin;
+}
+
+p {
+    font-weight: 200;
+    line-height: $basesize * 1.5;
+    margin-bottom: $generalMargin/2;
+}
+
+h2 + p {
+  margin-top: $generalMargin/2;
+  margin-bottom:$generalMargin/2;
+}
+
+a {
+    @include sans-font(100, normal);
+    color:$orange;
+    text-decoration: none;
+
+    padding-bottom: 1px;
+
+    &:hover:not(.btn) {
+      border-bottom:2px solid $orange;
+    }
+
+    &.active {
+      color: $orange;
+    }
+}
+.header ul a:not(.active) {
+  color:white;
+}
+button, .btn {
+  background-color: $orange;
+  border:none;
+  border-radius:none;
+  padding-top:6px;
+  padding-bottom:6px;
+  padding-right:12px;
+  padding-left:12px;
+}
+
+.footer {
+  background-color:black;
+}
+
+// Define our layout and spacing
+
+.header { // fancy gif area
+    // background gif
+    background:
+        linear-gradient( // tint layer in front
+          rgba(0, 0, 0, 0.35),
+          rgba(0, 0, 0, 0.35)
+        ),
+        url(../../img/bike.gif) no-repeat center center fixed, // the gif
+        linear-gradient( // black layer behind
+          rgba(0, 0, 0, 1),
+          rgba(0, 0, 0, 1)
+        );
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    @include span-columns(10);
+
+    @include media($desktop) {
+      min-height:350px;
+    }
+
+    .content {
+        @include span-columns(8);
+        @include shift(1);
+
+        @include media($tablet) {
+            @include span-columns(7 of 8);
+            @include shift(1);
+        }
+
+        @include media($mobile) {
+            @include span-columns(3.5 of 4);
+            @include shift(0.5);
+        }
+    }
+
+    ul {
+      @include span-columns(3 of 8);
+      @include shift(5);
+      margin-top:10px;
+
+      @include media($tablet) {
+        @include span-columns(8 of 8);
+        @include shift(1);
+      }
+
+      @include media($mobile) {
+        @include span-columns(4 of 4);
+        @include shift(0);
+      }
+
+    }
+
+    ul li {
+      display:inline;
+      margin-left:20px;
+    }
+
+    h1 {
+        margin:0 auto;
+        margin-top: 90px;
+    }
+
+    h2 {
+      margin-top:$generalMargin;
+    }
+
+    padding-bottom:$generalMargin;
+}
+
+.content {
+    @include span-columns(8);
+    @include shift(1);
+
+    @include media($tablet) {
+        @include span-columns(6 of 8);
+        @include shift(1);
+    }
+    margin-top:$generalMargin;
+    padding-top:$generalMargin;
+}
+.runner {
+  // this is the three-column item at the bottom of the homepage
+  display:flex;
+  margin-top: 60px;
+
+  section {
+    @include span-columns(2.5 of 8);
+    flex-grow:1;
+  }
+
+  @include media($mobile) {
+      display:block;
+
+      section {
+        @include span-columns(4 of 4);
+      }
+  }
+}
+section {
+    @include clearfix;
+    margin-bottom: $generalMargin;
+
+    h4 {
+        margin-bottom: 8px;
+    }
+    h4.modified {
+      margin-top:21px;
+    }
+    a +p {
+      margin-bottom:$generalMargin;
+    }
+}
+
+button, .btn {
+    margin-top:$generalMargin;
+    margin-bottom:$generalMargin;
+    height: 40px;
+
+    border: none;
+    background-color: $orange;
+
+    color: black;
+    @include sans-font();
+    font-size: $basesize * 0.9;
+
+
+    &:hover {
+        background-color: tint($orange, 40%);
+    }
+}
+
+.footer {
+  @include span-columns(10);
+  display:flex;
+  align-items:center;
+  min-height:50px;
+
+  .content {
+    margin-top:0;
+    padding-top:15px;
+  }
+}
+
+// cards layout (using this for sponsors pricing for now)
+@import "cards";
