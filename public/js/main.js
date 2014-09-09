@@ -1,4 +1,5 @@
 var pubKey = "pk_test_NacYaWKIA7HYL1lr9HSfSa1O";
+var payURL = "/pay";
 
 function stripePaymentSubmit(token) {
   // Get Pay Url:
@@ -20,7 +21,6 @@ function handleSuccessfulSubscription () {
 
 $( document ).ready(function() {
 
-  var payURL = "http://civic-quarterly-payments.herokuapp.com/pay";
 
   var handler = StripeCheckout.configure({
     key: pubKey,
