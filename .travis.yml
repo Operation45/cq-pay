@@ -1,0 +1,22 @@
+language: node_js
+notifications:
+  slack: cfa:aLz5oMrEYn1mKtwZNyuCoLTz
+node_js:
+  '0.10'
+branches:
+  only:
+    - master
+deploy:
+  - provider: heroku
+    strategy: git
+    api_key:
+      master:
+        secure: SD6bPR+9ZJyyl5W58PGPHLO6kV1yihBHbkOMr+nEhMAXDoqpydsmG6reywp0MFjzmrjxNnxKke3eeu0El5JyaWIKETARWXZ5Z+akzK1GbmozoLb5NoHxnYm12nKcFpsEtyZ+r3GctgMbW5fDXfRReif74F7G//WixIe81fKePwc=
+    app:
+      master: civic-quarterly-payments
+    on:
+      repo: civicquarterly/cq-pay
+    run:
+      - restart
+
+
