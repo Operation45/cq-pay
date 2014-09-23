@@ -12,7 +12,7 @@ var bodyParser = require('body-parser');
 var session = require('express-session');
 //var csrf = require('lusca').csrf();
 var config = require('./config');
-var Striper = require('./lib/Striper');
+var stripe = require('stripe')(config.stripeSecret);
 
 var app = express();
 
@@ -46,10 +46,30 @@ app.use(session({
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.post('/pay', cors(corsOptions), function(req, res, next) {
-  Striper.subscribeCustomer(req.body).then(function(customer){
-    return res.json(customer);
-  }, function(err){
-    return res.json(err);
+
+  var metadata = {
+    name: req.body.name,
+    address_1: req.body.addressFirst,
+    address_2: req.body.addressSecond,
+    city: req.body.city,
+    zip: req.body.zip,
+    issue: req.body.whichIssue
+  };
+
+  console.log('metadata', metadata);
+
+  stripe.customers.create({
+    card: req.body.stripeToken,
+    email: req.body.email,
+    plan: config.stripePlan,
+    metadata: metadata
+  }, function(err, customer) {
+    if (err) {
+      return res.json(err.raw);
+    }
+    else {
+      return res.json(customer);
+    }
   });
 });
 
@@ -63,17 +83,17 @@ app.use(function(req, res, next) {
 
 /// error handlers
 
-// development error handler
-// will print stacktrace
-if (app.get('env') === 'development') {
-  app.use(function(err, req, res, next) {
-    res.status(err.status || 500);
-    res.render('error', {
-      message: err.message,
-      error: err
-    });
-  });
-}
+// // development error handler
+// // will print stacktrace
+// if (app.get('env') === 'development') {
+//   app.use(function(err, req, res, next) {
+//     res.status(err.status || 500);
+//     res.render('error', {
+//       message: err.message,
+//       error: err
+//     });
+//   });
+// }
 
 // production error handler
 // no stacktraces leaked to user
