@@ -85,11 +85,16 @@
   <div class="page">
     <div class="site-width">
       <div class="content">
-        <!--
+
         <img src="/images/subscribe/cover.jpg" alt="A picture of the first Civic Quarterly cover" class="">
+        <!--
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro vero dolore, eligendi obcaecati aut harum temporibus reprehenderit recusandae ut dolorum doloremque officia soluta, iure totam omnis, molestiae eaque alias provident modi saepe. Repellat, magnam delectus impedit laudantium accusamus asperiores maiores dolorum, doloribus, perspiciatis eveniet officiis eligendi nam. Iste doloremque incidunt, commodi quidem cumque sint repellendus expedita delectus dolore, odio sed explicabo pariatur modi dicta, tempora reprehenderit numquam illo earum non adipisci quod! Neque laborum dolorum doloremque nobis beatae facere, hic, adipisci cupiditate quas libero aspernatur. Voluptatem qui ex molestias deleniti corporis nihil aliquam ipsa maxime, placeat facilis dolorum. Similique, doloribus.</p>
         -->
-        <h3>Sign up to get your print journal</h3>
+        <h3>Sign up to get your print journal for $9</h3>
+
+        <p><strong>Hold it in your hands. Turn the pages. Read about the future of civic technology.</strong></p>
+
+        <p>Sign up now to receive our print journal in the mail. Flip through 60 pages of engaging discussion, thoughtful analysis and unique viewpoints on civic technology and the future of government.</p>
 
         <div class="subscribe-message">
 
@@ -97,7 +102,13 @@
 
         <form id="subscribe-form" action="#">
 
+          <br /><hr>
+
           <section>
+            <p><strong>Who are you?</strong></p>
+
+            <p>Let us know who you are and how to reach you. We'll send you updates that are important to your subscription.</p>
+
             <label for="name">Name</label>
             <input type="text" name="name" id="name">
 
@@ -105,7 +116,15 @@
             <input type="text" name="email" id="email">
           </section>
 
+          <hr>
+
           <section>
+            <p><strong>Paying for the journal</strong></p>
+
+            <p>We'll securely charge your credit card through <a href="https://stripe.com/">Stripe</a> four times each year before we send your print journal.</p>
+
+            <p>We will send you a receipt by email with information about the charge.</p>
+
             <label for="cardNumber">Credit card number</label>
             <input type="text" id="cardNumber">
 
@@ -118,8 +137,16 @@
             <label for="CVC">CVC Code</label>
             <input type="text" id="CVC">
           </section>
+            
+          <hr>
 
           <section>
+            <p><strong>Where should we send it?</strong></p>
+
+            <p>Let us know where to mail your print journal. We aren't currently sending copies to addresses outside the United States.</p> 
+
+            <p>If you live outside the United States and want a copy, <a href="mailto:info@civicquarterly.com">send us an email at info@civicquarterly.com</a> and we can try to work something out.</p>
+
             <label for="addressFirst">Street Address #1</label>
             <input type="text" name="addressFirst" id="addressFirst">
 
@@ -136,16 +163,29 @@
             <input type="text" name="zip" id="zip">
           </section>
 
+          <hr>
+
           <section>
-            <label for="whichIssue">
-              <input type="radio" name="whichIssue" value="issue1">Send me issue 1
-            </label>
-            <label for="whichIssue">
-              <input type="radio" name="whichIssue" value="issue2">Send me issue 2
-            </label>
+            <p><strong>What issue do you want to start with?</strong></p>
+
+            <p>We're distributing copies of issue 1 for free to attendees at the Code for America Summit this week, Sept. 23 through Sept. 25.</p>
+
+            <p>Please visit us at the Civic Tech Fair on Tuesday or see us during afternoon breaks. If you're signing up at the conference, we recommend you start with issue 2.</p>
+
+            <div class="field" style="position: relative;">
+              <label for="whichIssue" class="radio">
+                <input type="radio" name="whichIssue" value="issue1">Start my subscription with issue 1 (ships October 2014)
+              </label>              
+            </div>
+
+            <div class="field" style="position: relative;">
+              <label for="whichIssue" class="radio">
+                <input type="radio" name="whichIssue" value="issue2">Start my subscription with issue 2 (ships January/February 2015)
+              </label>              
+            </div>
           </section>
 
-          <a href="#" id="subscribe-button" style="background:none repeat scroll 0% 0% #333;color:white;font-family:'franklin-gothic-urw';padding:0.3em 0.8em;">Subscribe</a>
+          <a href="#" id="subscribe-button" style="background:none repeat scroll 0% 0% #333;background-color:darkred;color:white;font-family:'franklin-gothic-urw', Helvetica, sans-serif;padding:0.3em 0.8em;font-size:1.5em;">Subscribe</a>
         </form>
 
       <aside class="masthead">
