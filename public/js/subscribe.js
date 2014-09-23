@@ -61,7 +61,7 @@ function stripeResponseHandler(status, response) {
 }
 
 function subscriptionSuccess() {
-  $('#subscribe-form').text('Thank you for your subscription');
+  alert('Thank you for your subscription');
 }
 
 $(document).ready(function() {
