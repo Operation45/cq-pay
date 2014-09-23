@@ -1,4 +1,4 @@
-Stripe.setPublishableKey('pk_test_NacYaWKIA7HYL1lr9HSfSa1O');
+Stripe.setPublishableKey('pk_live_rnxLhbEf4ErqyyxxwoStRUxh');
 
 function updateSubscriptionMessage(message) {
   $('.subscribe-message').text(message);
