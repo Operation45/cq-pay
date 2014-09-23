@@ -1,7 +1,7 @@
 Stripe.setPublishableKey('pk_live_rnxLhbEf4ErqyyxxwoStRUxh');
 
 function updateSubscriptionMessage(message) {
-  $('.subscribe-message').text(message);
+  alert(message);
 }
 
 function valueOf(id) {
@@ -15,7 +15,6 @@ function validateForm(cardNumber, expirationMonth, expirationYear, cvc) {
 }
 
 function handleSubscribeClick() {
-  updateSubscriptionMessage('');
 
   var name = valueOf('name');
   var email = valueOf('email');
