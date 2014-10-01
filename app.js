@@ -43,8 +43,6 @@ app.use(session({
   else csrf(req, res, next);
 });*/
 
-app.use(express.static(path.join(__dirname, 'public')));
-
 app.post('/pay', cors(corsOptions), function(req, res, next) {
   Striper.subscribeCustomer(req.body).then(function(customer){
     return res.json(customer);
