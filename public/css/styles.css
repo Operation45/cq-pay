@@ -1,3 +1,7 @@
+/* @override http://cq-prototype.local:4000/css/styles.css */
+
+/* @override http://0.0.0.0:4000/css/styles.css */
+
 /* @override http://0.0.0.0:4000/css/styles.css */
 
 /* @override http://0.0.0.0:4000/css/styles.css */
@@ -42,6 +46,7 @@ ol, ul {
 blockquote, q {
   quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
@@ -59,8 +64,9 @@ table {
 body{
 	color: #222;
 	font-family: "ff-tisa-web-pro", georgia, "Lucida Grande", Lucida, Verdana, sans-serif;
-	font-size: 16px;
+	font-size: 20px;
 	background: #fff;
+	height: 100%;
 }
 
 @media screen and (min-width: 48em){
@@ -77,7 +83,7 @@ a:hover{
 	color: #00b3e3;
 }
 
-p{ line-height: 1.4em; }
+p{ line-height: 1.5em; }
 p+p{ text-indent: 1.4em; }
 
 strong{ font-weight: 600; }
@@ -100,8 +106,8 @@ div.site-width{
 	box-sizing: border-box;
 	position: relative;
 	margin: 0 auto;
-	width: 88.88888%;
-	max-width: 56em;
+	width: 90%;
+	max-width: 64rem;
 }
 
 div.site-width::after {
@@ -118,6 +124,8 @@ div.site-width::after {
 	bottom: 0;
 	left: 50%;
 	margin-left: -44.444444444444%;
+	display: none;
+	height: 0;
 }
 
 div.site-width::after{
@@ -139,17 +147,311 @@ div.site-width::after{
 
 /* @end */
 
-/* @group header */
+/* @group forms */
+
+
+
+.button{
+	color: #fff;
+	border: 0.2em double #fff;
+	-moz-border-radius: 0.2em;
+	border-radius: 9;
+	background: #df6018 none;
+	padding: 0.3em 0.5em;
+	font-family: "franklin-gothic-urw", helvetica;
+	font-size: 0.9em;
+	cursor: pointer;
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.button:hover{ 
+	background-color: #c04316; 
+	color: white;
+}
+
+input[type=text],
+input[type=tel],
+input[type=email],
+input[type=password],
+input[type=date]{
+  border: 0.08em solid #ccc;
+  border-top-color: #c3c3c3;
+  font: inherit;  
+  font-size: inherit;
+  padding: 0.4rem 0.33rem 0.33rem;
+  margin: 0;
+  outline: none;
+  height: 2em;
+  line-height: 1;
+    -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  width: 100%;
+	background: #fff;
+	box-shadow: inset 0.05em 0.05em 0 rgba(0,0,0,0.08);
+}
+
+input[type=text]:focus,
+input[type=tel]:focus,
+input[type=email]:focus,
+input[type=password]:focus,
+input[type=date]:focus,
+select:focus,
+textarea:focus{
+	border-color: #217eb4;
+}
+
+input[type=checkbox],
+input[type=radio]{
+	vertical-align: middle;
+	display: inline-block;
+	position: relative;
+	top: -0.15rem;
+}
+
+input[type=text][disabled],
+input[type=tel][disabled],
+input[type=email][disabled],
+input[type=password][disabled],
+input[type=date][disabled],
+select[disabled],
+textarea[disabled]{
+	background: #f3f3f3;
+	color: #555;
+}
+
+
+
+input[type=checkbox],
+input[type=radio]{
+	position: absolute;
+	left: 0.8em;
+	top: 50%;
+	margin-top: -0.5em;
+}
+
+
+div.field.field-checkbox,
+div.field.field-radiobutton{
+  margin-right: 0.4rem;
+  margin-bottom: 0.4rem;
+  position: relative;
+  max-width: 32em;
+}
+
+div.field.field-checkbox label,
+div.field.field-radiobutton label{
+	padding-left: 1.8em;
+  line-height: 1.2rem;
+  position: relative;
+  font-weight: normal;
+  color: #777;
+  margin-bottom: 0.6em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	cursor: pointer;
+}
+
+
+div.field{
+	margin-bottom: 1.4rem; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+	max-width: 16.4rem;
+  font-family: "franklin-gothic-urw", Arial;
+}
+
+div.field label,
+fieldset legend{
+  line-height: 1.4em;
+  display: block;
+  margin-bottom: 0.7em;
+  color: #333;
+  width: 100%;
+  font-family: "franklin-gothic-urw", Arial;
+}
+
+fieldset.fieldset-address div.field.field-city input{ width: 8rem; }
+fieldset.fieldset-address div.field.field-state{ width: 2.6rem;}
+fieldset.fieldset-address div.field.field-zip input{ width: 4rem; }
+
+fieldset.fieldset-date-range div.field,
+fieldset.fieldset-phone div.field-number,
+fieldset.fieldset-address div.field.field-city,
+fieldset.fieldset-address div.field.field-state,
+fieldset.fieldset-address div.field.field-zip,
+fieldset.fieldset-cc fieldset.fieldset-cc-expiry-date,
+fieldset.fieldset-cc div.field.field-cc-mm,
+fieldset.fieldset-cc div.field.field-cc-yy,
+fieldset.fieldset-cc div.field.field-cc-cvc{
+		float: left;
+		overflow: hidden;
+		padding-right: 0.4rem;
+		position: relative;
+		padding-bottom: 1.2rem;
+}
+
+fieldset.fieldset-address div.field.field-street,
+fieldset.fieldset-cc div.field.field-cc-n{
+	padding-bottom: 1.2rem;
+	margin-bottom: 1rem;
+}
+
+fieldset.fieldset-address div.field label,
+fieldset.fieldset-cc div.field label{
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+	font-size: 0.8rem;
+	color: #555;
+}
+
+fieldset.fieldset-cc fieldset.fieldset-cc-expiry-date legend{
+	font-size: 0.8rem;
+	color: #555;
+	font-weight: 600;
+}
+
+fieldset.fieldset-address div.field.field-city{
+	width: 8.4rem;
+	clear: left;
+}
+
+fieldset.fieldset-address div.field.field-state,
+fieldset.fieldset-address div.field.field-zip,
+fieldset.fieldset-cc div.field.field-cc-cvc{ width: 4rem; }
+
+fieldset.fieldset-cc div.field.field-cc-cvc{ padding-top: 1.2em; }
+
+fieldset.fieldset-cc div.field.field-cc-mm,
+fieldset.fieldset-cc div.field.field-cc-yy{ width: 2em; }
+fieldset.fieldset-cc div.field.field-cc-yy{
+	margin-right: 6.2em;
+}
+
+
+
+@media screen and (min-width: 28em) {	
+
+	fieldset .field{ padding-left: 0; }
+
+}
+
+/* @end */
+
+/* @group shared */
+
+/* @group article.h-entry */
+
+article.h-entry a:hover h1{ text-decoration: underline; }
+
+article.h-entry dl{
+	margin-bottom: 0.8em;
+	color: #444;
+	font-style: italic;
+	line-height: 1.2em;
+}
+
+article.h-entry dl dt,
+article.h-entry dl dd{ display: inline; }
+
+article.h-entry dl dt{ 
+	text-transform: lowercase; 
+	margin-right: 0.1em;
+}
+
+article.h-entry dl .fn{
+	font-family: "franklin-gothic-urw-cond", arial;
+	font-style: normal;
+	-webkit-text-rendering: optimizeLegibility;
+	color: #333;
+}
+
+article.h-entry p{
+	font-family: "franklin-gothic-urw", Arial;
+	max-width: 28em;
+	line-height: 1.4em;
+	color: #333;
+}
+
+article.h-entry h1{
+	font-size: 1.2em;
+	line-height: 1.2em;
+	padding-top: 0;
+	margin-top: 0;
+	margin-bottom: 0.4rem;
+	font-family: abril-titling-condensed, georgia;
+}
+
+article.h-entry a{ 
+	display: block;
+	position: relative;
+}
+
+article.h-entry a:hover{ text-decoration: none; }
+article.h-entry a h1{ color: #ce4d32; }
+article.h-entry a:hover h1{ color: #991325; }
+
+@media screen and (min-width: 48em){
+
+	article.h-entry a dl,
+	article.h-entry a p{
+		font-size: 0.9em;
+	}
+}
+
+/* @end */
+
+/* @group section.h-feed */
+
+section.h-feed header h1,
+.home section.h-feed header h1{
+	font-size: 2em;	
+	font-family: abril-fatface;
+	font-weight: 400;
+	margin-bottom: 0.2rem;
+}
+
+section.h-feed.miscellaneous header h1{
+	font-size: 1.2rem;
+	font-family: "franklin-gothic-urw", Arial;
+	font-weight: 600;
+	border-color: #e3e3e3;
+	padding-top: 0.8em;
+}
+
+section.h-feed.miscellaneous{
+	clear: both;
+}
+
+
+/* @end */
+
+
+
+/* @end */
+
+/* @group header#header */
 
 header#header{ 
 	color: #333; 
 	padding-top: 2.4em;
 }
 
-body#home header#header nav.nav-primary a.home,
-body#about header#header nav.nav-primary a.about,
-body#subscribe header#header nav.nav-primary a.subscribe,
-body#contribute header#header nav.nav-primary a.contribute{
+body.home header#header nav.nav-primary a.home,
+body.about header#header nav.nav-primary a.about,
+body.subscribe header#header nav.nav-primary a.subscribe,
+body.contribute header#header nav.nav-primary a.contribute{
 	font-weight: 600;
 	color: inherit;
 	text-decoration: none;
@@ -163,7 +465,7 @@ header#header p{
 
 header#header nav.nav-primary{
 	left: 0;
-	font-family: "franklin-gothic-urw";
+	font-family: "franklin-gothic-urw", Arial;
 	font-size: 0.8em;
 	position: absolute;
 	bottom: 100%;
@@ -177,7 +479,7 @@ header#header nav.nav-primary a{
 header#header nav.nav-primary a:hover{ text-decoration: underline; }
 
 
-header#header span.ampersand{
+span.ampersand{
 	font-family: baskerville;
 	font-style: italic;
 }
@@ -202,6 +504,8 @@ header#header h1.logo,
 header#header h1.logo a{ 
 	color: inherit; 
 }
+
+header#header h1.logo a:hover{ color: #000; }
 
 
 header#header h1.logo::after{
@@ -245,7 +549,7 @@ body header .secondary-content{
 }
 
 header#header nav.nav-issue{
-	font-family: "franklin-gothic-urw";
+	font-family: "franklin-gothic-urw", Arial;
 	font-size: 0.8em;
 	font-weight: 600;
 	position: relative;
@@ -281,7 +585,7 @@ header#header nav.nav-issue{
 		  padding-top: 3.2em;
 	}
 	
-	body#home header#header{
+	body.home header#header{
 	  padding-bottom: 4em !important; 
 	  margin-bottom: 20em !important;
 	  background: none !important;
@@ -357,14 +661,135 @@ header#header nav.nav-issue a{
 
 /* @end */
 
-/* @group main
- */
+/* @group .page */
+
+.page a{ color: #009b76; }
+.page a:hover{ 
+	color: #1f5f5a;
+	text-decoration: underline;
+}
+
+.page p,
+.page li{
+	line-height: 1.6em; 
+	color: #333;
+	text-rendering: optimizeLegibility;
+}
+
+.page li{ margin-bottom: 0.8rem; }
+
+.page h1{
+	font-size: 1.4em;
+	line-height: 1.2em;
+	font-family: "abril-titling-condensed", Georgia;
+	font-weight: 600;
+	margin-top: 2rem;
+	margin-bottom: 0.6rem;
+}
+
+.page section h1{
+	font-size: 1.4em;
+	font-weight: 600;
+	color: #633380;
+}
 
 
+.page figure{
+	line-height: 1.6em;
+	margin: 1em 0;
+	font-family: "franklin-gothic-urw", Arial;
+	font-size: 0.9em;
+	counter-increment: figure;
+}
+
+.page figure figcaption::before{
+	content: "Figure " counter(figure) " ";
+	font-weight: 600;
+}
+
+.page section section h1,
+.page section h2{
+	font-family: "franklin-gothic-urw", Arial;
+	line-height: 1.4em;
+	margin-bottom: 0.4rem;
+	font-size: 1.2em;
+	font-weight: 600;
+	color: inherit !important;
+}
+
+.page section h2{
+	font-size: 1em;
+}
+
+.page blockquote{
+	font-style: italic;
+	margin-bottom: 1.4em;
+	position: relative;
+	margin-left: 1.4em;
+	margin-top: 0.7em;
+}
+
+.page blockquote::before{
+	content: "\201C";
+	color: #555;
+	position: absolute;
+	right: 100%;
+	top: 0;
+	font-size: 1.8em;
+	margin-right: 0.2em;
+	margin-top: 0.1em;
+}
+
+.page blockquote p:first-of-type{
+	text-indent: none !important;
+}
+
+.page blockquote cite{
+	font-size: 0.9em;
+	font-style: normal;
+	font-family: "franklin-gothic-urw", Arial;
+	display: block;
+	margin-top: 0.6em;
+	line-height: 1.3em;
+}
+
+.page blockquote cite::before{
+	content: "\2014";
+}
+
+.page span.first-letter{
+	font-size: 6em;
+	float: left;
+	color: #cc4c34;
+	font-weight: 700;
+	margin-bottom: 0.1em;
+	margin-right: 0.1em;
+	margin-top: 0.35em;
+	font-family: "abril-fatface";
+}
+
+div.celebrated-content{
+	background: #333;
+	color: white;
+	padding: 1em 0;
+	text-align: center;
+	font-size: 1.4em;
+	line-height: 1.4;
+	font-style: italic;
+}
+
+@media screen and (min-width: 71.111rem){ 
+	.page figure.track-site-width{ 
+		margin-left: -12rem; 
+		margin-right: -12rem;
+		margin-top: 2em;
+		margin-bottom: 2em;
+	} 
+}
 
 /* @end */
 
-/* @group footer */
+/* @group footer#footer */
 
 footer#footer{
 	position: relative;
@@ -373,7 +798,7 @@ footer#footer{
 }
 
 footer#footer div.site-width{
-	border-top: 0.2em double;
+	border-top: 0.2em solid;
 	padding-top: 1em;
 	padding-bottom: 1.8em;
 	margin-bottom: 2em;
@@ -397,37 +822,20 @@ footer#footer section.mailing-list{
 	border-bottom: none;
 }
 
-footer#footer section.subscribe{
-	font-family: abril-titling-condensed, georgia;
+footer#footer section.subscribe{ font-family: abril-titling-condensed, georgia; }
+footer#footer section.subscribe .button{
+	font-weight: 600;
 }
 
 footer#footer section.subscribe p{
-	font-size: 1.2em;
+	font-size: 1.4rem;
 	margin-bottom: 0.6em;
 }
 
 footer#footer section.mailing-list label{ margin-top: 0.05rem; }
 
-footer#footer section.mailing-list input[type=email]{
-	height: 2em;
-	line-height: 2em;
-	padding: 0.2em 0.4em;
-	width: 100%;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;	
-	margin-bottom: 0.33em;
-}
-
 footer#footer section.sponsored-by{
 	margin-bottom: 1.5em;
-}
-
-
-footer#footer input,
-footer#footer button{
-	font-family: inherit;
-	font-size: inherit;
 }
 
 footer#footer h1,
@@ -435,27 +843,6 @@ footer#footer label{
 	font-weight: 600;
 	display: block;
 	margin-bottom: 0.8em;
-}
-
-footer#footer input{
-	border: 0.08em solid #aaa;
-}
-
-footer#footer button{
-	color: #fff;
-	border: 0.2em double #fff;
-	-moz-border-radius: 0.2em;
-	border-radius: 9;
-	background: #df6018 none;
-	font-weight: 600;
-	padding: 0.3em 0.5em;
-	font-family: "franklin-gothic-urw", helvetica;
-	font-size: 0.9em;
-	cursor: pointer;
-}
-
-footer#footer button:hover{
-	background-color: #c04316;
 }
 
 footer#footer nav{
@@ -480,15 +867,12 @@ footer#footer nav a:hover{
 	text-decoration: underline;
 }
 
+footer#footer .mailing-list input[type=email]{
+	margin-bottom: 0.8em;
+	
+}
 footer#footer .mailing-list input[type=submit]{
-	font-size: 0.9em;
 	background: #207cb6;
-	color: white;
-	border: none;
-	font-family: "franklin-gothic-urw";
-	margin-top: 0.8rem;
-	padding: 0.3em 0.8em;
-	cursor: pointer;
 }
 
 footer#footer .mailing-list input[type=submit]:hover{
@@ -528,7 +912,6 @@ footer#footer .facebook span.icon::after{
 footer#footer .copyright{
 	clear: both;
 	font-size: 0.7em;
-	color: #888;
 }
 
 @media screen and (min-width: 36em){
@@ -589,6 +972,8 @@ footer#footer .copyright{
 
 @media screen and (min-width: 56em){
 
+	footer#footer nav a{ padding: 0; }
+	
 	footer#footer section.subscribe,
 	footer#footer section.mailing-list{
 		margin-bottom: 0;
@@ -621,7 +1006,16 @@ footer#footer .copyright{
 
 /* @end */
 
-/* @group views */
+/* @group layouts */
+
+/* @group pages */
+
+/* @group bootstrap */
+
+
+#page main > header{ text-align: center; }
+
+/* @end */
 
 /* @group 404 */
 
@@ -647,7 +1041,7 @@ body#page-404 main p{
 }
 
 body#page-404 main a{
-	font-family: "franklin-gothic-urw";
+	font-family: "franklin-gothic-urw", Arial;
 }
 
 body#page-404 main a::after{
@@ -671,31 +1065,248 @@ body#page-404 main a:last-of-type::after{
 
 /* @end */
 
+/* @group about */
+
+
+body.about header#header,
+body.about main header,
+body.about main p.introduction{
+	background: #633380;
+	color: white;
+}
+
+body.about header#header nav a{ color: #d0fff4; }
+body.about header#header h1 a,
+body.about header#header h1 a:hover{ color: white; }
+
+body.about main header{ 
+	padding-top: 1.4em;
+	margin-bottom: 1.4em;
+	padding-bottom: 1.4em;
+}
+
+body.about main header p{
+	font-size: 1.2em;
+	text-align: center;
+	font-family: "franklin-gothic-urw", Arial;	
+	max-width: 44rem;
+	margin: 0 auto;
+}
+
+body.about .page span.first-letter{
+	color: #633380;
+}
+
+body.about .page p{
+	max-width: 42rem;
+	margin: 0 auto;
+}
+
+body.about main aside{
+	font-family: "franklin-gothic-urw", Arial;	
+	line-height: 1.5em;
+	margin-bottom: 2em;
+	font-size: 0.9em;
+	margin-top: 2.8em;
+	text-align: center;
+	max-width: 28rem;
+	margin: 2.8em auto 2em;
+}
+
+
+body.about main dl dt{
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 0.9em;
+}
+
+body.about main dl dd{ margin-bottom: 1em; }
+
+@media screen and (min-width: 48em){
+	body.about main aside{ 
+		text-align: left; 
+		max-width: none;
+	}	
+	
+	body.about main aside dl{
+		width: 42rem;
+		margin: 0 auto 2em;
+	}
+
+	body.about main aside dl::after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+	
+	body.about main aside dl dt,
+	body.about main aside dl dd{ 
+		float: left;
+		width: 50%;
+			-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	
+	}
+
+	body.about main aside dl dt{
+		clear: left;
+		padding-right: 1em;
+	}	
+}
+
+/* @end */
+
+/* @group contribute */
+
+body.contribute header#header,
+body.contribute main header,
+body.contribute main p.introduction{
+	background: #633380;
+	color: white;
+}
+
+body.contribute header#header p,
+body.contribute header#header nav a{
+	color: #d0fff4;
+}
+
+body.contribute header#header h1 a,
+body.contribute header#header h1 a:hover{ color: white; }
+
+
+body.contribute main header{ 
+	padding-top: 1.4em;
+	margin-bottom: 1.4em;
+	padding-bottom: 1.4em;
+}
+
+body.contribute main header p{
+	font-size: 1.1em;
+	font-size: 1.2em;
+	text-align: center;
+	font-family: "franklin-gothic-urw", Arial;	
+	max-width: 28em;
+	margin: 0 auto;
+}
+
+
+
+body.contribute .page span.first-letter{
+	color: #633380;
+}
+
+body.contribute main header h1{
+	font-family: "franklin-gothic-urw", Arial;	
+	font-size: 2.4em;
+	font-weight: 600;
+	position: relative;
+	text-align: center;
+	margin-bottom: 0.2em;
+}
+
+body.contribute main header{ 
+	padding-top: 1.4em;
+	margin-bottom: 1.4em;
+	padding-bottom: 1.4em;
+}
+
+body.contribute .page .site-width{
+	max-width: 42rem;
+	margin: 0 auto 3.2em;
+}
+
+
+/* @end */
+
+/* @group subscribe */
+
+/* Subscribe styles */
+
+body.subscribe main .page p{
+	max-width: 30em;
+	margin-bottom: 1.5em;
+}
+
+body.subscribe main .page p+p{ text-indent: 0; }
+body.subscribe main .page img{
+	float: right;
+	width: 50%;
+	-moz-border-radius: 0.2em;
+	border-radius: 0.2em;
+	margin-left: 2em;
+}
+
+main#subscribe div.field label,
+main#subscribe div.field input{
+	width: auto;
+}
+main#subscribe div.field label{
+	padding-left: 1.7em;
+	position: relative;
+	display: block;
+}
+
+main#subscribe div.field input[type=radio] {
+	position: absolute;
+	left: 0;
+	top: 0.2em;
+
+}
+
+
+.subscribe form section {
+	margin: 2.5em 0;
+}
+
+main#subscribe p+p {
+	margin-top: 0.35em;
+	text-indent: 0;
+}
+
+body.subscribe form{
+	margin-bottom: 2em;
+	
+}
+
+
+/* @end */
+
+
+
+/* @end */
+
 /* @group home */
 
 /* @group bootstrap */
 
-body#home{
-	background: #eee;
-}
-
+body.home{ background: #eee; }
 
 /* @end */
 
 /* @group #header */
 
-body#home header#header{ margin-bottom: 4em; }
+body.home header#header{ margin-bottom: 4em; }
 
 /* @end */
 
 /* @group main */
 
-.primary-content section{
-	background: white;
-	margin-bottom: 1em;
+.home .primary-content section{ 
+	background: white; 
+	margin-bottom: 1.4rem;
+	padding-bottom: 0.8em;
 }
 
-.primary-content section:last-of-type{ margin-bottom: 2em; }
+.home .primary-content article a{
+	padding-top: 0.2em;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: 1em;
+}
+
+.primary-content section:last-of-type{ margin-bottom: 2rem; }
 
 .primary-content section::after {
   content: "";
@@ -707,8 +1318,9 @@ body#home header#header{ margin-bottom: 4em; }
 	margin-top: -1em;
 }
 
+.secondary-content section{ font-family: "franklin-gothic-urw", arial; }
+
 .secondary-content section p{
-	max-width: 28em;
 	line-height: 1.6em;
 }
 
@@ -716,58 +1328,45 @@ body#home header#header{ margin-bottom: 4em; }
 	text-indent: 1.4em;
 }
 
-.primary-content section header{
-	font-family: "franklin-gothic-urw";
-}
-
 .primary-content section header h1{
-	font-size: 2em;	
 	padding-left: 1rem;
 	padding-right: 1.6rem;
-	font-family: abril-fatface;
 	font-size: 2.1em;
+	line-height: 1.05;
 	border-top: 0.2em solid;
-	padding-top: 0.4em;
+	padding-top: 0.6em;
 	margin-bottom: 0.2em;
 }
 
 .primary-content section header p{
 	padding-left: 1rem;
 	padding-right: 1rem;
-	font-size: 1em;
+	font-size: 1.2em;
+	line-height: 1.4;
 	margin-bottom: 1.4em;
-	font-family: "abril-titling-condensed";
+	font-family: "franklin-gothic-urw-cond", arial;
 	font-style: inherit;
+	color: #444;
 }
 
-.primary-content section.miscellaneous header{
-	margin-bottom: 1em;
-}
-.primary-content section.miscellaneous header h1{
-	font-size: 1.2rem;
-	font-family: "franklin-gothic-urw";
-	font-weight: 600;
-	border-color: #e3e3e3;
-	padding-top: 0.8em;
-}
+.primary-content section.miscellaneous header{ margin-bottom: 1em; }
+.primary-content section.miscellaneous header h1{ color: #333; }
+
 
 .secondary-content h1{ text-align: center; }
 
 .secondary-content section{
-	margin-bottom: 2em;
+	margin-bottom: 3.2rem;
 	font-size: 0.8em;
 }
 
-.secondary-content section.notes .content{
-	-webkit-column-count: 2;
-	-webkit-column-gap: 0.75em;
-}
-
-.secondary-content h1{
+.page .secondary-content h1{
 	font-size: 1rem;
-	font-family: "franklin-gothic-urw";
+	font-family: "franklin-gothic-urw", arial;
 	font-weight: 600;
-	margin-bottom: 1em;
+	margin-top: 0;
+	margin-bottom: 0.4em;
+	color: #333;
 }
 
 section.contributors ul{ padding: 0; }
@@ -808,149 +1407,85 @@ section.contributors li img{
 	margin: 0 auto;
 }
 
-article a{ 
-	color: inherit; 
-	display: block;
-	padding-left: 1rem;
-	padding-right: 1rem;
-	padding-bottom: 1em;
-	position: relative;
-}
-
-article a:hover{
-	color: inherit; 
-}
-
-article a h1{
-	font-size: 1.2rem;
-	line-height: 1.2em;
-	font-family: abril-titling-condensed;
-	color: #1f7ab8;
-	margin-bottom: 0.4em;
-	font-weight: 600;
-}
-
-article a:hover h1{
-	color: #174a8c;
-}
-
-article a:hover h1{
-	text-decoration: underline;
-}
-
-article dl{
-	margin-bottom: 0.8em;
-	color: #888;
-	font-style: italic;
-	font-size: 0.9em;
-	line-height: 1.2em;
-}
-
-article dl dt,
-article dl dd{
-	display: inline;
-}
-
-article p{
-	font-size: 0.9rem;
-	font-family: "franklin-gothic-urw";
-	max-width: 28em;
-}
-
-
-
-/* @end */
-
-/* @group #footer */
-
-
 /* @end */
 
 @media screen and (min-width: 36em){
-	.primary-content section header h1,
-	.primary-content section header p,
-	.primary-content article a{
+	.page .primary-content section header h1,
+	.page .primary-content section header p,
+	.page .primary-content section article.h-entry a{
 		padding-left: 2rem;
 		padding-right: 2rem;
 	}
-	
-	.primary-content section header h1{
+
+	.page .primary-content section header h1{
 		padding-top: 0.5em;
 	}
 	
-	.primary-content section article{
-		width: 48%;
+	.page .primary-content section article{
+		width: 49.5%;
 		display: inline-block;
 		vertical-align: top;
-
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
 	}
 	
-	.primary-content section article:nth-child(odd) a{
-		padding-left: 1em;
-	}
-	.primary-content section article:nth-child(even) a{
-		padding-right: 1em;
+	.page .primary-content section article.h-entry:nth-child(even) a{ padding-right: 1rem; }
+	.page .primary-content section article.h-entry:nth-child(odd) a{ padding-left: 1rem; }
+	
+	.page .secondary-content section.notes .content{
+		-webkit-column-count: 2;
+		-webkit-column-gap: 0.75em;
 	}
 	
+	.secondary-content h1{ text-align: left; }
+	.secondary-content section.sponsored-by img{ margin: 1.2em 0 0; }	
 }
 
 @media screen and (min-width: 48em){
 	
-	.primary-content{
-		margin-top: -3.8em;
-	}
+	.page .primary-content{ margin-top: -3.8em; }
 
-		
-	.primary-content section header h1{
-		font-size: 2.4em;
+	.page .primary-content section header h1{
+		font-size: 2.8rem !important;
 		padding-top: 0.6em;
+		margin-bottom: 0.2em;
 	}
 	
-	.primary-content section.miscellaneous header h1{
-		font-size: 1.4em;
+	.page .primary-content section.miscellaneous header h1{ 
+		font-size: 1.4rem !important; 
+		padding-top: 0.8em;
 	}
 	
-	.primary-content section header p{
-		font-size: 1.1em;
-		margin-bottom: 1.6em;
+	.page .primary-content section header p{
+		font-size: 1.6rem;
+		margin-bottom: 2.4rem;
 	}
 	
-	.primary-content section article h1{
-		font-size: 1.2em;
-	}
+	
+	.home .primary-content article a{ padding-bottom: 1.4em; }
+	.page .primary-content section{ margin-bottom: 3.2rem;}
+	.page .secondary-content{ padding-top: 2rem; }
 
-	.primary-content section article dl{
-		font-size: 0.9em;
-	}
-		
-	.primary-content section article p{
-		font-size: 0.9em;
-	}
-	
-	.primary-content section{
-		margin-bottom: 2em;
-	}
-	
-	.secondary-content{ padding-top: 1.6em; }
-
-	.secondary-content section h1{
-		font-size: 1.4em;
+	.page .secondary-content h1{
+		font-size: 1.4rem;
 		text-align: left;
 	}
-	
-	.secondary-content section.sponsored-by img{ margin: 0; }
-	
-	.secondary-content section p{
-		font-size: 1.1em;
-	}
+		
+	.secondary-content section p{ font-size: 1.1em; }
 }
 
 @media screen and (min-width: 56em){
-	.primary-secondary-content{
+	
+	.page .primary-content section header p{
+		line-height: 1.4;
+	}
+
+	.page .primary-secondary-content{
 		padding-right: 31.25%;
 	}
 	
-	.primary-secondary-content:after{
+	.page .primary-secondary-content:after{
 	  content: ".";
 	  display: block;
 	  clear: both;
@@ -958,551 +1493,280 @@ article p{
 	  visibility: hidden;
 	}
 	
-	.primary-secondary-content .primary-content,
-	.primary-secondary-content .secondary-content{
+	.page .primary-secondary-content .primary-content,
+	.page .primary-secondary-content .secondary-content{
 		float: left;
 		width: 100%;
 	}
 	
-	.primary-secondary-content .secondary-content{
+	.page .primary-secondary-content .secondary-content{
 		width: 36.36363625%;
 		margin-right: -36.36363625%;
 		float: right;
 		position: relative;
-		left: 9.454545425%;
+		left: 8%;
 	}
 
-	.primary-secondary-content .secondary-content section .content{
-		-webkit-column-count: 1;
-	}
-	
-	.primary-content section article:nth-child(odd) a,
-	.primary-content section article:nth-child(even) a{
-		padding-left: 2rem;
-		padding-right: 2rem;
-	}
-		
-	
-	.primary-content section article{
-		width: 48%;
-		display: inline-block;
-	}
-	.primary-secondary-content .secondary-content section.contributors ul li{
-		width: auto;
+	.page .primary-content section article{
 		display: block;
+		width: auto;
 	}
+	
+	.page .primary-content section article.h-entry:nth-child(even) a{ padding-right: 2rem; }
+	.page .primary-content section article.h-entry:nth-child(odd) a{ padding-left: 2rem; }
+
+
+	.page .primary-secondary-content .secondary-content section .content{ -webkit-column-count: 1; }
+	
+	.primary-secondary-content .secondary-content section.contributors ul li{ width: auto; }
 }
 
+@media screen and (min-width: 64em){
+	.page .primary-content section article{
+		width: 49.5%;
+		display: inline-block;
+		vertical-align: top;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	
+	.page .primary-content section article.h-entry:nth-child(even) a{
+		padding-right: 1rem;
+	}
+		
+	.page .primary-content section article.h-entry:nth-child(odd) a{
+		padding-left: 1rem;
+	}
+	
+	
+}
 
 /* @end */
 
 /* @group article */
 
-body#article{
+/* @group bootstrap */
+
+body#article{ 
+	border-right: 0.6rem solid #ce4d32;
 	background: white;
 	counter-reset: figure;
 }
 
-body#article a{ color: #ce4d32; }
-body#article a:hover{ 
-	color: #b32b39;
-	text-decoration: underline;
+@media screen and (min-width: 40rem){
+	
+	body#article{ 
+		border-right-width: 1rem;
+	}
+
 }
 
-body#article header{
-	background: #b1d2df;
-	color: #264f5f;	
+@media screen and (min-width: 71.11111rem){
+	body#article{ 
+		border-right-width: 1.4rem;
+	}
 }
 
-body#article header#header h1{
-	color: #264f5f;	
+/* @end */
+
+/* @group header */
+
+
+body#article main > header{
+	text-align: center;
+	font-family: "franklin-gothic-urw-cond", arial;
 }
 
-body#article header#header h1:hover{
-	color: #1a3944;	
-}
-
-body#article header#header h1:hover::before,
-body#article header#header h1:hover::after{
+body#article main > header#header h1:hover::before,
+body#article main > header#header h1:hover::after{
 	border-color: #264f5f;	
 }
 
-body#article header#header p,
-body#article header#header nav a{
-	color: #477080;
-}
-
-body#article main header h1{
-	text-align: center;
-	margin-bottom: 0;
-	font-size: 3em;
-	line-height: 1.2;
-	font-family: abril-fatface;
-	font-style: italic;
-	color: white;
-	text-shadow: 0.05em 0.05em #477080;
-}
-
-body#article main header{
-	padding-bottom: 4em;
-	padding-top: 4em;
-}
-
-body#article main aside.pub-info{
-	float: right;
-	width: 7rem;
-	padding-top: 1.4rem;
-	font-size: 0.7em;
-	line-height: 1.4;
-	font-family: "franklin-gothic-urw";
-	color: #888;
-}
-
-body#article main aside h1{
+body#article main > header h1,
+body#page main > header h1{
+	margin-bottom: 0.4em;
+	font-size: 2.4em;
+	font-family: "abril-titling-condensed", Georgia;
+	line-height: 1.1;
 	font-weight: 600;
-	margin-top: 1em;
+	margin-top: 0.4em;
 }
 
-body#article main aside li{ list-style-type: none; }
+body#article main > header p{
+	font-size: 1.6em;
+	line-height: 1.4;
+	margin-bottom: 1.4rem;
+}
+
+body#article main > header h2,
+body#page main > header h2{
+	font-weight: 600;
+	font-size: 1.25em;
+	margin-bottom: 0.4em;
+}
+
+@media screen and (min-width: 48em){
+	body#article main > header h1{
+		font-size: 2.8em;
+		line-height: 1.1em;
+		max-width: 48rem;
+		margin: 1.4em auto 1.1rem;
+	}
+	
+	body#article main > header h2{
+	margin-bottom: 0.8em;
+	}
+}
+
+
+
+/* @end */
+
+/* @group main */
+
+body#article main aside.publication-information h1{
+	font: inherit !important;
+	color: inherit !important;
+	font-style: normal !important;
+	margin: 1em 0 0 !important;
+	line-height: 1.6em !important;
+}
+body#article main aside.publication-information ul{ padding: 0;}
+body#article main aside.publication-information li{ list-style-type: none; padding: 0; margin: 0 !important;}
 
 body#article aside.publication-information{
-	font-size: 0.9em;
-	font-style: italic;
-	line-height: 1.6em;
+	float: right;
+	width: 12em;
+	margin-left: 1em;
+	margin-top: 0.4em;
+	font-size: 0.7em;
+	color: #555;
+	line-height: 1.8em;
 	margin-bottom: 1.5em;
 }
 
-body#article main .page .content{ 
+span.first-stanza{
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size: 0.8em;
+	font-weight: 600;
+}
+
+
+body#article main .page{ 
 	padding-top: 2em;
 	padding-bottom: 3em;
 }
 
+@media screen and (min-width: 48rem){
 
-@media screen and (min-width: 48em){
-	
-	body#article aside.publication-information{
-		float: right;
-		width: 12rem;
-		margin-right: -12rem;
-		position: relative;
-		left: 4rem;
-		margin-top: 0.4em;
-		font-size: 0.8em;
-		color: #555;
-	}
-
-	body#article main .page .content{ 
-		max-width: 28em;
+	body#article main .page .site-width{ 
+		max-width: 40rem;
 		margin: 0 auto;
-		padding-right: 2em;
-		border-right: 0.25em solid #ccc;
-		padding-top: 2em;
 	}
 }
 
-body#article main .page .content p,
-body#article main .page .content li{
-	line-height: 1.6em; 
-	color: #444;
-	text-rendering: optimizeLegibility;
-}
+#article .page h1{ color: #0580ad; }
 
-body#article main .page .content li{
-	margin-bottom: 0.8em;
-}
-
-body#article main .page .content h1{
-	font-size: 1.4em;
-	line-height: 1.2em;
-	font-family: "abril-titling-condensed";
-	color: #0580ad;
-	font-weight: 600;
-	margin-top: 2rem;
-	margin-bottom: 0.8rem;
-}
-
-body#article figure{
-	line-height: 1.6em;
-	margin: 1em 0;
-	font-family: "franklin-gothic-urw";
-	font-size: 0.9em;
-	counter-increment: figure;
-}
-
-body#article figure figcaption::before{
-	content: "Figure " counter(figure) " ";
-	font-weight: 600;
-}
-
-body#article main .page .content section h1{
-	font-size: 1.4em;
-	font-weight: 600;
-}
-
-body#article main .page .content section section h1,
-body#article main .page .content section h2{
-	font-family: "franklin-gothic-urw";
-	line-height: 1.4em;
-	margin-bottom: 0.4rem;
-	font-size: 1.2em;
-	font-weight: 600;
-	color: inherit;
-}
-
-body#article main .page .content section h2{
-	font-size: 1em;
-}
-
-body#article main .page blockquote{
-	font-style: italic;
-	margin-bottom: 1.4em;
-	position: relative;
-	margin-left: 1.4em;
-	margin-top: 0.7em;
-}
-
-body#article main .page blockquote::before{
-	content: "\201C";
-	color: #007eae;
-	position: absolute;
-	right: 100%;
-	top: 0;
-	font-size: 1.8em;
-	margin-right: 0.2em;
-	margin-top: 0.1em;
-}
-
-body#article main .page blockquote p:first-of-type{
-	text-indent: none !important;
-}
-
-body#article main .page blockquote cite{
-	font-size: 0.9em;
-	font-style: normal;
-	font-family: "franklin-gothic-urw";
-	display: block;
-	margin-top: 0.6em;
-	line-height: 1.3em;
-}
-
-body#article main .page blockquote cite::before{
-	content: "\2014";
-}
-
-body#article main p+p{ text-indent: 1em;  }
-
-body#article main span.first-letter{
-	font-size: 6em;
-	float: left;
-	font-weight: 700;
-	margin-bottom: 0.1em;
-	margin-right: 0.1em;
-	margin-top: 0.35em;
-	font-family: "abril-fatface";
-}
-
-div.celebrated-content{
-	background: #333;
-	color: white;
-	padding: 1em 0;
-	text-align: center;
-	font-size: 1.4em;
-	line-height: 1.4;
-	font-style: italic;
-}
 
 /* @group author-bio */
 
-section.author-bio{
-	padding-left: 5em;
-	position: relative;
-	min-height: 4em;
-	border-top: 0.2em solid #0095cc;
-	padding-top: 1em;
-	margin-top: 2.4em;
-	font-size: 0.9em;
-	font-style: normal;
-	font-family: "franklin-gothic-urw", verdana;	
-}
-
-section.author-bio img{
-	width: 4em;
-	-moz-border-radius: 100%;
-	border-radius: 100%;
-	position: absolute;
-	left: 0;
-	top: 1.25em;
+	section.author-bio{
+		position: relative;
+		min-height: 4em;
+		border-top: 0.2em solid #cc4c34;
+		margin-top: 2.4em;
+		font-size: 0.9em;
+		font-style: normal;
+		font-family: "franklin-gothic-urw", arial;	
+	}
 	
-}
+	section.author-bio p {
+		padding-top: 1em;
+		padding-bottom: 1.5em;
+		clear: both;
+	}
+	
+	section.author-bio p+p{
+		border-top: 0.1em solid #888;
+		text-indent: 0;
+		
+	}
+	
+	section.author-bio p img{
+		width: 3.5em;
+		margin-right: 1em;
+		-moz-border-radius: 100%;
+		border-radius: 100%;
+		float: left;
+		left: 0;
+		top: 1.25em;
+		margin-bottom: 1em;
+	}
 
 
 /* @end */
 
 /* @end */
 
-/* @group about */
+/* @group footer */
 
-
-body#about header#header,
-body#about main header,
-body#about main p.introduction{
-	background: #333;
-	color: white;
-}
-
-body#about header#header nav a{
-	color: #ffc200;
-}
-
-body#about main header{ 
-	padding-top: 1.4em;
-	margin-bottom: 1.4em;
-	padding-bottom: 1.4em;
-}
-
-body#about main header h1{
-	font-family: "franklin-gothic-urw";	
-	font-size: 2.4em;
-	font-weight: 600;
-	position: relative;
-	text-align: center;
+body#article main > footer div.site-width{
+	border-top: 0.2em solid #333;
+	padding-top: 0.4em;
 	margin-bottom: 0.2em;
+	padding-bottom: 1em;
 }
 
-body#about main div.content{
-	max-width: 30em;
-	margin: 0 auto;	
+body#article main > footer div.site-width section{
+	margin-bottom: 1.8em;
 }
 
-body#about main div.content p{
-	line-height: 1.6em;
-}
-
-body#about main header p{
-	font-size: 1.1em;
-	text-align: center;
-	font-style: italic;
-	max-width: 28em;
-	margin: 0 auto;
-}
-
-body#about main aside{
-	font-family: "franklin-gothic-urw";	
-	line-height: 1.5em;
-	margin-bottom: 2em;
-}
-	
-body#about main aside dl{
-	margin-bottom: 1.5em;
-}
-
-body#about main dl dt{
-	text-transform: uppercase;
+body#article main > footer > div.site-width > h1{
+	font-family: "franklin-gothic-urw", Arial;
+	padding-right: 1.6rem;
+	font-size: 1.25rem;
 	font-weight: 600;
-	margin-top: 1em;	
-	font-size: 0.9em;
+	padding-top: 0.8em;
+	margin-bottom: 1.8rem;
 }
+
+body#article main > footer div.site-width > h1{
+	padding-top: 0;
+	padding-bottom: 0.4em;
+	border-bottom: 0.1em solid #555;
+}
+
+body#article section.h-feed header h1{
+	margin-bottom: 0.8rem;
+}
+
+body#article main footer .h-feed p,
+body#article main footer .h-entry p{ display: none; }
+
+
+body#article main footer .h-entry{ margin-bottom: 0.4em; }
+body#article main footer .h-entry h1{ margin-bottom: 0.2em; }
+body#article main footer .h-feed.miscellaneous h1{ padding: 0; }
 
 @media screen and (min-width: 48em){
-	body#about main header h1{
-		text-align: left;
-	}
-
-	body#about main header p{
-		margin: 0;
-		text-align: left;
-		font-size: 1.2em;
-	}
-
-	body#about div.page div.site-width{
-		padding-right: 25%;
-	}
 	
-	body#about div.page div.site-width div.content{
+	body#article main > footer div.site-width section{
+		width: 50%;
+		float: left;
+		margin-bottom: 1.2em;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
 		padding-right: 0.75em;
-		margin: 0 0 2em;
-	}
-	
-	body#about aside{
-		position: absolute;
-		top: -0.8em;
-		right: 0;
-		width: 25%;
+
 	}
 	
 }
-/* @end */
-
-/* @group contribute */
-
-body#contribute header#header,
-body#contribute main header,
-body#contribute main p.introduction{
-	background: #377e6e;
-	color: white;
-}
-
-body#contribute header#header p,
-body#contribute header#header nav a{
-	color: #beede2;
-}
-
-body#contribute main header{ 
-	padding-top: 1.4em;
-	margin-bottom: 1.4em;
-	padding-bottom: 1.4em;
-}
-
-
-
-body#contribute main header p{
-	font-size: 1.1em;
-	text-align: center;
-	font-style: italic;
-	max-width: 28em;
-	margin: 0 auto;
-}
-
-body#contribute main div.content{
-	max-width: 30em;
-	font-size: 1.1em;
-	line-height: 1.5em;
-	margin: 0 auto;	
-}
-
-body#contribute main div.content p{
-	line-height: 1.5em;
-}
-
-body#contribute main header h1{
-	font-family: "franklin-gothic-urw";	
-	font-size: 2.4em;
-	font-weight: 600;
-	position: relative;
-	text-align: center;
-	margin-bottom: 0.2em;
-}
-
-body#contribute main header{ 
-	padding-top: 1.4em;
-	margin-bottom: 1.4em;
-	padding-bottom: 1.4em;
-}
-
-body#contribute main a{
-	color: #ce4d32;
-}
-
-body#contribute main a:hover{
-	color: #b32b39;
-}
-
-body#contribute main div.content{
-	max-width: 30em;
-	font-size: 1.1em;
-	line-height: 1.5em;
-	margin: 0 auto 2em;	
-}
-
-body#contribute main div.content h1{
-	font-size: 1.4em;
-	font-family: "abril-titling-condensed";
-	color: #0580ad;
-	font-weight: 600;
-	margin-top: 1.4em;
-	margin-bottom: 0.4em;
-}
-
-
-
-@media screen and (min-width: 48em){
-	body#contribute main header h1{
-		text-align: left;
-	}
-
-	body#contribute main header p{
-		margin: 0;
-		text-align: left;
-		font-size: 1.2em;
-	}
-
-	body#contribute div.page div.site-width div.content{
-		padding-right: 0.75em;
-		margin: 0 0 2em;
-	}
-}
 
 /* @end */
 
 /* @end */
 
-/* Subscribe styles */
-
-main#subscribe h3  {
-	font-size: 1.6em;
-	font-family: "abril-titling-semicondensed";
-	font-weight: 800;
-	margin: 1em 0;
-}
-
-main#subscribe form input, main#subscribe form label {
-	display: block;
-	width: 100%;
-}
-
-main#subscribe form label {
-	margin-top: 1em;
-	margin-bottom: 0.4em;
-	font-family: "franklin-gothic-urw", Helvetica, sans-serif;
-	font-weight: 600;
-}
-
-main#subscribe form input[type=text] {
-/*	padding: 0.2em;
-	font-size: 0.8em;
-	height: 1.8em;*/
-
-	height: 2em;
-	line-height: 2em;
-	padding: 0.2em 0.4em;
-	width: 100%;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;	
-	margin-bottom: 0.33em;
-
-}
-
-main#subscribe form input[type=radio] {
-}
-
-main#subscribe div.field label,
-main#subscribe div.field input{
-	width: auto;
-}
-main#subscribe div.field label{
-	padding-left: 1.7em;
-	position: relative;
-	display: block;
-}
-
-main#subscribe div.field input[type=radio] {
-	position: absolute;
-	left: 0;
-	top: 0.2em;
-
-}
-
-main#subscribe div.field label{
-	cursor: pointer;
-}
-
-
-main#subscribe form section {
-	margin: 2.5em 0;
-}
-
-main#subscribe p+p {
-	margin-top: 0.35em;
-	text-indent: 0;
-}
+/* @end */
