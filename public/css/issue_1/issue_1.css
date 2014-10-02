@@ -131,10 +131,6 @@ body#article.issue-1-paper-cut main > header h1{
 
 }
 
-body#article.issue-1-paper-cut main > header p{
-	margin-bottom: 1em;
-}
-
 .celebrated-content.old-paper img{
 	display: none;
 }
@@ -192,7 +188,10 @@ body#article.issue-1-paper-cut main > header p{
 
 
 @media screen and (min-width: 71.1111rem){
-	body#article.issue-1-paper-cut main > header{ margin-top: 2em; }
+	body#article.issue-1-paper-cut main > header{ 
+		text-align: left;
+		margin-top: 2em; 
+	}
 
 	body#article.issue-1-paper-cut main > header div.site-width::before{
 		content: "";
@@ -201,12 +200,12 @@ body#article.issue-1-paper-cut main > header p{
 		top: 0;
 		bottom: 0;
 		height: auto;
-		width: 20em;
+		width: 25rem;
 	}
 	
 
 	body#article.issue-1-paper-cut main > header div.site-width{
-		padding-left: 22.5rem;
+		padding-left: 32rem;
 		position: relative;
 		padding-top: 0;
 		margin-bottom: 2em;
@@ -223,8 +222,7 @@ body#article.issue-1-paper-cut main > header p{
 		margin: 2em auto 0;
 	}
 
-	body#article.issue-1-paper-cut main > header div.site-width{ padding-left: 27em; }
-	body#article.issue-1-paper-cut main > header div.site-width::before{ left: 4em; }
+	body#article.issue-1-paper-cut main > header div.site-width::before{ left: 4rem; }
 	body#article.issue-1-paper-cut main figure.figure-vending{
 		float: right;
 		margin-right: -12em;
@@ -233,7 +231,7 @@ body#article.issue-1-paper-cut main > header p{
 	}
 	body#article.issue-1-paper-cut main img.formbox{
 		float: left;
-		margin-left: -12em;
+		margin-left: -12rem;
 		width: 32rem;
 		margin-right: 1em;
 		margin-top: 1em;
@@ -354,6 +352,242 @@ body.issue-1-etl-for-america ol.etl-definition li img{
 /* @end */
 
 /* @group tech-stack-survey */
+
+
+/* @end */
+
+/* @group people-not-data */
+
+body.issue-1-people-not-data #header{
+	margin-bottom: -8em;
+	z-index: 2;
+	position: relative;
+	color: #333;
+	border-color: #222;
+	background: white;
+	padding-bottom: 0.5em;
+}
+
+body.issue-1-people-not-data #header .site-width h1{
+	color: #222;
+}
+
+body.issue-1-people-not-data #header .site-width{
+	border-color: #222;
+}
+
+body.issue-1-people-not-data main > header{
+	padding-top: 16em;
+	background: linear-gradient( 180deg, rgba(0,0,0,0), rgba(0,0,0,0) 50%, rgba(0,0,0,0.8) 80%),
+				 url(/images/issue_1/people_not_data/chairs.jpg) top center no-repeat;
+	background: -webkit-gradient(linear, 0% 50%, 0% 80%, from(rgba(0,0,0,0)), to(rgba(0,0,0,0.8))),
+				 url(/images/issue_1/people_not_data/chairs.jpg) top center no-repeat;
+	background-size: cover;
+	color: white;
+	padding-bottom: 1rem;
+}
+
+body.issue-1-people-not-data img.calwin{
+	margin: 2em auto;
+	display: block;
+	-moz-border-radius: 0.5em;
+	border-radius: 0.5em;
+}
+
+@media screen and (min-width: 40rem){
+	
+	body.issue-1-people-not-data #header{
+	background: rgba(255,255,255,0.125);
+	}
+	
+	body.issue-1-people-not-data main > header{
+		padding-top: 28em;
+	}
+	
+	body.issue-1-people-not-data img.calwin{
+		float: left;
+		margin-right: 2em;
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+}
+
+@media screen and (min-width: 71.1111rem){
+	body.issue-1-people-not-data img.calwin{
+		float: left;
+		margin-left: -12rem;
+		margin-right: 2em;
+		margin-top: 0.5em;
+		margin-bottom: 1em;
+	}
+	
+	body.issue-1-people-not-data img.calwin+p{
+	text-indent: 1.4em;
+	}
+}
+
+/* @end */
+
+/* @group privacy-for-us */
+
+body#article.issue-1-privacy-for-us .page{
+	border-bottom: 60px solid #000;
+	padding-bottom: 500px;
+	position: relative;
+	margin-bottom: 1em;
+}
+
+body.issue-1-privacy-for-us .page::after{
+	content: "";
+	background: url(/images/issue_1/privacy_for_us/assange.jpg) bottom center no-repeat;
+	width: 100%;
+	height: 700px;
+	display: block;
+	position: absolute;
+	bottom: -60px;
+	z-index: -1;
+}
+
+
+/* @end */
+
+/* @group save-election-day */
+
+
+
+
+@media screen and (min-width: 40rem){
+	
+	body#article.issue-1-save-election-day .before,
+	body#article.issue-1-save-election-day .after{
+		float: right;
+		margin-left: 2em;
+		width: 24rem;
+	}
+
+}
+
+@media screen and (min-width: 71.1111rem){
+	body#article.issue-1-save-election-day .before,
+	body#article.issue-1-save-election-day .after{
+		margin-right: -12rem;
+	}
+}
+
+
+
+/* @end */
+
+/* @group planning-beyond-paper */
+
+
+
+body.issue-1-planning-beyond-paper #header{
+	margin-bottom: -8em;
+	z-index: 2;
+	position: relative;
+	padding-bottom: 0.5em;
+	background: white;
+}
+
+body.issue-1-planning-beyond-paper main > header{
+	padding-top: 8em;
+	background:  url(/images/issue_1/planning_beyond_paper/detroit.jpg);
+	background-size: cover;
+	padding-bottom: 1em;
+}
+
+body.issue-1-planning-beyond-paper aside.track-full-width{
+
+		border-top: 0.125em solid #e3e3e3;
+		border-bottom: 0.125em solid #e3e3e3;
+		padding: 1rem 0;	
+		margin: 1.8em 0 1.4em;
+}
+
+body.issue-1-planning-beyond-paper aside.track-full-width ul{
+	padding-left: 0;
+}
+
+
+body.issue-1-planning-beyond-paper aside.track-full-width ul li{
+	padding-right: 8rem;
+	padding-top: 0;
+	padding-bottom: 1rem;
+	clear: both;
+	font-size: 0.9em;
+	font-family: "franklin-gothic-urw", arial;
+	list-style-type: none;
+}
+
+body.issue-1-planning-beyond-paper aside.track-full-width ul li strong{
+	display: block;
+}
+
+body.issue-1-planning-beyond-paper aside.track-full-width ul li p{
+	padding-top: 0.5em;
+}
+
+
+body.issue-1-planning-beyond-paper aside.track-full-width ul::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body.issue-1-planning-beyond-paper aside.track-full-width ul li img{
+	float: right;
+	width: 6rem;
+	margin-right: -8rem;
+}
+
+@media screen and (min-width: 71.1111rem){
+
+	body.issue-1-planning-beyond-paper aside.track-full-width{
+		margin: 1.8em -12rem 1.4em;
+	}
+
+	body.issue-1-planning-beyond-paper aside.track-full-width ul li{
+		list-style-type: none;
+		float: left;
+		width: 25%;
+		margin-right: 12.5%;
+		font-size: 0.8em;
+		line-height: 1.4em;
+		padding: 0;
+		clear: none;
+	}
+	
+	body.issue-1-planning-beyond-paper aside.track-full-width ul li:last-of-type{ margin-right: 0; }
+	
+	body.issue-1-planning-beyond-paper aside.track-full-width ul li img{
+		margin-bottom: 1em;
+		float: none;
+		margin: 0 0 1em;
+		width: auto;
+		max-height: 18em;
+	}
+	
+}
+
+
+
+@media screen and (min-width: 40rem){
+	
+	body.issue-1-planning-beyond-paper #header{
+		background: none;
+	}
+	
+	body.issue-1-planning-beyond-paper main > header{
+		padding-top: 12em;
+	}
+	
+
+
+	
+}
+
+
 
 
 /* @end */

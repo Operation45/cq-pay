@@ -5,8 +5,8 @@
     <description></description>
     <link>http://civicquarterly.com/</link>
     <atom:link href="http://civicquarterly.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 01 Oct 2014 23:52:50 -0700</pubDate>
-    <lastBuildDate>Wed, 01 Oct 2014 23:52:50 -0700</lastBuildDate>
+    <pubDate>Thu, 02 Oct 2014 09:46:13 -0700</pubDate>
+    <lastBuildDate>Thu, 02 Oct 2014 09:46:13 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -32,16 +32,23 @@
     
       <item>
         <title>Saving the (Election) Day</title>
-        <description>&lt;section&gt;
-  &lt;p class=&quot;introduction&quot;&gt;&lt;span class=&quot;first-letter&quot;&gt;I&lt;/span&gt; like to come to the rescue of people. Who doesn’t like to swoop in, change a couple of prompts, tweak a couple of things, and step away like a forms design hero? But we can’t always save the day &amp;mdash; or the form.&lt;/p&gt;
+        <description>  &lt;p class=&quot;introduction&quot;&gt;&lt;span class=&quot;first-letter&quot;&gt;I&lt;/span&gt; like to come to the rescue of people. Who doesn’t like to swoop in, change a couple of prompts, tweak a couple of things, and step away like a forms design hero? But we can’t always save the day &amp;mdash; or the form.&lt;/p&gt;
   &lt;p&gt;On the afternoon in question, I got an email from a deputy chief of staff from the Ohio secretary of state’s office, Matt Masterson. Matt and I had known each other for some years by this point, and he wanted a favor. &lt;/p&gt;
   &lt;p&gt;In his email, he wrote that the Ohio legislature had just passed new laws about provisional ballots. He and his team needed to create a new form for poll workers to use to get voters to attest that they are who they say they are. Matt and his team had to do it in just a few weeks, ahead of the upcoming primary election. He sent along their draft and the statutory requirements. &lt;/p&gt;
+  &lt;figure class=&quot;before&quot;&gt;
+    &lt;img src=&quot;/images/issue_1/save_election_day/before.png&quot;&gt;
+    &lt;figcaption&gt;Matt&amp;rsquo;s original form&lt;/figcaption&gt;
+  &lt;/figure&gt;
   &lt;p&gt;Provisional voting is a fancy way of saying that someone has arrived at a polling place but there’s a question about whether they are eligible to vote. Usually, the problem is that they’re not in the voter rolls. But we still want them to be able to vote, so they get a special ballot that lists only federal and state contests. Because there is no way to be sure that this person can legally vote in this precinct, local contests are not included on provisional ballots.&lt;/p&gt;
   &lt;p&gt;Matt and his co-deputy, Matt Damschroder, had made a first pass at the form. It looked like you’d expect it to look: like a dog’s breakfast. These guys are some of the best public servants around, but neither of them will be using the word &amp;ldquo;designer&amp;rdquo; on their résumé any time soon. All the legal stuff was there, but the design was, shall we say, unintentionally awful. They knew it but they weren’t sure what to do about it.&lt;/p&gt;
-&lt;/section&gt;
 &lt;section&gt;
   &lt;h1&gt;&amp;ldquo;Would you have a look at it for us, please?&amp;rdquo;&lt;/h1&gt;
   &lt;p&gt;It is not uncommon for me to get requests like this. People send me ballots, forms and manuals to review and comment on every month or so. I do it, almost always for free. Why? Because I can, because it needs doing, and because I like being a hero (as I mentioned above). But mostly, I do it because they ask.&lt;/p&gt;
+  &lt;figure class=&quot;after&quot;&gt;
+    &lt;img src=&quot;/images/issue_1/save_election_day/after.png&quot;&gt;
+    &lt;figcaption&gt;Matt&amp;rsquo;s revised form&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  
   &lt;p&gt;This time, I didn’t have the time to take the thing apart and do the job it deserved. I wrote back a few days later. I tried to cast my unavailability as empowering them: They should go have a look at a few other, related forms that my team had recently redesigned and tested. They probably wanted to look at a set of best practices for ballot design that they both knew about. And they should follow the guidelines in the Field Guides To Ensuring Voter Intent. Then I went back to working on the grant proposal or report or whatever it was that was preventing me from reworking the Ohio form myself. &lt;/p&gt;
   &lt;p&gt;Forty-eight hours later, they sent another version. The transformation was nothing short of amazing. They had done it by themselves in Microsoft Word, using some simple guidance and borrowing from other designs.&lt;/p&gt;
   &lt;p&gt;The only thing more satisfying than being a hero is making heroes out of other people.&lt;/p&gt;
@@ -123,6 +130,28 @@
   &lt;p&gt;It works, but it&amp;#39;s hard. It&amp;#39;s a time-consuming process that constrains creative exploration and limits the amount of data that can be concurrently used as part of planning.&lt;/p&gt;
   &lt;p&gt;Why does it take numerous, disparate tools and complicated workflows to complete a task that every municipality&amp;#39;s transit agency needs to accomplish? What if there were a tool that could bypass all of these steps and combine them in a single place? What if there were a sketching tool for transit planners to quickly design routes, help understand trade-offs, and share with the public?&lt;/p&gt;
 &lt;/section&gt;
+&lt;aside class=&quot;track-full-width&quot;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;img src=&quot;/images/issue_1/planning_beyond_paper/evan.jpg&quot; alt=&quot;&quot;&gt;
+      &lt;strong&gt;Evan, consultant at Jarrett Walker Associates&lt;/strong&gt; 
+      [the transit consultancy]
+      &lt;p&gt;In workshops with agencies, Evan will often take a big paper map, lay a sheet of mylar on top, and sketch over it with markers. &amp;ldquo;Then I&amp;rsquo;ll draw it in Google Earth, run the costing spreadsheet, enter the parameters of the route, turn it into shapefiles&amp;hellip; There&amp;rsquo;s no easy way to draw maps on the fly.&amp;rdquo;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;img src=&quot;/images/issue_1/planning_beyond_paper/sarah.jpg&quot; alt=&quot;&quot;&gt;
+      &lt;strong&gt;Sarah, bus service planning manager at NYC&amp;rsquo;s MTA&lt;/strong&gt;
+      [the large transit agency]
+      &lt;p&gt;&amp;ldquo;Many planning discussions happen sitting around a table with pieces of paper in front of us. After we draw a line, most changes are done in ArcGIS, then analyzed in Excel. Then we send it on to the graphics department.&amp;rdquo;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;img src=&quot;/images/issue_1/planning_beyond_paper/bradley.jpg&quot; alt=&quot;&quot;&gt;
+      &lt;strong&gt;Bradley, transit planner at the City of Torrance, CA&lt;/strong&gt;
+      [the small city]
+      &lt;p&gt;Bradley is the only transit planner in Torrance. He draws on a whiteboard to sketch routes and takes it into Excel to cost it out. Side note: he also designed Torrance’s entire transit network map in Illustrator by himself.&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/aside&gt;
 &lt;section&gt;
   &lt;h1&gt;Feedback from the front lines&lt;/h1&gt;
   &lt;p&gt;A few hours after our launch in June, transit planners from across the country started reaching out:&lt;/p&gt;
@@ -194,8 +223,13 @@
   &lt;h1&gt;Something is drastically wrong&lt;/h1&gt;
   &lt;p&gt;January 2013 was the beginning of my Code for America fellowship working with San Francisco&amp;rsquo;s Human Services Agency. Later, in February, I visited the Mission Neighborhood Resource Center, one of San Francisco&amp;rsquo;s four shelter reservation sites. There, I learned that it can take more than 12 hours to access a shelter bed for a single night, that some people prefer streets to shelters and that clients routinely leave their shelters at 4 a.m. just to line up for the next night&amp;rsquo;s bed. More desperate clients show up even earlier.&lt;/p&gt;
   &lt;p&gt;My teammate, Rebecca Ackerman, enrolled in food stamps. She started getting letters. Lots of letters. They were intimidating:&lt;/p&gt;
+  &lt;img src=&quot;/images/issue_1/people_not_data/intimidating.jpg&quot; alt=&quot;As of 06/30/2013, the County is stopping your cash aid and/or Food Stamps. Here&amp;rsquo;s why: As of the 11th of this month, the County has not received your quarterly report (QR 7) due this month. TO STOP THIS ACTION the County must RECEIVE your COMPLETE report no later than the FIRST WORKING DAY OF NEXT MONTH.&quot;&gt;
+
   &lt;p&gt;They were wordy and confusing:&lt;/p&gt;
+  &lt;img src=&quot;/images/issue_1/people_not_data/wordy.jpg&quot; alt=&quot;Your food stamps benefits in this quarter did not change as a result of the document(s)/information we received because it would not have resulted in an increase in benefits. Your Food Stamp benefits in this quarter did not change as a result of the document(s)/information we received because the new rule says that when you report some changes, the County cannot lower your Food Stamps until the next quarter. The County has refigured your Food Stamps using the information you reported and the Food Stamp amount did not go up. If the information you reported causes your Food Stamps to go down, the change will not happen until the next quarter. You will receive another notice about any change. Any changes you voluntarily reported must be reported again on the next Quarterly report (QR 7), along with proof of the change. QR 377.4 No Change (01/04) FS Notice of NO Change for Quarterly and Change Reporting Households.&quot;&gt;
   &lt;p&gt;And they were nonsensical:&lt;/p&gt;
+  &lt;img src=&quot;/images/issue_1/people_not_data/nonsensical.jpg&quot; alt=&quot;Effective 10/01/2013, your Fodo Stamp beenfits are changed from $200.00 to $200.00 each month.&quot;&gt;
+
   &lt;p&gt;During her seven-month enrollment, she received approximately 20 letters and her case was nearly terminated three times.&lt;/p&gt;
 &lt;/section&gt;
 &lt;section&gt;
@@ -203,6 +237,8 @@
   &lt;p&gt;This is the interface to our government: We beg on our knees, we line up all night for shelter and we receive aggressive letters in the mail. Our services disdain those they are envisioned to help.&lt;/p&gt;
   &lt;p&gt;This disdain shows in huge, controversial, life-changing ways. We take 260 days to get disability benefits to our veterans, according to Senator Bernie Sanders. We spend $3,000 to room a family for one month while the family begs for $900 in cash instead, as reported by the New Yorker.&lt;/p&gt;
   &lt;p&gt;The disdain also shows in small, quiet, often-unnoticed ways. Try to apply online for free school meals in SF and you&amp;rsquo;ll find this warning highlighted on the welcome screen: Please only fill out one application online. If you make any errors you will need to fill out a paper application.&lt;/p&gt;
+    &lt;img src=&quot;/images/issue_1/people_not_data/calwin.jpg&quot; alt=&quot;&quot; class=&quot;calwin&quot;&gt;
+
   &lt;p&gt;Or download the CalWIN iPhone app, the companion application to the ~$750 million client welfare data system in California, and this is what you&amp;rsquo;ll see. Yes, the name really is truncated on the home screen.&lt;/p&gt;
   &lt;p&gt;It&amp;rsquo;s disdain all the way down. The challenges with healthcare.gov sparked a long-overdue conversation about what&amp;rsquo;s wrong with government IT, but Ezra Klein cuts straight to the core of our disconnect:&lt;/p&gt;
   &lt;blockquote&gt;
@@ -219,7 +255,7 @@
   &lt;p&gt;Amidst the anger and insults of healthcare.gov, Tim O&amp;rsquo;Reilly reminds us of the immense opportunity:&lt;/p&gt;
   &lt;blockquote&gt;
     &lt;p&gt;Rather than bemoaning the problems with healthcare.gov and seeking to find fault and political advantage, now is a great time to seize the moment and commit ourselves to create government services that give all citizens services that are simple, effective, and easy to use.&lt;/p&gt;
-    &lt;cite&gt; &amp;mdash; Tim O&amp;rsquo;Reilly&lt;/cite&gt;
+    &lt;cite&gt;Tim O&amp;rsquo;Reilly&lt;/cite&gt;
   &lt;/blockquote&gt;
   &lt;p&gt;So let&amp;rsquo;s gently &amp;mdash; but persistently &amp;mdash; bring our awareness back to users and build an empathetic machine: one that finds the man on his knees and helps him up.&lt;/p&gt;
 &lt;/section&gt;
@@ -504,7 +540,7 @@
     &lt;p&gt;The fact that not one of the three contest-winning apps is currently available shows that the apps were interesting desire lines, but they were not a sustainable platform of information on which citizens could rely. They were indicative of the tendency to build simple, one-time applications that unfortunately miss the next, important step of becoming part of the platform they seek to improve. I have heard similar examples from other cities where civic hackers created well-meaning and well-built applications that sit so far outside of existing government operations that they require continued manual upkeep by volunteers. Commonly, these services simply stop receiving updates.&lt;/p&gt;
     &lt;p&gt;Unfortunately, even the original Washington, D.C. data catalog has atrophied. Based on my own experience looking for more recent crime data, the data catalog has not been updated since approximately September 2013. I learned that the internal system was being migrated and the transformation process had faltered. It was not a priority to get the data back online. Making crime data available on the portal was too removed from the actual job of analyzing and responding to crime to make a separate feed available with any defined timeline.&lt;/p&gt;
     &lt;p&gt;Despite the amazing capabilities technology can deliver, Government is foremost responsible for serving people, not technology. Everything governments do in the end is to serve the communities that elect, fund and are generally employed by these governments. When most civil engineers are designing roads, they do not apply grandiose design aesthetics and creativity. They pull open their codes and standards, determine the appropriate concrete mixture, depth and rebars based on specifications and get to work developing the road that fits the expected and reliable operations that citizens need.&lt;/p&gt;
-    &lt;figure&gt;
+    &lt;figure class=&quot;track-site-width&quot;&gt;
       &lt;img src=&quot;/images/issue_1/andrew_turner/desire_paths.jpg&quot; alt=&quot;&quot; /&gt;
       &lt;figcaption&gt;Illustration by Livien Yin&lt;/figcaption&gt;
     &lt;/figure&gt;
