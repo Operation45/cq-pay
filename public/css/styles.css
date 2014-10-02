@@ -1,3 +1,5 @@
+/* @override http://localhost:4000/css/styles.css */
+
 /* @override http://cq-prototype.local:4000/css/styles.css */
 
 /* @override http://0.0.0.0:4000/css/styles.css */
@@ -60,6 +62,10 @@ table {
 /* @end */
 
 /* @group bootstrap */
+
+html{
+	-webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+}
 
 body{
 	color: #222;
@@ -751,14 +757,18 @@ header#header nav.nav-issue a{
 	display: block;
 	margin-top: 0.6em;
 	line-height: 1.3em;
+	padding-left: 0.8em;
 }
 
 .page blockquote cite::before{
 	content: "\2014";
+	margin-left: -0.95em;
+	margin-right: 0.3em;
+	color: #555;
 }
 
 .page span.first-letter{
-	font-size: 6em;
+	font-size: 3.5em;
 	float: left;
 	color: #cc4c34;
 	font-weight: 700;
@@ -767,6 +777,8 @@ header#header nav.nav-issue a{
 	margin-top: 0.35em;
 	font-family: "abril-fatface";
 }
+
+@media screen and (min-width: 40rem){ .page span.first-letter{ font-size: 6em; } }
 
 div.celebrated-content{
 	background: #333;
@@ -912,6 +924,7 @@ footer#footer .facebook span.icon::after{
 footer#footer .copyright{
 	clear: both;
 	font-size: 0.7em;
+	line-height: 1.2em;
 }
 
 @media screen and (min-width: 36em){
@@ -1075,7 +1088,7 @@ body.about main p.introduction{
 	color: white;
 }
 
-body.about header#header nav a{ color: #d0fff4; }
+body.about header#header nav a{ color: #c2a5d4; }
 body.about header#header h1 a,
 body.about header#header h1 a:hover{ color: white; }
 
@@ -1123,11 +1136,11 @@ body.about main dl dt{
 body.about main dl dd{ margin-bottom: 1em; }
 
 @media screen and (min-width: 48em){
-	body.about main aside{ 
-		text-align: left; 
+	body.about main aside{
+		text-align: left;
 		max-width: none;
-	}	
-	
+	}
+
 	body.about main aside dl{
 		width: 42rem;
 		margin: 0 auto 2em;
@@ -1138,22 +1151,22 @@ body.about main dl dd{ margin-bottom: 1em; }
 	  display: table;
 	  clear: both;
 	}
-	
+
 	body.about main aside dl dt,
-	body.about main aside dl dd{ 
+	body.about main aside dl dd{
 		float: left;
 		width: 50%;
 			-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 
-	
+
 	}
 
 	body.about main aside dl dt{
 		clear: left;
 		padding-right: 1em;
-	}	
+	}
 }
 
 /* @end */
@@ -1169,7 +1182,7 @@ body.contribute main p.introduction{
 
 body.contribute header#header p,
 body.contribute header#header nav a{
-	color: #d0fff4;
+	color: #c2a5d4;
 }
 
 body.contribute header#header h1 a,
@@ -1267,7 +1280,7 @@ main#subscribe p+p {
 
 body.subscribe form{
 	margin-bottom: 2em;
-	
+
 }
 
 
@@ -1365,7 +1378,7 @@ body.home header#header{ margin-bottom: 4em; }
 	font-family: "franklin-gothic-urw", arial;
 	font-weight: 600;
 	margin-top: 0;
-	margin-bottom: 0.4em;
+	margin-bottom: 0.8em;
 	color: #333;
 }
 
@@ -1379,7 +1392,9 @@ section.contributors ul::after {
 section.contributors ul li{
 	list-style-type: none;
 	padding-left: 4em;
-	line-height: 3em;
+	line-height: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
 	position: relative;
 	margin-bottom: 0.8em;
 	-webkit-box-sizing: border-box;
@@ -1388,6 +1403,7 @@ section.contributors ul li{
 	width: 50%;
 	float: left;
 	vertical-align: top;
+	min-height: 4em;
 }
 
 section.contributors li img{
@@ -1555,8 +1571,8 @@ body#article{
 }
 
 @media screen and (min-width: 40rem){
-	
-	body#article{ 
+
+	body#article{
 		border-right-width: 1rem;
 	}
 
@@ -1637,13 +1653,25 @@ body#article main aside.publication-information li{ list-style-type: none; paddi
 
 body#article aside.publication-information{
 	float: right;
-	width: 12em;
-	margin-left: 1em;
+	width: 8rem;
+	margin-left: 1rem;
 	margin-top: 0.4em;
 	font-size: 0.7em;
 	color: #555;
-	line-height: 1.8em;
 	margin-bottom: 1.5em;
+}
+
+body#article aside.publication-information p{ line-height: 1.8; }
+
+
+
+@media screen and (min-width: 71.111rem){ 
+	body#article aside.publication-information{ 
+		width: 10rem;
+		margin-right: -12rem;
+		margin-top: 0.4rem;
+		font-style: italic;
+	} 
 }
 
 span.first-stanza{
@@ -1739,14 +1767,14 @@ body#article main > footer div.site-width > h1{
 }
 
 body#article section.h-feed header h1{
-	margin-bottom: 0.8rem;
+	margin-bottom: 1rem;
 }
 
 body#article main footer .h-feed p,
 body#article main footer .h-entry p{ display: none; }
 
 
-body#article main footer .h-entry{ margin-bottom: 0.4em; }
+body#article main footer .h-entry{ margin-bottom: 0.8em; }
 body#article main footer .h-entry h1{ margin-bottom: 0.2em; }
 body#article main footer .h-feed.miscellaneous h1{ padding: 0; }
 

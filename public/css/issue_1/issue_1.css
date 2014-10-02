@@ -1,3 +1,5 @@
+/* @override http://localhost:4000/css/issue_1/issue_1.css */
+
 /* @override http://cq-prototype.local:4000/css/issue_1/issue_1.css */
 
 /* @override http://0.0.0.0:4000/css/issue_1/issue_1.css */
@@ -22,7 +24,7 @@ body.home header#header::after{
   z-index: -1;
 }
 
-@media screen and (min-width: 48em){
+@media screen and (min-width: 40em){
 	body.home header#header::after{
 	  background-image: url(images/desktop-cover.jpg);
 	  background-position:  center 7em;
@@ -511,7 +513,6 @@ body.issue-1-planning-beyond-paper aside.track-full-width ul{
 
 
 body.issue-1-planning-beyond-paper aside.track-full-width ul li{
-	padding-right: 8rem;
 	padding-top: 0;
 	padding-bottom: 1rem;
 	clear: both;
@@ -524,9 +525,7 @@ body.issue-1-planning-beyond-paper aside.track-full-width ul li strong{
 	display: block;
 }
 
-body.issue-1-planning-beyond-paper aside.track-full-width ul li p{
-	padding-top: 0.5em;
-}
+body.issue-1-planning-beyond-paper aside.track-full-width ul li p{ padding-top: 0.5em; }
 
 
 body.issue-1-planning-beyond-paper aside.track-full-width ul::after {
@@ -538,7 +537,8 @@ body.issue-1-planning-beyond-paper aside.track-full-width ul::after {
 body.issue-1-planning-beyond-paper aside.track-full-width ul li img{
 	float: right;
 	width: 6rem;
-	margin-right: -8rem;
+	margin-left: 2rem;
+	margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 71.1111rem){
@@ -557,9 +557,9 @@ body.issue-1-planning-beyond-paper aside.track-full-width ul li img{
 		padding: 0;
 		clear: none;
 	}
-	
+		
 	body.issue-1-planning-beyond-paper aside.track-full-width ul li:last-of-type{ margin-right: 0; }
-	
+
 	body.issue-1-planning-beyond-paper aside.track-full-width ul li img{
 		margin-bottom: 1em;
 		float: none;
