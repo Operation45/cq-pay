@@ -12,7 +12,6 @@ var bodyParser = require('body-parser');
 var session = require('express-session');
 //var csrf = require('lusca').csrf();
 var config = require('./config');
-var Striper = require('./lib/Striper');
 
 var app = express();
 
@@ -28,6 +27,7 @@ var corsOptions = {
 app.set('port', config.port);
 app.set('env', config.env);
 app.use(logger('dev'));
+app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
