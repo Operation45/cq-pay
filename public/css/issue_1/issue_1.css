@@ -1,5 +1,7 @@
 /* @override http://localhost:4000/css/issue_1/issue_1.css */
 
+/* @override http://localhost:4000/css/issue_1/issue_1.css */
+
 /* @override http://cq-prototype.local:4000/css/issue_1/issue_1.css */
 
 /* @override http://0.0.0.0:4000/css/issue_1/issue_1.css */
@@ -111,9 +113,12 @@ body#article.issue-1-paper-cut main header div.site-width::before{
 
 body#article.issue-1-paper-cut main header div.site-width{ padding-top: 30em; }
 
+body#article.issue-1-paper-cut main > header{
+	text-align: center;
+}
+
 body#article.issue-1-paper-cut main > header h1,
 body#article.issue-1-paper-cut main > header h2{
-	text-align: left;
 	font-weight: normal;
 }
 
@@ -127,9 +132,9 @@ body#article.issue-1-paper-cut main > header h1{
 	text-transform: uppercase;
 	font-style: italic;
 	letter-spacing: 0.2em;
-	text-align: left;
 	line-height: 1.4em;
-	margin: 0.8em 0 0.4em;
+	margin: 0.8em auto 0.4em;
+	font-size: 1.6em;
 
 }
 
@@ -178,6 +183,9 @@ body#article.issue-1-paper-cut main > header h1{
 
 	@media screen and (min-width: 40rem){
 		
+		body#article.issue-1-paper-cut main > header h1{
+	font-size: 2.8em;
+		}
 		body#article.issue-1-paper-cut main aside.api{
 			width: 16rem;
 			margin-bottom: 2em;
@@ -214,7 +222,6 @@ body#article.issue-1-paper-cut main > header h1{
 	}
 	
 	body#article.issue-1-paper-cut main > header h1{
-		font-size: 2.75em;
 		margin-top: 0.4em;
 	}
 	
@@ -268,20 +275,20 @@ body#article.issue-1-forms-and-function main .page section.author-bio{
 
 /* @end */
 
-/* @group issue-1-letter */
+/* @group starting-a-new-conversation */
 
-body#article.issue-1-letter .page{
-	background: url(/images/issue_1/editors/letter_from_editors.png) bottom center no-repeat;
+body#article.issue-1-starting-a-new-conversation .page{
+	background: url(/images/issue_1/starting_a_new_conversation/letter_from_editors.png) bottom center no-repeat;
 	background-size: contain;
 	margin-bottom: 1em;
 }
 
-body#article.issue-1-letter .page{
+body#article.issue-1-starting-a-new-conversation.page{
 	padding-bottom: 5em;
 }
 
 @media screen and (min-width: 48em){
-	body#article.issue-1-letter .page{
+	body#article.issue-1-starting-a-new-conversation .page{
 		padding-bottom: 12em;
 	}
 }

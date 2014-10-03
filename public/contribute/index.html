@@ -14,23 +14,32 @@
     <link rel="canonical" href="http://civicquarterly.com/contribute/">
     <!-- <link rel="stylesheet" type="text/css" href="/css/ggs.css"> -->
     <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="/css/bigfoot-default.css">
     <link rel="stylesheet" type="text/css" href="/css/issue_1/issue_1.css">
     <!-- <script src="/js/ggs.js"></script> -->
     
     <link rel="canonical" href="http://civicquarterly.com" />
+    <meta name="msapplication-TileColor" content="#633380">
+    <meta name="msapplication-TileImage" content="/favicon.png">
 
     
+        <!-- "Smart" defaults -->
         <title>Civic Quarterly: A Publication By and For Civic Designers</title>
         <!-- Open Graph -->
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Civic Quarterly: A Publication By and For Civic Designers" />
         <meta property="og:description" content="Civic Quarterly is a publication about transforming government with digital tools & design thinking." />
-        <meta property="og:url" content="http://civicquarterly.com/contribute/" />
+        <meta property="og:url" content="/contribute/" />
         <meta property="og:site_name" content="Civic Quarterly" />
         <meta property="article:publisher" content="https://www.facebook.com/civicquarterly" />
-        <meta property="og:image" content="/favicon.png" />
-
+        <meta property="og:image" content="http://civicquarterly.com/favicon.png" />
+        <link rel="author" href="https://plus.google.com/108323943856196593797/posts">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@civiquarterly">
+        <meta name="twitter:title" content="Civic Quarterly: A Publication By and For Civic Designers">
+        <meta name="twitter:description" content="Civic Quarterly is a publication about transforming government with digital tools & design thinking.">
+        <meta name="twitter:url" content="">
     
 
 
@@ -38,7 +47,6 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Civic Quarterly Search">
     <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="">
-    <link rel="author" href="https://plus.google.com/108323943856196593797/posts">
 
     <!--[if lt IE 9]>
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -46,6 +54,7 @@
 
     <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="icon" type="image/ico" href="/favicon.ico"/>
+    <meta name="robots" content="index, follow">
 
 </head>
 
@@ -141,18 +150,16 @@
   <div class="site-width">
     <section class="subscribe">
       <p>Join a community of people working to bring democracy into the 21st century. </p>
-      <a href="/subscribe/" class="button">
-	Subscribe now for just $9!
-      </a>
+      <a href="/subscribe/" class="button">Subscribe now for just $9!</a>
     </section>
     <section class="mailing-list">
       <form action="//civicquarterly.us8.list-manage.com/subscribe/post?u=58f93a9fda35c419418becc74&amp;id=1ec90f009c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-	<div class="mc-field-group">
-	  <label for="mce-EMAIL">Join our mailing list</label>
-	  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email address">
-	</div>
-	<div style="position: absolute; left: -5000px;"><input type="text" name="b_58f93a9fda35c419418becc74_1ec90f009c" tabindex="-1" value=""></div>
-	<input type="submit" value="Send me updates" name="subscribe" id="mc-embedded-subscribe" class="button">
+        <div class="mc-field-group">
+          <label for="mce-EMAIL">Join our mailing list</label>
+          <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email address">
+        </div>
+        <div style="position: absolute; left: -5000px;"><input type="text" name="b_58f93a9fda35c419418becc74_1ec90f009c" tabindex="-1" value=""></div>
+        <input type="submit" value="Send me updates" name="subscribe" id="mc-embedded-subscribe" class="button">
       </form>
     </section>
     <nav>
@@ -161,11 +168,10 @@
       <a href="/subscribe/" class="subscribe" title="Buy a print copy and support Civic Quarterly">Subscribe</a>
       <a href="/contribute/" class="contribute" title="Get in touch with our editors">Contribute</a>
       <a href="http://facebook.com/civicquarterly" title="Connect with Civic Quarterly on Facebook" class="facebook">
-	<span class="icon"></span> Facebook
+	      <span class="icon"></span> Facebook
       </a>
       <a href="http://twitter.com/civicquarterly" title="Connect with Civic Quarterly on Twitter" class="twitter">
-	<span class="icon"></span>
-	Twitter
+	      <span class="icon"></span> Twitter
       </a>
     </nav>
     <section class="copyright">
@@ -184,8 +190,14 @@
     ga('send', 'pageview');
 </script>
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="/js/bigfoot.js"></script>
+<script type="text/javascript">
+    $.bigfoot();
+    $('body').addClass('bigfoot');
+</script>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
     <script src="//js.stripe.com/v2/"></script>
     <script src="/js/subscribe.js"></script>
   </body>
