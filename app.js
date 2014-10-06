@@ -28,6 +28,7 @@ var corsOptions = {
 app.set('port', config.port);
 app.set('env', config.env);
 app.use(logger('dev'));
+app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
@@ -43,7 +44,9 @@ app.use(session({
   else csrf(req, res, next);
 });*/
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.get('/status', function(res, res, next) {
+  return res.json('yo');
+})
 
 app.post('/pay', cors(corsOptions), function(req, res, next) {
 
@@ -55,8 +58,6 @@ app.post('/pay', cors(corsOptions), function(req, res, next) {
     zip: req.body.zip,
     issue: req.body.whichIssue
   };
-
-  console.log('metadata', metadata);
 
   stripe.customers.create({
     card: req.body.stripeToken,
