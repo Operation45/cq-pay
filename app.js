@@ -60,13 +60,18 @@ app.post('/pay', cors(corsOptions), function(req, res, next) {
     issue: req.body.whichIssue
   };
 
-  stripe.customers.create({
+  var customer = {
     card: req.body.stripeToken,
     email: req.body.email,
     plan: config.stripePlan,
-    coupon: req.body.offerCode,
     metadata: metadata
-  }, function(err, customer) {
+  }
+
+  if (req.body.offerCode != '') {
+    customer.coupon = req.body.offerCode.toUpperCase();
+  }
+
+  stripe.customers.create(customer, function(err, customer) {
     if (err) {
       return res.json(err.raw);
     }
