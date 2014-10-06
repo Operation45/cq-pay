@@ -68,7 +68,7 @@ app.post('/pay', cors(corsOptions), function(req, res, next) {
   }
 
   if (req.body.offerCode != '') {
-    customer.coupon = req.body.offerCode;
+    customer.coupon = req.body.offerCode.toUpperCase();
   }
 
   stripe.customers.create(customer, function(err, customer) {
