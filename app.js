@@ -44,13 +44,11 @@ app.use(session({
   else csrf(req, res, next);
 });*/
 
-<<<<<<< HEAD
-=======
+
 app.get('/status', function(res, res, next) {
   return res.json('yo');
 })
 
->>>>>>> jekyll-int
 app.post('/pay', cors(corsOptions), function(req, res, next) {
 
   var metadata = {
