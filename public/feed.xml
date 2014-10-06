@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Civic Quarterly</title>
+    <description></description>
+    <link>http://civicquarterly.com/</link>
+    <atom:link href="http://civicquarterly.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 03 Oct 2014 00:30:57 -0700</pubDate>
+    <lastBuildDate>Fri, 03 Oct 2014 00:30:57 -0700</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>A peek into the civic technology toolbox</title>
+        <description>&lt;p class=&quot;introduction&quot;&gt;&lt;span class=&quot;first-letter&quot;&gt;A&lt;/span&gt; stack is the collection of technology tools a government uses. Think of it like a building: you need a strong foundation to support the floors above. The stack represents the entire collection of information infrastructure&amp;mdash;from the servers and web browsers government staff use on up to the vendors who deliver and maintain key systems that rely on those tools.&lt;/p&gt;
+&lt;p&gt;We sent out a survey to the government community united by Code for America&amp;rsquo;s knowledge-sharing Peer Network program. Three 2014 Code for America Fellowship cities and five other governments shared a snapshot of their technology stack with us.&lt;/p&gt; 
+&lt;p&gt;Survey respondents provided answers to the best of their knowledge. When answers to questions weren&amp;rsquo;t available, we marked responses with &amp;ldquo;N/A&amp;rdquo;. Please note that this survey is only intended to share examples of government technology. It&amp;rsquo;s not meant to represent the way all governments structure their technology assets.&lt;/p&gt;
+&lt;p&gt;By taking look at the group, we hope to gain insights into the foundation that civic applications and services are built on. Read on for a small glimpse into the wired underbelly of municipal government.&lt;/p&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/images/issue_1/tech_stack_survey/tech-stack-browsers-portals.jpg&quot; /&gt;
+  &lt;/figure&gt;
+
+&lt;figure class=&quot;track-site-width&quot;&gt;
+  &lt;img src=&quot;/images/issue_1/tech_stack_survey/tech-stack-full.jpg&quot; /&gt;
+&lt;/figure&gt;
+</description>
+        <pubDate>Sun, 21 Sep 2014 00:00:00 -0700</pubDate>
+        <link>http://civicquarterly.com/article/techstack-survey</link>
+        <guid isPermaLink="true">http://civicquarterly.com/article/techstack-survey</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Starting a new conversation</title>
+        <description>&lt;p class=&quot;introduction&quot;&gt;&lt;span class=&quot;first-letter&quot;&gt;Y&lt;/span&gt;ou&amp;rsquo;re reading the first issue of Civic Quarterly, a journal of thoughtful analysis, constructive critique and original writing on government, technology and society.&lt;/p&gt;
+&lt;p&gt;This is a magazine for practitioners. The stories will be thought-provoking and ultimately useful for people doing daily work in government, social justice organizations, civic startups and large government vendors. As a quarterly, we publish less frequently. This gives us the space for a longer and more nuanced view than that of the normal, daily deluge of news stories, blog posts, and press releases.&lt;/p&gt;
+&lt;p&gt;Civic technology as a field and as a movement is growing at an incredible pace. Five years have passed since President Obama signed the Open Government Directive mandating that federal agencies publish machine-readable versions of their data online. We&amp;rsquo;ve seen structural growth in the form of new staff positions and policies inside government at every level. According to the Sunlight Foundation, there are now at least 30 cities with open data policies, and over half of those were passed in the last two years. We&amp;rsquo;re seeing more cities hire Chief Data Officers, and in 2013 Philadelphia hired a Director of Civic Technology. Nobody can deny the role of networked communications in our daily lives.&lt;/p&gt;
+&lt;p&gt;Earlier this year, Pew Research published &lt;a href=&quot;http://www.pewinternet.org/2014/02/27/the-web-at-25-in-the-u-s/&quot;&gt;&amp;ldquo;The Web at 25 in the U.S.&amp;rdquo;&lt;/a&gt; and reported that 87% of American adults use the Internet; 68% of those users access the Web through mobile devices. But this also means 13%, or some 31.5 million Americans, do not use the Internet. Non-users are predominantly either aged 65-and-over, low-income or non-white, according to the same study.&lt;/p&gt;
+&lt;p&gt;Civic Quarterly editors believe that technology will play a great part in shaping the way people interact with each other and with their governments in this century. But digital access is not universal. As technology becomes more pervasive across all government functions, we must ensure that it works for everyone. The readers of this magazine have important roles to play as practitioners, advocates, users and decision makers crafting the interfaces to our government.&lt;/p&gt;
+&lt;p&gt;In these pages you will find stories illustrating this shift to an increasingly digital government experience. We hope you will find the successes inspiring, the critiques and analysis enlightening, and our exploration of failure valuable. We believe sharing these stories will help the movement&amp;mdash;and our society&amp;mdash;move forward.&lt;/p&gt;
+&lt;p&gt;Thank you for reading, and thank you for your civic work.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 21 Sep 2014 00:00:00 -0700</pubDate>
+        <link>http://civicquarterly.com/article/starting-a-new-conversation</link>
+        <guid isPermaLink="true">http://civicquarterly.com/article/starting-a-new-conversation</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Saving the (Election) Day</title>
+        <description>  &lt;p class=&quot;introduction&quot;&gt;&lt;span class=&quot;first-letter&quot;&gt;I&lt;/span&gt; like to come to the rescue of people. Who doesn’t like to swoop in, change a couple of prompts, tweak a couple of things, and step away like a forms design hero? But we can’t always save the day &amp;mdash; or the form.&lt;/p&gt;
+  &lt;p&gt;On the afternoon in question, I got an email from a deputy chief of staff from the Ohio secretary of state’s office, Matt Masterson. Matt and I had known each other for some years by this point, and he wanted a favor. &lt;/p&gt;
+  &lt;p&gt;In his email, he wrote that the Ohio legislature had just passed new laws about provisional ballots. He and his team needed to create a new form for poll workers to use to get voters to attest that they are who they say they are. Matt and his team had to do it in just a few weeks, ahead of the upcoming primary election. He sent along their draft and the statutory requirements. &lt;/p&gt;
+  &lt;figure class=&quot;before&quot;&gt;
+    &lt;img src=&quot;/images/issue_1/save_election_day/before.png&quot;&gt;
+    &lt;figcaption&gt;Matt&amp;rsquo;s original form&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;p&gt;Provisional voting is a fancy way of saying that someone has arrived at a polling place but there’s a question about whether they are eligible to vote. Usually, the problem is that they’re not in the voter rolls. But we still want them to be able to vote, so they get a special ballot that lists only federal and state contests. Because there is no way to be sure that this person can legally vote in this precinct, local contests are not included on provisional ballots.&lt;/p&gt;
+  &lt;p&gt;Matt and his co-deputy, Matt Damschroder, had made a first pass at the form. It looked like you’d expect it to look: like a dog’s breakfast. These guys are some of the best public servants around, but neither of them will be using the word &amp;ldquo;designer&amp;rdquo; on their résumé any time soon. All the legal stuff was there, but the design was, shall we say, unintentionally awful. They knew it but they weren’t sure what to do about it.&lt;/p&gt;
+&lt;section&gt;
+  &lt;h1&gt;&amp;ldquo;Would you have a look at it for us, please?&amp;rdquo;&lt;/h1&gt;
+  &lt;p&gt;It is not uncommon for me to get requests like this. People send me ballots, forms and manuals to review and comment on every month or so. I do it, almost always for free. Why? Because I can, because it needs doing, and because I like being a hero (as I mentioned above). But mostly, I do it because they ask.&lt;/p&gt;
+  &lt;figure class=&quot;after&quot;&gt;
+    &lt;img src=&quot;/images/issue_1/save_election_day/after.png&quot;&gt;
+    &lt;figcaption&gt;Matt&amp;rsquo;s revised form&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  
+  &lt;p&gt;This time, I didn’t have the time to take the thing apart and do the job it deserved. I wrote back a few days later. I tried to cast my unavailability as empowering them: They should go have a look at a few other, related forms that my team had recently redesigned and tested. They probably wanted to look at a set of best practices for ballot design that they both knew about. And they should follow the guidelines in the Field Guides To Ensuring Voter Intent. Then I went back to working on the grant proposal or report or whatever it was that was preventing me from reworking the Ohio form myself. &lt;/p&gt;
+  &lt;p&gt;Forty-eight hours later, they sent another version. The transformation was nothing short of amazing. They had done it by themselves in Microsoft Word, using some simple guidance and borrowing from other designs.&lt;/p&gt;
+  &lt;p&gt;The only thing more satisfying than being a hero is making heroes out of other people.&lt;/p&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Sun, 21 Sep 2014 00:00:00 -0700</pubDate>
+        <link>http://civicquarterly.com/article/save-election-day</link>
+        <guid isPermaLink="true">http://civicquarterly.com/article/save-election-day</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Let&amp;rsquo;s respectfully redesign government</title>
+        <description>&lt;p class=&quot;introduction&quot;&gt;&lt;span class=&quot;first-letter&quot;&gt;D&lt;/span&gt;esigners regularly tear down and redesign materials they dislike. Ugly websites, confusing interfaces, dropshadow-laden public signs&amp;mdash;nothing is safe from a determined designer with a few minutes of spare time on her hands.&lt;/p&gt;
+&lt;p&gt;Slick, colorful screenshots are posted on blogs and visual inspiration sites with little consideration of the goals and restrictions behind the original design. &amp;ldquo;Look at this terrible typography! I made it so much shinier! Please favorite this image so I can see how popular I am.&amp;rdquo; I am certainly guilty of this myself.&lt;/p&gt;
+
+&lt;p&gt;When I received an absentee ballot in the mail this May&amp;mdash;my first as a California voter&amp;mdash;I was both excited and troubled. While inspecting the small instruction pamphlet that accompanied my ballot, I frowned at the Word Art and counted all the different styles of arrows. Most importantly, I nearly missed a footnote that said my ballot needed to be mailed by May 29th&amp;mdash;several days before the election&amp;mdash;in order to be counted in time; an Election Day postmark was not good enough.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/images/issue_1/respectfully_redesign/pamphlet-original.jpg&quot; /&gt;
+  &lt;figcaption&gt;Molly&amp;rsquo;s original voter pamphlet.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I spent about 20 minutes on the following Tuesday afternoon thinking about the voting pamphlet and I decided to attempt a redesign. I moved the information I wanted to see first to the top&amp;mdash;how to submit the ballot and what the deadlines were&amp;mdash;and tried to clarify the do&amp;rsquo;s and don&amp;rsquo;ts for filling it out.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/images/issue_1/respectfully_redesign/howtovote.jpg&quot; /&gt;
+  &lt;figcaption&gt;Molly&amp;rsquo;s redesigned voter pamphlet.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I tweeted a before-and-after picture, and by the time I dropped off my ballot in Oakland an hour later, it already had more than 50 retweets.&lt;/p&gt;
+&lt;p&gt;A few days later, my colleague Drew Wilson posted my image to Reddit where it quickly racked up more than 140,000 views and sparked a discussion about ballot design. Many commenters questioned the original ballot&amp;rsquo;s design. They wondered whether the complicated instructions about connecting the arrows to select a candidate could be replaced by a simpler interaction, like filling in a circle. They had a good point: If a ballot is well-designed, detailed instructions explaining how to use it should not be necessary.&lt;/p&gt;
+&lt;p&gt;Ballot design is statutorily regulated and has many constraints, and navigating the bureaucracy around voting processes takes time. No one asked usability designer Dana Chisnell to think about ballot design, but she saw an urgent need for it after the contentious 2000 Florida election. Researching ballot design and voter guides became her passion project for years until she turned to Kickstarter to raise funds to turn her research into short, actionable field guides. Her work has helped election officials and poll workers all over the country, including redesigning the 2012 ballots in Ohio.&lt;/p&gt;
+&lt;p&gt;But unsolicited redesigns can be problematic and may not always be the best method for creating change, especially when they are shared with an adversarial tone. It is easy to complain about something or critique a design without considering the constraints behind it, but complaining without respectful constructive criticism is not going to change anything. However, a redesign can be a powerful way to explore alternative possibilities and start a discussion about how it could be improved. When shared tactfully and thoughtfully, redesigns can be a starting point for collaboration.&lt;/p&gt;
+&lt;p&gt;I know whoever made the original pamphlet that came with my ballot had good intentions. Creating a simple design is not as easy as it looks, especially with the constraints of time, limited design tools and bureaucracy. Whoever made the pamphlet really cared about helping me make my vote count. Three easy steps, they wrote! The thumbs-up clipart, while it may be a little silly and distracting, is a fine attempt at conveying do&amp;rsquo;s and don&amp;rsquo;ts in a visual way.&lt;/p&gt;
+&lt;p&gt;I redesigned this pamphlet for fun. (I guess you know you are a civic design geek when redesigning a voter pamphlet is your idea of fun.) But I know sharing it on social media alone will not make a difference&amp;mdash;I have also thought about how I might make my redesign a reality.  My first step might be to translate the layout from Adobe InDesign to Microsoft Word so that it can be easily edited by a government staffer.&lt;/p&gt;
+&lt;p&gt;Government folks: are you working on a pamphlet or form you think could be better? You might find a strong ally in a designer who wants to help. Designers: are there signs, posters, icons, websites or pamphlets you encounter in your daily life that you have a hard time understanding? Try redesigning them. You never know where it may lead.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 21 Sep 2014 00:00:00 -0700</pubDate>
+        <link>http://civicquarterly.com/article/respectfully-redesign</link>
+        <guid isPermaLink="true">http://civicquarterly.com/article/respectfully-redesign</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Transparency for the state, privacy for the rest of us</title>
+        <description>&lt;p class=&quot;introduction&quot;&gt;&lt;span class=&quot;first-letter&quot;&gt;B&lt;/span&gt;erlin&amp;rsquo;s open data portal does not collect IP addresses &lt;a id=&quot;fn-1-a&quot; href=&quot;#fn-1&quot; class=&quot;footnote-button&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;. That is quite a statement. The City is offering up all the data it has in the best way it knows how and refuses to track anyone making copies of it. This portal has one goal: show residents the data they paid for with their taxes and ask for nothing in return.&lt;/p&gt;
+&lt;p&gt;Sure, it has minimal logs, analytics and everything needed to help government departments make better decisions based on metrics. But it does not track user actions in a way that can be tied to an individual. At its core, Berlin has created a friendly municipal data portal. Thanks, friend.&lt;/p&gt;
+&lt;p&gt;Think about how that contrasts with every other service on the internet. All these young sites are hungry for your data. They have no history themselves, but will give anything for your browser history, your location history, your shopping history, even your very cultural history. Give it all, please. Give it now.&lt;/p&gt;
+&lt;p&gt;These services offer incredible innovations if you give them access, but no promises about what they will do with their newfound treasure. Remember all the services you sprayed data at before Facebook and Google? Probably not. But what happened to that personal data about us? Who bought it, found it or leaked it? And what will happen to everything the current companies know about us?&lt;/p&gt;
+&lt;p&gt;The Internet is amazing, but it is also new. We are just now starting to understand how an always-connected community will affect our society and the adjustments those effects may force us to make.&lt;/p&gt;
+&lt;p&gt;One of those adjustments is about memory. It took us a while to notice it, but the Internet does not forget. Everything we do, everywhere we go and everything we say are online forever. Our understanding of memory has changed. What other adjustments will we be forced to make?&lt;/p&gt;
+&lt;p&gt;There are some obvious problems with this new data-hungry economy: the potential for personal data abuse, manipulation, oppression, greed and exploitation. I am sure we will invent some horrible new ways to use personal data against each other in the future, too.&lt;/p&gt;
+&lt;p&gt;Revelations about eroding privacy come every day. Facebook experiments on our emotions. Google probes our home and business Wi-Fi networks with an army of Street View coupes. Scarier still, government agencies are in on the game. Snowden. Assange. Manning. They have warned us of government spying, and we are starting to react &lt;a id=&quot;fn-2-a&quot; href=&quot;#fn-2&quot; class=&quot;footnote-button&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;What can we do to protect ourselves against private companies?&lt;/p&gt;
+&lt;p&gt;The one organization that can help us might seem to be a strange partner: governments! Think about it though: the Internet does not forget, and companies are ephemeral. Governments can last long enough to make long-view decisions for our benefit.&lt;/p&gt;
+&lt;p&gt;For protection against abuse of personal data, we should enact new government regulation. Climate change regulation is the best current example. Tough, contentious rules limit well-funded companies. While governments can treat people horribly, they also have the power to prevent people from treating each other horribly. Even though some branches of government are actively abusing our personal data, governments can still pass regulations limiting the collection, retention and use of personal data by private companies. Specific laws should be passed limiting the collection of personal data without our consent: Laws to limit the amount of time for which companies can keep our data and to give our data an expiration date so that we get the immediate benefits and innovations but will not have to fear unknown future consequences. We are starting to see the darker side of an Internet with infinite memory. Precaution is needed from here on.&lt;/p&gt;
+&lt;p&gt;Berlin understands that. They are on board to fight for more transparency and less tracking; more consensus and less concealment. Transparency for the state, and privacy for the rest of us.&lt;/p&gt;
+
+&lt;section class=&quot;footnotes&quot;&gt;
+  &lt;h1&gt;Footnotes&lt;/h1&gt;
+  &lt;ol&gt;
+    &lt;li class=&quot;footnote&quot; id=&quot;fn-1&quot;&gt;
+      &lt;p&gt;See &lt;a href=&quot;http://piwik.org/privacy/&quot;&gt;piwik.org&lt;/a&gt; for more information.&lt;/p&gt;
+      &lt;a href=&quot;#fn-1-a&quot; class=&quot;reversefootnote&quot;&gt;Return&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;footnote&quot; id=&quot;fn-2&quot;&gt;
+      &lt;p&gt;See &lt;a href=&quot;https://rally.stopwatching.us/&quot;&gt;stopwatching.us/&lt;/a&gt; for more information.&lt;/p&gt;
+      &lt;a href=&quot;#fn-2-a&quot; class=&quot;reversefootnote&quot;&gt;Return&lt;/a&gt;
+    &lt;/li&gt;
+&lt;/section&gt;</description>
+        <pubDate>Sun, 21 Sep 2014 00:00:00 -0700</pubDate>
+        <link>http://civicquarterly.com/article/privacy-for-us</link>
+        <guid isPermaLink="true">http://civicquarterly.com/article/privacy-for-us</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Planning beyond paper</title>
+        <description>&lt;p&gt;&lt;span class=&quot;first-letter&quot;&gt;M&lt;/span&gt;ost people view the outcomes of public transit through the customer&amp;#39;s eyes: waiting for a bus that&amp;#39;s a few minutes late, noticing a newly-constructed bus stop or providing feedback on proposed route changes. But what about those who sit behind the curtain planning these transit systems? How does a bus line come to be?&lt;/p&gt;
+&lt;p&gt;This question caught the imagination of &lt;a href=&quot;&quot;&gt;Sam Hashemi&lt;/a&gt;, a 2014 Fellow at Code for America and former designer at NASA. After a frustrating commute on the 48-Quintara everyday in San Francisco (a bus line notorious for its treacherous journey from the bay to the ocean) constantly missing his connection to Caltrain by a minute, Sam wanted to do something about it.&lt;/p&gt;
+&lt;p&gt;He wanted to redraw the 48-Quintara.&lt;/p&gt;
+&lt;p&gt;Inspired by the success of &lt;a href=&quot;http://streetmix.net/&quot;&gt;Streetmix&lt;/a&gt; &amp;mdash; a tool developed by Code for America fellows in 2013 to democratize the street design process — Hashemi thought that everyone should be able to visualize their own transit lines and understand the trade-offs at play.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.transitmix.net/&quot;&gt;Transitmix&lt;/a&gt; was born.&lt;/p&gt;
+&lt;section&gt;
+  &lt;h1&gt;How bus routes are drawn and planned today&lt;/h1&gt;
+  &lt;p&gt;Hashemi, the rest of the Transitmix team and I built an early prototype at the end of January, started getting feedback from transit planners shortly thereafter and launched a beta version in June. We did not come into the field of transit as experts. In fact, our first few conversations with transit planners always began with a wide-eyed, bushy-tailed question: &amp;rdquo;Can you give us your version of Transit Planning 101?&amp;ldquo;&lt;/p&gt;
+  &lt;p&gt;We were thus flung quickly into the world of TAZs (traffic analysis zones), AVLs (automatic vehicle locations), APCs (automatic passenger counts) and the understanding that every transit planner works a little differently. After spending time with more than 50 transit experts from all over the world, we learned that they all agree on one thing: sketching new bus routes is a painful process.&lt;/p&gt;
+  &lt;p&gt;Our research found that many new routes are predominantly planned using a combination of paper, Google Earth and Microsoft Excel. Planners will often sketch their ideas by hand on a map, retrace them into Google Earth for distance measurements, copy the numbers into Excel to get a cost estimate, and then sometimes bring the sketch into ArcGIS to overlay data for analysis.&lt;/p&gt;
+  &lt;p&gt;It works, but it&amp;#39;s hard. It&amp;#39;s a time-consuming process that constrains creative exploration and limits the amount of data that can be concurrently used as part of planning.&lt;/p&gt;
+  &lt;p&gt;Why does it take numerous, disparate tools and complicated workflows to complete a task that every municipality&amp;#39;s transit agency needs to accomplish? What if there were a tool that could bypass all of these steps and combine them in a single place? What if there were a sketching tool for transit planners to quickly design routes, help understand trade-offs, and share with the public?&lt;/p&gt;
+&lt;/section&gt;
+&lt;aside class=&quot;track-full-width&quot;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;img src=&quot;/images/issue_1/planning_beyond_paper/evan.jpg&quot; alt=&quot;&quot;&gt;
+      &lt;strong&gt;Evan, consultant at Jarrett Walker Associates&lt;/strong&gt; 
+      [the transit consultancy]
+      &lt;p&gt;In workshops with agencies, Evan will often take a big paper map, lay a sheet of mylar on top, and sketch over it with markers. &amp;ldquo;Then I&amp;rsquo;ll draw it in Google Earth, run the costing spreadsheet, enter the parameters of the route, turn it into shapefiles&amp;hellip; There&amp;rsquo;s no easy way to draw maps on the fly.&amp;rdquo;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;img src=&quot;/images/issue_1/planning_beyond_paper/sarah.jpg&quot; alt=&quot;&quot;&gt;
+      &lt;strong&gt;Sarah, bus service planning manager at NYC&amp;rsquo;s MTA&lt;/strong&gt;
+      [the large transit agency]
+      &lt;p&gt;&amp;ldquo;Many planning discussions happen sitting around a table with pieces of paper in front of us. After we draw a line, most changes are done in ArcGIS, then analyzed in Excel. Then we send it on to the graphics department.&amp;rdquo;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;img src=&quot;/images/issue_1/planning_beyond_paper/bradley.jpg&quot; alt=&quot;&quot;&gt;
+      &lt;strong&gt;Bradley, transit planner at the City of Torrance, CA&lt;/strong&gt;
+      [the small city]
+      &lt;p&gt;Bradley is the only transit planner in Torrance. He draws on a whiteboard to sketch routes and takes it into Excel to cost it out. Side note: he also designed Torrance’s entire transit network map in Illustrator by himself.&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/aside&gt;
+&lt;section&gt;
+  &lt;h1&gt;Feedback from the front lines&lt;/h1&gt;
+  &lt;p&gt;A few hours after our launch in June, transit planners from across the country started reaching out:&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;From New Orleans:&lt;/p&gt;
+    &lt;p&gt;It&amp;#39;s much easier to do it in this product than to try to do it in Google Maps. It has a lot of value, particularly for small transit systems. Now everyone has the chance to become transit planners.&lt;/p&gt;
+    &lt;cite&gt;Stefan Marks, Director of Planning and Scheduling, Veolia Transportation Services, Inc. in service to  the New Orleans Regional Transit Authority (RTA)&lt;/cite&gt;
+  &lt;/blockquote&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;From Torrance, Calif.:&lt;/p&gt;
+    &lt;p&gt;I&amp;#39;ve been playing with the tool a lot lately, because we will be redesigning our transit network for a new transit center and I&amp;#39;ve found the tool to come up with many of the same results I do when spending hours working on ideas by hand with a white board. It&amp;#39;s significantly easier to use (I&amp;#39;ve actually abandoned the whiteboard method because this is so much better, and easy to illustrate to colleagues the trade-offs of choices we have to make).&lt;/p&gt;
+    &lt;cite&gt;Bradley Tollison, transit planner for Torrance, CA&lt;/cite&gt;
+  &lt;/blockquote&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;From Everett, Wash.:&lt;/p&gt;
+    &lt;p&gt;The value in this tool comes from changing the order of tasks that are current standard practice. My service development team comes to a planning meeting armed with data, thoughts and suggestions about how to meet our budget target at the next service change. We discuss schedule and routing alternatives that satisfy competing objectives. When we discuss routing we generally use a whiteboard or Google to trace out paths. The problem with that is it&amp;#39;s a purely visual display without any feedback. Inevitably there are many &amp;lsquo;what if…&amp;rsquo; questions that go unanswered because of the time and effort involved in obtaining an answer.&lt;/p&gt;
+    &lt;cite&gt;Eric Goodman, AICP, Transportation Service Planner, Community Transit, Everett and Snohomish County, WA&lt;/cite&gt;
+  &lt;/blockquote&gt;
+  &lt;p&gt;After hearing from hundreds of transit planners (both professional and armchair), we learned that we had disrupted part of their &amp;ldquo;flip-flop process&amp;rdquo;  a term coined by Robin Sloan meaning to push a work of art or craft from the physical world to the digital world and back again.&lt;/p&gt;
+  &lt;p&gt;We found that moving the creative part of the process to drawing on the Web (rather than sketching on a paper map) allowed transit planners to quickly determine the feasibility of their routes and iterate on their ideas.&lt;/p&gt;
+  &lt;p&gt;We also took a look at the maps people were creating. It astounded us: People around the world were literally hand-drawing hundreds of existing bus lines for their city by hand. New maps were drawn for Seattle, Bangkok, Toronto, Sydney and Salt Lake City.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+  &lt;h1&gt;Learning about and simplifying complex processes&lt;/h1&gt;
+  &lt;p&gt;The more we learned about the complexities of transit planning, the more features we realized were necessary for Transitmix to be useful in everyday transit planning work.&lt;/p&gt;
+  &lt;p&gt;Our beta version was great for sketching routes on a blank map canvas, but the tool existed in a vacuum without any context. Very few cities are planning transit from scratch. They were modifying existing systems. To help transit planners modify and improve their current routes, Transitmix needed to allow users to import existing lines and calibrate the tool to mimic actual operations.&lt;/p&gt;
+  &lt;p&gt;&amp;rdquo;It&amp;#39;s only meaningful if you can compare it to reality,&amp;ldquo; a San Francisco Municipal Transportation Agency official said.&lt;/p&gt;
+  &lt;p&gt;What we learned early on has deeply shaped our product development roadmap. We are now trying to help transit planners answer the question, &amp;rdquo;What data about existing conditions can I bring in to better understand the community and create the most effective bus line possible?&amp;ldquo; We&amp;#39;re exploring how to import demographic data like population and jobs, coverage and ridership, and key destinations and points of interest.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+  &lt;h1&gt;From prototype to indispensable planning tool&lt;/h1&gt;
+  &lt;p&gt;Transitmix is moving from side project to self-sustaining product, but there are challenges ahead. First, existing vendors and enterprise tools in the market don&amp;#39;t play nicely with newer offerings.&lt;/p&gt;
+  &lt;p&gt;&amp;rdquo;The public transportation industry is not very accessible to new, innovative technologies,&amp;ldquo; said Dag Gogue, CEO of Transit Labs, a data-focused transit startup breaking into the space. &amp;rdquo;Today, we use ArcGIS, Excel, Hastus, Trapeze… Generally, too many systems that don&amp;#39;t sync together,&amp;ldquo; said Eric Goodman, a transportation service planner at Community Transit in Everett, WA.&lt;/p&gt;
+  &lt;p&gt;Second, honing the product&amp;#39;s focus presents a challenge of choice. There are so many potential directions for Transitmix to expand  beyond route sketching for both transit planners and the public. It could be a community outreach tool, a service planning tool or a data analysis tool.&lt;/p&gt;
+  &lt;p&gt;Trying to address all of these directions would be too much and would actually dilute the value of our tool. Our goal is to focus on one thing, do it well and ultimately be indispensable to our users.&lt;/p&gt;
+  &lt;p&gt;We also believe that helping people understand the process behind transit planning — especially the trade-offs professionals need to make — will lead to smarter discussions of public transit. In the words of transit consultant Jarrett Walker in Human Transit:&lt;/p&gt;
+  &lt;blockquote&gt;&lt;p&gt;In situations where lots of citizens care, and choose to learn a bit about transit so that they can advocate more clearly and confidently, better decisions get made, decisions that lead to better mobility, a stronger economy, a more just society, or whatever goal the community is pursuing. Political leaders make good decisions when informed and caring citizens want them to. It&amp;#39;s only when they sense that citizens have given up or don&amp;#39;t care that they may let narrower interests carry the day. I see this pattern over and over.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;/section&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;celebrated-content&quot;&gt;
+  &lt;div class=&quot;site-width&quot;&gt;
+    We believe good transit is fundamental to building livable cities
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;page&quot;&gt;&lt;div class=&quot;site-width&quot;&gt;&lt;section&gt;
+  &lt;p&gt;We believe good transit is fundamental to building livable cities and that one of the biggest limitations to the quality of transit is the tools that are used to plan them. As we move forward, we are thinking strategically about both our team&amp;#39;s strengths (user experience design, technology, nimbleness) and our weaknesses (lack of experience in the public transit industry and the procurement process).&lt;/p&gt;
+  &lt;p&gt;We see an opportunity in an industry that&amp;#39;s ripe for disruption, but we understand that the journey to get there will likely be formidable. In addition to the well-documented barriers to the adoption of emerging civic technologies, there are complex factors at play to account for when designing a tool to plan and improve real world civic infrastructure.&lt;/p&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Sun, 21 Sep 2014 00:00:00 -0700</pubDate>
+        <link>http://civicquarterly.com/article/planning-beyond-paper</link>
+        <guid isPermaLink="true">http://civicquarterly.com/article/planning-beyond-paper</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>People, Not Data</title>
+        <description>&lt;section&gt;
+  &lt;p class=&quot;introduction&quot;&gt;&lt;span class=&quot;first-letter&quot;&gt;I&lt;/span&gt; visited San Francisco&amp;rsquo;s main food stamps office for the first time in February 2013. People call it, &amp;ldquo;twelve-thirty-five,” as in 1235 Mission Street. I walked past the concrete pillars, through the metal detector with two security guards, past a table of scattered paper forms and into the main waiting room. It was loud. Voices echoed off the linoleum floors from speakers in the ceiling. There was one big line leading to one big countertop, labeled Service Counter B.&lt;/p&gt;
+  &lt;p&gt;A tall, black man stepped to the front of the line. He hunched forward and leaned his hands on the countertop. A thick, clouded sheet of bullet-proof glass separated him from the service worker. The pair spoke through two skinny, conference-style microphones mounted on the glass.&lt;/p&gt;
+  &lt;p&gt;The visitor was having trouble hearing. He leaned in and grabbed the microphone to flex it upwards, but it wouldn&amp;rsquo;t go any further. He hunched a bit lower, putting his ear to the glass. Then, after a few more moments, he lowered his knees to the ground, pulled the mic down to his face and rested his arms along the countertop. He finished the conversation on his knees.&lt;/p&gt;
+  &lt;p&gt;So there I was: in San Francisco, one of the greatest and most prosperous cities in our country, watching a man on his knees, struggling to hear through bulletproof glass, trying to access nutrition assistance from our government.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+  &lt;h1&gt;Something is drastically wrong&lt;/h1&gt;
+  &lt;p&gt;January 2013 was the beginning of my Code for America fellowship working with San Francisco&amp;rsquo;s Human Services Agency. Later, in February, I visited the Mission Neighborhood Resource Center, one of San Francisco&amp;rsquo;s four shelter reservation sites. There, I learned that it can take more than 12 hours to access a shelter bed for a single night, that some people prefer streets to shelters and that clients routinely leave their shelters at 4 a.m. just to line up for the next night&amp;rsquo;s bed. More desperate clients show up even earlier.&lt;/p&gt;
+  &lt;p&gt;My teammate, Rebecca Ackerman, enrolled in food stamps. She started getting letters. Lots of letters. They were intimidating:&lt;/p&gt;
+  &lt;img src=&quot;/images/issue_1/people_not_data/intimidating.jpg&quot; alt=&quot;As of 06/30/2013, the County is stopping your cash aid and/or Food Stamps. Here&amp;rsquo;s why: As of the 11th of this month, the County has not received your quarterly report (QR 7) due this month. TO STOP THIS ACTION the County must RECEIVE your COMPLETE report no later than the FIRST WORKING DAY OF NEXT MONTH.&quot;&gt;
+
+  &lt;p&gt;They were wordy and confusing:&lt;/p&gt;
+  &lt;img src=&quot;/images/issue_1/people_not_data/wordy.jpg&quot; alt=&quot;Your food stamps benefits in this quarter did not change as a result of the document(s)/information we received because it would not have resulted in an increase in benefits. Your Food Stamp benefits in this quarter did not change as a result of the document(s)/information we received because the new rule says that when you report some changes, the County cannot lower your Food Stamps until the next quarter. The County has refigured your Food Stamps using the information you reported and the Food Stamp amount did not go up. If the information you reported causes your Food Stamps to go down, the change will not happen until the next quarter. You will receive another notice about any change. Any changes you voluntarily reported must be reported again on the next Quarterly report (QR 7), along with proof of the change. QR 377.4 No Change (01/04) FS Notice of NO Change for Quarterly and Change Reporting Households.&quot;&gt;
+  &lt;p&gt;And they were nonsensical:&lt;/p&gt;
+  &lt;img src=&quot;/images/issue_1/people_not_data/nonsensical.jpg&quot; alt=&quot;Effective 10/01/2013, your Fodo Stamp beenfits are changed from $200.00 to $200.00 each month.&quot;&gt;
+
+  &lt;p&gt;During her seven-month enrollment, she received approximately 20 letters and her case was nearly terminated three times.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+  &lt;h1&gt;We disdain users&lt;/h1&gt;
+  &lt;p&gt;This is the interface to our government: We beg on our knees, we line up all night for shelter and we receive aggressive letters in the mail. Our services disdain those they are envisioned to help.&lt;/p&gt;
+  &lt;p&gt;This disdain shows in huge, controversial, life-changing ways. We take 260 days to get disability benefits to our veterans, according to Senator Bernie Sanders. We spend $3,000 to room a family for one month while the family begs for $900 in cash instead, as reported by the New Yorker.&lt;/p&gt;
+  &lt;p&gt;The disdain also shows in small, quiet, often-unnoticed ways. Try to apply online for free school meals in SF and you&amp;rsquo;ll find this warning highlighted on the welcome screen: Please only fill out one application online. If you make any errors you will need to fill out a paper application.&lt;/p&gt;
+    &lt;img src=&quot;/images/issue_1/people_not_data/calwin.jpg&quot; alt=&quot;&quot; class=&quot;calwin&quot;&gt;
+
+  &lt;p&gt;Or download the CalWIN iPhone app, the companion application to the ~$750 million client welfare data system in California, and this is what you&amp;rsquo;ll see. Yes, the name really is truncated on the home screen.&lt;/p&gt;
+  &lt;p&gt;It&amp;rsquo;s disdain all the way down. The challenges with healthcare.gov sparked a long-overdue conversation about what&amp;rsquo;s wrong with government IT, but Ezra Klein cuts straight to the core of our disconnect:&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;One privilege the insured and well-off have is to excuse the terrible quality of services the government routinely delivers to the poor. Too often, the press ignores &amp;mdash; or simply never knows &amp;mdash; the pain and trouble of interfacing with government bureaucracies that the poor struggle with daily. That can allow the problems in those bureaucracies to fester.&lt;/p&gt;
+    &lt;cite&gt; Ezra Klein&lt;/cite&gt;
+  &lt;/blockquote&gt;
+  &lt;p&gt;The problem is not the website. The problem is the man on his knees at twelve-thirty-five and the disdainful machine that doesn&amp;rsquo;t help him up.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+  &lt;h1&gt;Let&amp;rsquo;s build with empathy&lt;/h1&gt;
+  &lt;p&gt;So here we are, struggling against our own disdainful machine, and nobody wants it. The social worker doesn&amp;rsquo;t want clients on their knees. The CalWIN developers don&amp;rsquo;t want their work embarrassingly truncated on the home screen. Nobody wants homeless people waiting in line all night. It goes beyond politics.&lt;/p&gt;
+  &lt;p&gt;I wish I could end this with a heroic call-to-action. &amp;ldquo;Are you with me? Do you want to fix our broken government? Click here to donate now!!” But I can&amp;rsquo;t. My year spent working with the Human Services Agency clarified more problems than solutions. Instead, I&amp;rsquo;ll offer a question: How can we build empathetic government services?&lt;/p&gt;
+  &lt;p&gt;My advice is to start with user needs. An empathetic service should ground itself in the concrete needs of real people. It&amp;rsquo;s not about innovation, big data, government-as-a-platform, transparency, crowdfunding, open data or civic technology. It&amp;rsquo;s about people. Learn to prioritize people and their needs. It will be a long slog. It&amp;rsquo;s the kind of change that happens slowly, one person at a time. But we should start.&lt;/p&gt;
+  &lt;p&gt;Amidst the anger and insults of healthcare.gov, Tim O&amp;rsquo;Reilly reminds us of the immense opportunity:&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;Rather than bemoaning the problems with healthcare.gov and seeking to find fault and political advantage, now is a great time to seize the moment and commit ourselves to create government services that give all citizens services that are simple, effective, and easy to use.&lt;/p&gt;
+    &lt;cite&gt;Tim O&amp;rsquo;Reilly&lt;/cite&gt;
+  &lt;/blockquote&gt;
+  &lt;p&gt;So let&amp;rsquo;s gently &amp;mdash; but persistently &amp;mdash; bring our awareness back to users and build an empathetic machine: one that finds the man on his knees and helps him up.&lt;/p&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Sun, 21 Sep 2014 00:00:00 -0700</pubDate>
+        <link>http://civicquarterly.com/article/people-not-data</link>
+        <guid isPermaLink="true">http://civicquarterly.com/article/people-not-data</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Paper,&amp;nbsp;Cut&amp;#58; The&amp;nbsp;Bleeding Edge of Government Forms</title>
+        <description>  &lt;p class=&quot;introduction&quot;&gt;&lt;span class=&quot;first-stanza&quot;&gt;&lt;span class=&quot;first-letter&quot;&gt;I&lt;/span&gt;n May of this year,&lt;/span&gt; Molly McLeod, a Code for America Fellow, took receipt of a vote-by-mail ballot issued to her by the city of Oakland, California. She dutifully opened it, read its accompanying instructions and recorded her vote but, &lt;a href=&quot;http://www.codeforamerica.org/blog/2014/06/09/lets-respectfully-redesign-government/&quot;&gt;by her own account&lt;/a&gt;, nearly missed the fact that her ballot required a postmark by May 29th in order to be counted at all.&lt;/p&gt;
+  &lt;p&gt;Frustrated by her experience, Molly decided to redesign her ballot&amp;rsquo;s instructions. Over the course of twenty minutes, she masterfully rearranged its elements so that they better aligned with her understanding: The most important information (i.e. how to ensure that the ballot was counted at all) came first and the minutiae of voting came second. When she was finished, Molly shared a before and after photo on social media.&lt;/p&gt;
+  &lt;p&gt;It is important to note that Molly&amp;rsquo;s redesign was unsolicited; the city of Oakland neither asked nor encouraged Molly to expend her energies in this way. And that is exactly why her work serves as such a great example of civic hacking in action. If a hack&lt;a id=&quot;fn-1-a&quot; href=&quot;#fn-1&quot; class=&quot;footnote-button&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt; is any amateur innovation on an existing system, then civic hacking is simply a hack on government to improve &lt;a href=&quot;http://uxmag.com/articles/the-citizen-experience-needs-us&quot;&gt;the citizen experience&lt;/a&gt;. Molly sought to improve the experience of voters in Oakland by showcasing the power of design to communicate effectively.&lt;/p&gt;
+  &lt;p&gt;Many acts of civic hacking begin in this way: with what the Japanese call Shosin, or &amp;ldquo;beginner&amp;rsquo;s mind.&amp;rdquo; Rather than perceiving government as it has come to be, civic hackers imagine government as it might become&lt;a id=&quot;fn-2-a&quot; href=&quot;#fn-2&quot; class=&quot;footnote-button&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;, unencumbered by the constraints that come from full knowledge of context. When Molly redesigned her ballot&amp;rsquo;s instructions, she did so in willful ignorance of the fact that &lt;a href=&quot;http://civicdesigning.org/wp-content/uploads/2014/02/Ballot-simplicity-Chisnell-CCD.pdf&quot;&gt;ballot design is often subject to pretty stringent regulation&lt;/a&gt;. &lt;/p&gt;
+  &lt;p&gt;Molly&amp;rsquo;s work is compelling, to say the least. So why are the benefits of civic hacking not more widely seen across government forms? How &lt;em&gt;does&lt;/em&gt; Oakland arrive at the instructions it provides to voters, anyway? How much time do they spend designing their ballots? And, more generally, how &lt;em&gt;should&lt;/em&gt; government approach this kind of problem? &lt;/p&gt;
+
+  &lt;figure class=&quot;figure-vending&quot;&gt;
+    &lt;img src=&quot;/images/issue_1/paper_cut/vending.jpg&quot; /&gt;
+  &lt;/figure&gt;
+
+  &lt;p&gt;These questions are difficult to answer, but it is at least clear based on the instructions that Molly received that the city approached this particular design problem quite differently that she had done. For starters, the designers working within government were indeed beholden to regulation. More importantly, they probably did not have as much of a chance to experiment with their design. And, finally, why should they redesign their forms when the ones they have used to date have worked well enough?&lt;/p&gt;
+  &lt;p&gt;While government actors can, and often will, rationalize their efforts to enforce the status quo, civic hackers have the potential, through their independent actions to imbue &amp;ldquo;the status quo&amp;rdquo; with new meaning&lt;a id=&quot;fn-3-a&quot; href=&quot;#fn-3&quot; class=&quot;footnote-button&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;. In this article I hope to more clearly qualify the ways in which civic hackers might do that viz. a viz government forms and, in so doing, provide a map for future design endeavors centered around government forms. &lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+  &lt;h1&gt;A formal function&lt;/h1&gt;
+  &lt;p&gt;&lt;span class=&quot;first-letter&quot;&gt;B&lt;/span&gt;efore we dive in, let&amp;rsquo;s establish some definitions to help frame our discussion. In the infamous &amp;ldquo;&lt;a href=&quot;https://www.youtube.com/watch?v=dYB8xokkWjg&amp;feature=youtu.be&amp;t=1m14s&quot;&gt;vending machine&lt;/a&gt;&amp;rdquo; metaphor for government, forms serve as the primary means by which government collects citizen data in exchange for goods or services.&lt;/p&gt;
+  &lt;p&gt;To ensure that government-provisioned goods and services align with public interest, government bears the responsibility of creating and maintaining information ecosystems. Information ecosystems describe an interrelated set of protocols, processes, platforms, policies, and principles designed to ensure that government-provisioned goods or services act in the public interest. &lt;/p&gt;
+  &lt;p&gt;In this article we will limit our analysis to three of these elements: protocols, processes, and platforms.&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;figure class=&quot;figure-protocol&quot;&gt;
+	      &lt;img src=&quot;/images/issue_1/paper_cut/protocol.jpg&quot; /&gt;
+      &lt;/figure&gt;
+
+      &lt;p&gt;&lt;strong&gt;Protocols&lt;/strong&gt; are the interfaces by which government and citizens exchange information, goods, and services. This article will largely concern itself with the (paper) forms that citizens fill out to give governments information about themselves. Forms effectively facilitate a one-directional conversation &lt;em&gt;from&lt;/em&gt; citizens &lt;em&gt;to&lt;/em&gt; governments.&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;&lt;strong&gt;Processes&lt;/strong&gt; are any of a number of steps taken to either (1) aid in the function of a protocol or (2) transform data as it moves through an ecosystem. In practical terms: paper forms must be distributed, collected, validated, and stored. Government-sponsored goods and/or services must be distributed fairly and measured against success metrics. &lt;/p&gt;
+      &lt;figure class=&quot;figure-2&quot;&gt;
+	&lt;img src=&quot;/images/issue_1/paper_cut/process.jpg&quot; /&gt;
+      &lt;/figure&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;&lt;strong&gt;Platforms&lt;/strong&gt; serve as the technological basis for the accrual and dissemination of data&lt;a id=&quot;fn-4-a&quot; href=&quot;#fn-4&quot; class=&quot;footnote-button&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;. Platforms are difficult to architect because they are often a &lt;em&gt;product&lt;/em&gt; of an information ecosystem&amp;rsquo;s protocols and processes&amp;mdash;and vice versa. If a government employs paper forms to collect data, for example, they will likely distribute, process, and store those forms in a purely analog way. This limits government&amp;rsquo;s ability to retrieve and/or share data upon request.&lt;/p&gt;
+      &lt;figure class=&quot;figure-platform&quot;&gt;
+	&lt;img src=&quot;/images/issue_1/paper_cut/platform.jpg&quot; /&gt;
+      &lt;/figure&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;p&gt;Like all models, this conception of information ecosystems simplifies the reality it describes. Nevertheless, its utility lies in the perspectives it engenders. Many government agencies, for example, have &lt;a herf=&quot;http://www.publicintegrity.org/2013/08/27/13253/veterans-affairs-defense-depts-spend-billions-effort-coordinate-records&quot;&gt;struggled as they&amp;rsquo;ve worked to transition&lt;/a&gt; from paper-rich to digital-rich information ecosystems&lt;a id=&quot;fn-5-a&quot; href=&quot;#fn-5&quot; class=&quot;footnote-button&quot; rel=&quot;footnote&quot;&gt;5&lt;/a&gt;. Thinking about this transition in terms of protocols, processes, and platforms effectively breaks it down into more manageable design problems. Additionally, this conception allows designers to draw upon the research and innovation already conducted in these discrete areas of study. Finally, the act of modelling information ecosystems encourages designers to consider the relationships &lt;em&gt;between&lt;/em&gt; the various elements comprising the system. This, in turn, helps designers &lt;a href=&quot;http://www.smashingmagazine.com/2011/11/22/big-think-breaking-deliverables-habit/&quot;&gt;eschew form-centered approaches&lt;/a&gt; in favor of more people-centered ones.&lt;/p&gt;
+  &lt;p&gt;Now that we&amp;rsquo;re speaking the same language, let's continue our analysis of &amp;ldquo;form design&amp;rdquo; by more closely considering how user-centered designers and civic hackers might work to change the individual elements constituting information ecosystems: protocols, processes, and platforms.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+  &lt;h1&gt;Protocols as interface to government&lt;/h1&gt;
+  &lt;p&gt;&lt;span class=&quot;first-letter&quot;&gt;T&lt;/span&gt;he ubiquity of protocols cannot be overstated. Whether we are signing up for food stamps, paying our taxes, or casting a ballot, every citizen is likely to, at one point or another, use a protocol&amp;mdash;a form&amp;mdash;as an interface to government. This ubiquity makes forms a highly desirable jumping off point for designers wishing to improve the citizen experience. (&amp;ldquo;By making the form better, we could potentially make the entire interaction better, right?&amp;rdquo;) &lt;/p&gt;
+  &lt;p&gt;Not so fast. The user-experience design community has frequently &lt;a href=&quot;http://uxmyths.com/post/3897350094/myth-31-ux-design-is-a-step-in-a-project&quot;&gt;noted&lt;/a&gt; &lt;a href=&quot;http://mashable.com/2009/01/09/user-experience-design/&quot;&gt;the&lt;/a&gt; &lt;a href=&quot;http://insideintercom.io/the-dribbblisation-of-design/&quot;&gt;fallacies&lt;/a&gt; of approaching user-centered design by way of interfaces. Specifically, they warn that the user interface of software is just one of &lt;a href=&quot;http://www.jjg.net/elements/pdf/elements.pdf&quot;&gt;many levels of abstraction&lt;/a&gt; at which designers can solve problems for users; that it's often the case that the elements detracting from a user&amp;rsquo;s experience originate at &amp;ldquo;higher&amp;rdquo; levels within an organization, such as in its application architecture, its &lt;a href=&quot;http://www.jeffgothelf.com/blog/there-is-no-such-thing-as-ux-strategy/&quot;&gt;strategy&lt;/a&gt;, or its &lt;a href=&quot;http://www.slideshare.net/whitneyhess/design-principles-the-philosophy-of-ux&quot;&gt;design principles&lt;/a&gt;. The history of &lt;a href=&quot;http://rosenfeldmedia.com/books/why-we-fail/&quot;&gt;design failures&lt;/a&gt; implies that designers hoping to improve the citizen experience by way of government forms will need to not only wield expertise in the principles undergirding form design itself, they will also need to understand and work to change the &lt;em&gt;context&lt;/em&gt; in which forms are situated.&lt;/p&gt;
+  &lt;p&gt;Designer Drew Davies &lt;a href=&quot;http://oxidedesign.com/redesigning-election-forms-for-overseas-citizens/&quot;&gt;shares a story&lt;/a&gt; that works to corroborate this sentiment. In 2011, the Federal Voting Assistance Program (FVAP) commissioned Davies and Dana Chisnell, a usability professional and Co-Director of the Center for Civic Design, to improve the design of the Federal Post Card Application and the Federal Write-in Absentee Ballot. Davies remarks: &amp;ldquo;It&amp;rsquo;s safe to say the[se] forms had not been critically reviewed in a long time (perhaps ever), and were some of the worst examples of confusing, difficult-to-use government forms.&amp;rdquo;&lt;/p&gt;
+  &lt;p&gt;To improve the forms, Davies and Chisnell proceeded in the typical user-centered design way, conducting 28 usability tests throughout the year. Whenever the team noticed particular elements that confused voters, they created a new version of the form that ameliorated the cause for confusion (as McLeod did with her ballot&amp;rsquo;s instructions). They quickly learned by &lt;a href=&quot;http://www.computingscience.nl/docs/vakken/musy/RITE.pdf&quot;&gt;iterating, testing, and evaluating&lt;/a&gt; the designs of both forms in question. &lt;/p&gt;
+  &lt;p&gt;And rather than simply figuring out which &lt;em&gt;design&lt;/em&gt; tested well, Davies and Chisnell went one step further, seeking &amp;ldquo;to learn where voters had questions and made mistakes, and why.&amp;rdquo; This was a subtle goal with profound implications: By seeking to understand voters rather than forms, Davies and Chisnell came to understand those voter&amp;rsquo;s perceptions and rationalizations. This helped the team do more than critically assess the forms they were given, as the FVAP requested; it also gave them insight into how the instructions, the forms, and the FVAP website &lt;em&gt;worked in tandem&lt;/em&gt; to affect the voter experience.&lt;/p&gt;
+  &lt;p&gt;At the end of their research endeavor, Davies and Chisnell provided the FVAP with &lt;a href=&quot;http://oxidedesign.com/wp-content/uploads/2013/07/FVAP-Final-Report-20110520.pdf&quot;&gt;a report&lt;/a&gt;&lt;a id=&quot;fn-6-a&quot; href=&quot;#fn-6&quot; class=&quot;footnote-button&quot; rel=&quot;footnote&quot;&gt;6&lt;/a&gt; that included redesigned versions of the requested forms as well as recommendations for the instructions and the website that accompanied them. And that&amp;rsquo;s when the disconnect happened: While many of their visual design changes were adopted, their recommendations for simplifying the forms&amp;rsquo; instructions were not. Why would the FVAP ignore recommendations that were based on user research? &lt;/p&gt;
+  &lt;p&gt;Before we address that question it&amp;rsquo;s worth noting that this situation was possible in the first place, a fact directly related to the difference between agency and authority with regards to the design process. While Davies and Chisnell were given the &lt;em&gt;agency&lt;/em&gt; to explore the design space, they were not given the &lt;em&gt;authority&lt;/em&gt; to put their design into practice. That power rested with the FVAP. Davies&amp;rsquo; story highlights a design truism: the difference between a designer&amp;rsquo;s agency and his authority helps determine the degree to which he can effect change.&lt;/p&gt;
+  &lt;p&gt;Understanding the difference between agency and authority makes it easy to describe the ignorance willed on the FVAP&amp;rsquo;s behalf: Davies and Chisnell&amp;rsquo;s recommendations were likely ignored due to a mismatch in the design agency and design authority on the part of the person who initially commissioned the project. Davies even insinuates as much in his post: &amp;ldquo;a decision was made to ignore this recommendation.&amp;rdquo; Thankfully, two years later, the FVAP is under new leadership and is reconsidering the pair&amp;rsquo;s original recommendations.&lt;/p&gt;
+  &lt;p&gt;Despite having acknowledged the problematic nature of approaching form design via forms themselves, let&amp;rsquo;s continue down this path. We will begin by addressing some of the inherent differences in presenting forms in print and online before reviewing some of the ways in which contemporary form design is currently shaped by the work of independent designers, developers and governments alike.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;celebrated-content old-paper&quot;&gt;
+  &lt;img src=&quot;/images/issue_1/paper_cut/old_paper.jpg&quot; /&gt;
+  &lt;p&gt;At its core, design is a rendering of intent, a plan for change.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;page&quot;&gt;&lt;div class=&quot;site-width&quot;&gt;
+  &lt;section&gt;
+    &lt;h1&gt;In theory&lt;/h1&gt;
+    &lt;p&gt;At its core, design is a &lt;a href=&quot;http://www.lukew.com/ff/entry.asp?1770&quot;&gt;rendering of intent&lt;/a&gt;, a plan for change. In order to effect a change in perspective, designers rely on a fundamental knowledge of perceived affordances. &lt;/p&gt;
+    &lt;p&gt;An &amp;ldquo;affordance&amp;rdquo; is a term originating from the field of psychology&lt;a id=&quot;fn-7-a&quot; href=&quot;#fn-7&quot; class=&quot;footnote-button&quot; rel=&quot;footnote&quot;&gt;7&lt;/a&gt; used to refer to the possible relationships between an actor and his or her environment. An actor might sit in a chair, for example, but he also might stand on it or pick it up. Since its inception, the concept of affordances has been adapted and expanded by the design community to that of &amp;ldquo;perceived affordances&lt;a id=&quot;fn-8-a&quot; href=&quot;#fn-8&quot; class=&quot;footnote-button&quot; rel=&quot;footnote&quot;&gt;8&lt;/a&gt;.&amp;rdquo; Perceived affordances are the uses to which an individual (the &amp;ldquo;user&amp;rdquo;) is likely to place an object given their perception of that object, specifically that object&amp;rsquo;s user interface.&lt;/p&gt;
+    &lt;p&gt;Forms adopt different perceived affordances depending upon whether or not a designer chooses to render that form across analog or digital media. Paper forms, for example, are easily &amp;ldquo;sized up&amp;rdquo; based on their page count. Web-based forms, on the other hand, do not inherently offer this affordance; it must be explicitly designed for (e.g. &amp;ldquo;You're on step 1 of 5&quot;). Additionally, paper forms do not inherently invite user input via &amp;ldquo;input types.&amp;rdquo; The instructions provided with Molly&amp;rsquo;s ballot, for example, required voters to execute a specific type of mark&amp;mdash;connecting the ends of an arrow&amp;mdash;in order to denote their selection. Had her ballot been rendered on the web, a simple radio button would have sufficed&lt;a id=&quot;fn-9-a&quot; href=&quot;#fn-9&quot; class=&quot;footnote-button&quot; rel=&quot;footnote&quot;&gt;9&lt;/a&gt;. &lt;/p&gt;
+    &lt;p&gt;Two other critical areas in which digital and analog forms differ are with regards to data validation and accessibility. Digital media's inherent interactivity gives form designers the ability to validate input in real time, which could potentially result in &lt;a href=&quot;http://chil.rice.edu/research/pdf/CampbellTossellByrneKortum_HFES_(2011).pdf&quot;&gt;fewer user-generated errors&lt;/a&gt;. Paper forms, by contrast, must defer validation to a process (as opposed to a protocol). To put this in context: United States tax forms occasionally require that citizens &amp;ldquo;add line X to Y and place the result in field Z.&amp;rdquo; A scripting language such as Javascript or PHP could forego this computation entirely and ensure that users have filled in the fields as required. In a paper-based system, filers will either need to amend their returns after they are submitted or risk a lawsuit&amp;mdash;and, hence, a terrible citizen experience&amp;mdash;on behalf of the IRS.&lt;/p&gt;
+    &lt;p&gt;Finally, with regards to accessibility. Digital media provides both blessings and curses: blessings in that, when &amp;ldquo;properly&amp;rdquo; coded&amp;mdash;in, say, a &lt;a href=&quot;http://www.abookapart.com/products/mobile-first&quot;&gt;mobile-first&lt;/a&gt;, &lt;a href=&quot;http://www.abookapart.com/products/responsive-web-design&quot;&gt;responsive&lt;/a&gt;, &lt;a href=&quot;http://www.amazon.com/Adaptive-Web-Design-Experiences-Progressive/dp/098358950X&quot;&gt;progressively enhanced&lt;/a&gt;, &lt;a href=&quot;http://www.amazon.com/Designing-Web-Standards-3rd-Edition/dp/0321616952&quot;&gt;standards-compliant&lt;/a&gt;, way&amp;mdash;digital forms can promote &lt;a href=&quot;http://civicdesigning.org/wp-content/uploads/2014/08/jets_0202-summers.pdf&quot;&gt;access and input across a variety of devices&lt;/a&gt;, including screen readers; curses in that digital media can sometimes present accessibility barriers due to &lt;a href=&quot;http://oxidedesign.com/wp-content/uploads/2013/07/FVAP-Final-Report-20110520.pdf&quot;&gt;incompatible document versions and/or slow load times&lt;/a&gt;. &lt;/p&gt;
+  &lt;/section&gt;
+  &lt;section&gt;
+    &lt;h1&gt;In practice&lt;/h1&gt;
+    &lt;p&gt;Having briefly covered the &lt;em&gt;potential&lt;/em&gt; differences between analog and digital forms, let us consider the &lt;em&gt;actual&lt;/em&gt; ways in which designers, developers, and governments shape the design of forms in the real world. &lt;/p&gt;
+    &lt;p&gt;Form design has long been the muse of the user-centered design community. Many design professionals&lt;a id=&quot;fn-10-a&quot; href=&quot;#fn-10&quot; class=&quot;footnote-button&quot; rel=&quot;footnote&quot;&gt;10&lt;/a&gt; have searched for practical, repeatable methods to aid their community in the creation of usable, accessible and appealing forms in real-world contexts. While none of their advice works exceptionally well outside of the books, presentations, and articles in which they appear, a few themes do emerge&amp;mdash;particularly around user behaviors, the appeal of &amp;ldquo;plain language,&amp;rdquo; and the tenets of information design.&lt;/p&gt;
+    &lt;p&gt;The conventional wisdom of user-centered design suggests that designers create personas in order to better understand their users. Because the process of creating personas involves both research and constant maintenance (in order for the personas to stay relevant), however, personas are often generally created on an as-needed, case-by-case&lt;a id=&quot;fn-11-a&quot; href=&quot;#fn-11&quot; class=&quot;footnote-button&quot; rel=&quot;footnote&quot;&gt;11&lt;/a&gt; basis. At the bare minimum, designer Dana Chisnell employs what she calls &amp;ldquo;&lt;a href=&quot;http://oxidedesign.com/wp-content/uploads/2013/07/FVAP-Final-Report-20110520.pdf&quot;&gt;The Universal Tenets of North American form fillers&lt;/a&gt;&lt;a id=&quot;fn-12-a&quot; href=&quot;#fn-12&quot; class=&quot;footnote-button&quot; rel=&quot;footnote&quot;&gt;12&lt;/a&gt;.&amp;rdquo; &lt;/p&gt;
+    &lt;p&gt;By her estimation: &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;People want to fill in every blank. To do that, they will often guess what they need to do rather than read the instructions.&lt;/li&gt;
+      &lt;li&gt;If it is a high-risk form (e.g. forms related to health, money or voting) people will leave a field blank rather than put in something that might be wrong. They then hope someone will contact them rather than disqualify the form.&lt;/li&gt;
+      &lt;li&gt;If the instructions are separate from the form, people are highly unlikely to refer to them unless they believe not doing so will prevent them from an important goal. (For example, taxpayers are highly likely to consult instructions or an expert when they have questions about their tax returns.)&lt;/li&gt;
+      &lt;li&gt;People do not notice or comprehend text that is in reverse type (e.g., white on black).&lt;/li&gt;
+      &lt;li&gt;ALL UPPERCASE TEXT is difficult for people to read and process. It slows them down.&lt;/li&gt;
+      &lt;li&gt;Too much emphasis (bold, italics or underlining) will cause form-fillers to ignore all emphasis.&lt;/li&gt;
+      &lt;li&gt;Anything numbered is part of a process or procedure.&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;Chisnell concludes that these form-filling behaviors apply to all forms&amp;mdash;whether they are rendered on paper, as a PDF, or as a web page.&lt;/p&gt;
+
+
+      &lt;img src=&quot;/images/issue_1/paper_cut/formbox.jpg&quot; class=&quot;formbox&quot; /&gt;
+
+
+    &lt;p&gt;The next theme emerging from the user-centered-design literature is the universal appeal of &amp;ldquo;plain language.&amp;rdquo; Plain language consultant Ginny Redish defines the phrase functionally: &amp;ldquo;Plain language means users can find what they need, understand what they find, and use the information to meet their goals.&amp;rdquo; In an interview, she &lt;a href=&quot;http://rosenfeldmedia.com/blogs/a-web-for-everyone/universal-plain-language-an-interview-with-ginny-redish/&quot;&gt;adds&lt;/a&gt; &amp;ldquo;It&amp;rsquo;s not dumbing content down; it&amp;rsquo;s meeting users where they are and saving them time.&amp;rdquo;&lt;/p&gt;
+    &lt;p&gt;The last theme designers stress is the importance of information design, a good example of which comes from AIGA&amp;rsquo;s &lt;a href=&quot;http://www.eac.gov/assets/1/Page/EAC_Effective_Election_Design.pdf&quot;&gt;Effective Designs for the Administration of Federal Elections&lt;/a&gt;: &amp;ldquo;As simple as highway signs may appear to be, lengthy studies of color, type size and arrangement, and materials have been completed to ensure their clarity and ease of use.&amp;rdquo; In order to better understand the information-conveying properties of the elements comprising forms, designers have studied everything from typography to page layout and flow. Thankfully, Matthew Butterick&amp;rsquo;s &lt;a href=&quot;http://practicaltypography.com/&quot;&gt;Practical Typography&lt;/a&gt; and Luke Wroblewski&amp;rsquo;s &lt;a href=&quot;http://www.amazon.com/Web-Form-Design-Filling-Blanks/dp/1933820241&quot;&gt;Web Form Design&lt;/a&gt; give us a good place to start.&lt;/p&gt;
+    &lt;p&gt;As for the development of forms, plenty of products and frameworks exist to help expedite this process. Tools such as &lt;a href=&quot;http://www.wufoo.com/&quot;&gt;WuFoo&lt;/a&gt; and &lt;a href=&quot;http://www.google.com/google-d-s/createforms.html&quot;&gt;Google Forms&lt;/a&gt; provide a user-friendly means of creating simple forms that are hosted on a third-party server. More technically savvy designers can reach for tools such as &lt;a href=&quot;http://getbootstrap.com/&quot;&gt;Bootstrap&lt;/a&gt;, &lt;a href=&quot;http://foundation.zurb.com/&quot;&gt;Foundation&lt;/a&gt;, or &lt;a href=&quot;http://formalize.me/&quot;&gt;Formalize&lt;/a&gt;, which allow for more customization, but require familiarity with code and the ability to host the form itself.&lt;/p&gt;
+    &lt;p&gt;A final resource worth considering is government-provided guidance for optimum understanding. Examples include the United States Election Assistance Commission&amp;rsquo;s &lt;a href=&quot;http://www.eac.gov/testing_and_certification/2005_vvsg.aspx&quot;&gt;ballot design guidance to the States&lt;/a&gt; and the United Kingdom&amp;rsquo;s Government Digital Services&amp;rsquo; &lt;a href=&quot;https://www.gov.uk/service-manual/user-centred-design/resources/patterns/index.html&quot;&gt;design patterns&lt;/a&gt;. &lt;/p&gt;
+  &lt;/section&gt;
+  &lt;section&gt;
+    &lt;h1&gt;In sum&lt;/h1&gt;
+    &lt;p&gt;Affordances, design principles, development frameworks, and government design patterns serve as a great jumping off point for designers looking to improve the citizen experience by way of government forms. However, as mentioned earlier, a discussion focused solely on the visual aspect of forms would do a disservice to the potential experience that forms provide.&lt;/p&gt;
+    &lt;p&gt;Design may well be a rendering of intent, but forms themselves offer the promise of something more: giving not only government a place to render its intentions but citizens as well. Davies and Chisnell&amp;rsquo;s work with the FVAP explored how various elements work in tandem to affect a citizen&amp;rsquo;s ability to both make sense of a government&amp;rsquo;s request and coherently render a response of his own. In order to paint a more complete picture of the citizen and government-employee experiences that information ecosystems facilitate, designers must understand the sensemaking processes that contribute to each party&amp;rsquo;s manifestation of intent.&lt;/p&gt;
+  &lt;/section&gt;
+&lt;/section&gt;
+&lt;section&gt;
+  &lt;h1&gt;Processes and sensemaking&lt;/h1&gt;
+  &lt;p&gt;In late June 2014, I received a call from Michele Palermo, a state employee working with the Rhode Island Department of Education (RIDE). Michele asked if my teammates and I would be interested in helping the department in its management of the state&amp;rsquo;s pre-kindergarten (pre-K) lottery program. I instantly affirmed our interest and inquired as to the nature of the program itself. &lt;/p&gt;
+  &lt;p&gt;Over the next thirty minutes, Michelle explained the situation in great detail. At that time, RIDE operated a small, pre-K program for which the demand greatly outstripped the supply. To account for this discrepancy, the department required families interested in the pre-K program to take part in a state-run lottery program. Families &lt;strong&gt;applied&lt;/strong&gt; for the lottery by filling out and returning paper applications to any of the 18 classrooms in which pre-K was offered. RIDE then &lt;strong&gt;verified&lt;/strong&gt; applicants and &lt;strong&gt;ran the lottery&lt;/strong&gt; by randomly selecting applicants. As Michele described it to me, everything about the program seemed straightforward. &lt;/p&gt;
+  &lt;p&gt;The only problem was the none-too-small matter of scale. Over the next four years, I learned, RIDE planned to quadruple the number of classrooms in which it offered pre-K. This would likely increase the number of people applying to the program by at least that amount, making their current processes untenable. Michele hoped to leverage RIDE&amp;rsquo;s partnership with Code for America to help design a pre-K lottery system that could accommodate this increase in scale.&lt;/p&gt;
+  &lt;p&gt;After thanking Michele for her time, I hung up and immediately forwarded my notes to my teammate, Jeff, via email. Days later, he and I divided the processes of the program into two groups that just so happened to neatly correspond with opportunities to improve the the citizen experience and the government-employee experience: application/verification and selection.&lt;/p&gt;
+  &lt;p&gt;As I mentioned, families applying to the pre-K lottery program did so using paper applications. This meant that if a family was interested in applying to more than one classroom, they had to fill out multiple applications and hand deliver them to each classroom. Jeff and I proposed that RIDE offer families a digital application whereby parents could apply to multiple classrooms with the click of a button. Using a digital application also allowed us RIDE to programmatically verify whether or not applicants were qualified to apply for a classroom in the first place. &lt;/p&gt;
+  &lt;p&gt;I quickly sketched the application flow to give Michele and her colleagues a picture of what that might look like.&lt;/p&gt;
+  &lt;figure class=&quot;track-site-width&quot;&gt;
+    &lt;img src=&quot;/images/issue_1/paper_cut/ride-forms.png&quot; /&gt;
+    &lt;figcaption&gt;Wireframes show how parents might enter the lottery.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;p&gt;To improve the government employee experience, Jeff worked with Michele to hash out the details of the actual algorithm by which RIDE manually ran its lottery. Within a few weeks we had a working prototype that took a list of applicants and returned both a list of &amp;ldquo;accepted&amp;rdquo; students as well as a list of &amp;ldquo;waitlisted&amp;rdquo; students. Again, I sketched a series of pictures to explain what that process might look like when conducted through a web application.&lt;/p&gt;
+  &lt;figure class=&quot;track-site-width&quot;&gt;
+    &lt;img src=&quot;/images/issue_1/paper_cut/ride-forms-2.png&quot; /&gt;
+    &lt;figcaption&gt;Wireframes show how Department of Education employees might administer the lottery.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;p&gt;While our collaboration with RIDE is ongoing, the story thus far provides good insight into the procedural aspect of the design of information ecosystems. Notice, for example, how little the design of actual forms has come into play: Most of the design work on our part has involved helping RIDE identify and articulate its own processes. By scrutinizing and digitizing these processes, we have provided the Department with a way to scale its program with minimal effort.&lt;/p&gt;
+  &lt;p&gt;So how can form designers apply this approach more generally? Through the identification and reorchestration of an information ecosystem&amp;rsquo;s processes.&lt;/p&gt;
+  &lt;section&gt;
+    &lt;h1&gt;Identification&lt;/h1&gt;
+    &lt;p&gt;As defined earlier, processes are any of a number of steps taken to either (1) aid in the function of a protocol or (2) transform data as it moves through an information ecosystem. This definition prompts the following &amp;ldquo;discovery&amp;rdquo; questions for designers working to improve processes: &lt;em&gt;What are the processes comprising this information ecosystem? And how do they currently work?&lt;/em&gt;&lt;/p&gt;
+    &lt;p&gt;A designer&amp;rsquo;s ability to answer these questions is heavily dependent on the degree to which the processes comprising the information ecosystem in question are &amp;ldquo;open.&amp;rdquo; Open&lt;a id=&quot;fn-13-a&quot; href=&quot;#fn-13&quot; class=&quot;footnote-button&quot; rel=&quot;footnote&quot;&gt;13&lt;/a&gt;, in this sense of the word, is essentially the degree to which processes are both identifiable&amp;mdash;that is, discrete&amp;mdash;and articulable&amp;mdash;that is, explainable in plain language. &lt;/p&gt;
+    &lt;p&gt;In the case of our collaboration with RIDE, Michele was very forthcoming in helping to identify and explain the ways in which the pre-K lottery worked, including everything from distributing lottery applications and collecting them to verifying the legitimacy of applicants, running the lottery, and notifying lottery winners. After reviewing and agreeing upon our understanding of these processes, Jeff and I looked for ways to express them in pseudocode (e.g. &amp;ldquo;if x happens, then y&amp;rdquo;). This helped us determine the degree to which we might automate (and therefore scale and improve) them.&lt;/p&gt;
+    &lt;p&gt;The easiest way to identify an ecosystem&amp;rsquo;s processes is to simply ask: ask government employees, one at a time, how their organization works. Designer Craig Mod suggests a useful heuristic for this in his post &lt;a href=&quot;https://medium.com/message/how-are-apps-made-e9fe65448670&quot;&gt;How Are Apps Made?&lt;/a&gt;:&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Enumerate the unknowns. Make a list. Making known the unknowns you now know will surface the other unknowns, the important unknowns, the truly devastating unknowns . &amp;hellip; You want to unearth answers as quickly as possible. Nothing else matters if your question marks irrecoverably break you. Do not procrastinate in their excavation.&lt;/p&gt;
+      &lt;cite&gt;Craig Mod&lt;/cite&gt;
+    &lt;/blockquote&gt;
+    &lt;p&gt;But identifying unknowns can be difficult because what is &amp;ldquo;unknown&amp;rdquo; can change depending on the person with whom you are speaking. This is a dynamic that Content Strategist Erin Kissane explains in her post on &lt;a href=&quot;https://the-pastry-box-project.net/erin-kissane/2013-june-12&quot;&gt;The Pastry Box&lt;/a&gt;. She says: &lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;If you are coming from outside the usual pool of people who work in Field X, you&amp;rsquo;re going to hit [cultural] barriers. Some of those barriers need to be rattled and eventually demolished, but some are just about a lack of shared context. Open secrets are the hardest ones to crack when you&amp;rsquo;re coming in from outside, because no one will take you aside and whisper them in your ear. They&amp;rsquo;re the air everyone else is breathing.&lt;/p&gt;
+      &lt;cite&gt;Erin Kissane&lt;/cite&gt;
+    &lt;/blockquote&gt;
+    &lt;p&gt;One way designers can elucidate an organization&amp;rsquo;s shared secrets is to have that organization take part in an activity known as experience mapping. Experience mapping is a design facilitation exercise that &lt;a href=&quot;http://www.jonkolko.com/writingAbductiveThinking.php&quot;&gt;teaches participants (including designers themselves) through the act of co-creation&lt;/a&gt;. In &lt;a href=&quot;http://mappingexperiences.com/&quot;&gt;their free guide on the subject&lt;/a&gt;, the user experience consultancy Adaptive Path explains their rationale for incorporating experience mapping into their process:&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;The activity of mapping builds knowledge and consensus across teams and stakeholders, and the map as artifact allows you to create and support better customer experiences. In short, experience mapping is a journey that can involve and impact your entire organization.&lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;p&gt;An example of an experience map for a customer of Rail Europe planning a trip. Notice how the journey happens horizontally, but the details of what the customer is thinking, feeling, and doing appear vertically.&lt;/p&gt;
+    &lt;p&gt;Experience maps are a useful tool to incorporate into any design process if for no other reason than people generally do a better job at thinking spatially than they do temporally. The act of mapping an experience provides an opportunity for teams to not just recall, but to collaboratively identify, articulate, and plan for the improvement of their processes.&lt;/p&gt;
+  &lt;/section&gt;
+  &lt;section&gt;
+    &lt;h1&gt;Orchestration: automation, remediation, and choreography&lt;/h1&gt;
+    &lt;p&gt;But identification alone is not enough. To successfully improve the processes comprising an information ecosystem, designers need to orchestrate their improvement through calculated acts of automation, remediation, and choreography. &lt;/p&gt;
+    &lt;p&gt;Both automation and remediation are tasks with which user-centered designers and developers will be familiar. Returning again to my team&amp;rsquo;s collaboration with RIDE: After Michele explained the algorithm by which her Department ran its lottery&amp;mdash;a process that involved compiling spreadsheets in Microsoft Excel and executing a series of commands in Microsoft Access&amp;mdash;Jeff developed a script that accepted a spreadsheet of applications as input and generated from it a spreadsheet of &amp;ldquo;winning&amp;rdquo; and &amp;ldquo;waitlisted&amp;rdquo; applicants. This effectively automated RIDE&amp;rsquo;s lottery. Our team&amp;rsquo;s long-term plan, though, involves working with RIDE and the individual districts to remediate their processes: to inscribe analogous versions of their current workflows inside new media. &lt;/p&gt;
+    &lt;p&gt;But both automation and remediation are a cakewalk when compared to changing an organization&amp;rsquo;s choreography, or the way in which its members work together in service of a shared goal. Changes to that choreography have the potential to incite what learning theorist Donald Schon refers to as &amp;ldquo;dynamic conservatism,&amp;rdquo; or collective resistance to change. In his book, Beyond The Stable State, Schon explains:&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;The power of social systems over individuals becomes understandable, I think, only if we see that social systems provide for their members not only sources of livelihood, protection against outside threat and the promise of economic security, but a framework of theory, values, and related technology which enables individuals to make sense of their lives. Threats to the social system threaten this framework.&lt;/p&gt;
+      &lt;cite&gt;Donald Schon, Beyond the Stable State&lt;/cite&gt;
+    &lt;/blockquote&gt;
+    &lt;p&gt;Changing an organization&amp;rsquo;s choreography requires a concerted effort, which means that Designers looking to do this should have a great deal of patience. More than patience, though, designers should plan to start small and grow their influence over time. This is done by focusing on one-on-one interactions (to build trust), modelling the behaviors we want others to reflect (to prove the viability of a certain way of being), and eventually leading an organization to &amp;ldquo;design in the open&amp;rdquo; (to facilitate shared sensemaking). &lt;/p&gt;
+    &lt;p&gt;Designers seeking to change an organization&amp;rsquo;s choreography must also explicitly identify the people who exercise authority over the processes they wish to change. This includes the design process itself. &amp;ldquo;User experience design isn&amp;rsquo;t limited to human-computer interaction; it includes human-human interaction as well,&amp;rdquo; &lt;a href=&quot;http://www.uxbooth.com/articles/a-user-experience-business-of-one/&quot;&gt;says&lt;/a&gt; user experience design consultant Jenny Grinblo. &lt;q&gt;[Our] customers are &lt;em&gt;anyone&lt;/em&gt; for whom we&amp;rsquo;re creating value, including:&lt;/q&gt;
+    &lt;blockquote&gt;
+      &lt;ul&gt;
+	&lt;li&gt;Clients and stakeholders, who rely on us for our expertise;&lt;/li&gt;
+	&lt;li&gt;End-users, who rely on us to represent their needs;&lt;/li&gt;
+	&lt;li&gt;Software developers, who rely on us to clarify interactions and interfaces;&lt;/li&gt;
+	&lt;li&gt;Other members of the design team, who rely on us for user research; and, finally,&lt;/li&gt;
+	&lt;li&gt;Colleagues in quality assurance, who rely on us for specifications and clarifications.&amp;rdquo;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/blockquote&gt;
+    &lt;p&gt;Echoing this sentiment in an email, former Code for America Fellow Jake Solomon explained how one form he was designing&amp;mdash;a form notifying someone that their food stamps had been discontinued&amp;mdash;had at least six different stakeholders with at least six different goals:&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;ul&gt;
+	&lt;li&gt;Citizens, who mostly read the form&lt;/li&gt;
+	&lt;li&gt;Eligibility workers, who typically write the form&lt;/li&gt;
+	&lt;li&gt;Citizen advocates, who may use the form to sue the County&lt;/li&gt;
+	&lt;li&gt;The County, who may need to use the form to protect themselves from Citizen advocates&lt;/li&gt;
+	&lt;li&gt;The imaging team, who scans all paperwork &lt;/li&gt;
+	&lt;li&gt;The woman who currently designs the forms&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/blockquote&gt;
+    &lt;p&gt;Successfully improving that form involved looking at it from the perspective of each of its six users and thinking about what kinds of content would help serve their goals and inform their behavior. &lt;/p&gt;
+    &lt;p&gt;Generally speaking, as the number of people interacting with a certain process or protocol&amp;mdash;and, hence, a designer&amp;mdash;increases, the complexity of the design effort increases. In response, both a designer&amp;rsquo;s agency (her conception of viable solutions) and her authority (her ability to implement a viable solution) decreases. And while a reduced ability to impact change may feel like a bad thing, it is actually one of the more beautiful parts of our democracy: No one &amp;ldquo;dictates,&amp;rdquo; so everyone has a fair shot in the marketplace of ideas&amp;mdash;including actors outside government. &lt;/p&gt;
+    &lt;p&gt;Civic hackers have consistently worked to turn government constraints into business opportunities by leveraging what author Robin Sloan calls &amp;ldquo;&lt;a href=&quot;http://www.robinsloan.com/note/flip-flop/&quot;&gt;the flip-flop&lt;/a&gt;,&amp;rdquo; or &amp;ldquo;the process of pushing a work of art or craft from the physical world to the digital world and back again &amp;mdash; maybe more than once.&amp;rdquo; Take, for example, CalFresh and So Clean. &lt;/p&gt;
+    &lt;p&gt;Frustrated with the process of signing up for CalFresh, San Francisco&amp;rsquo;s food stamps program, former Code for America Fellows Jake Solomon and Dave Guarino reverse-engineered it. Their web application, &lt;a href=&quot;https://github.com/codeforamerica/calfresh-and-so-clean&quot;&gt;CalFresh and So Clean&lt;/a&gt;, allows citizens to submit a drastically simplified online version of the program&amp;rsquo;s paper enrollment form. Behind the scenes, the online form simply uses the data that citizens provide to pre-fill a PDF version of the paper form and then faxes it over to the San Francisco Health Services Agency. Thus, CalFresh and So Clean improves citizen experience while leaving the government&amp;rsquo;s workflow completely unchanged. &lt;/p&gt;
+    &lt;p&gt;Solomon and Guarino&amp;rsquo;s work serves as a fascinating example of the ways in which designers can leverage digital and media literacy to independently reinterpret not only the protocols but also the processes behind information ecosystems. &lt;/p&gt;
+  &lt;/section&gt;
+  &lt;section&gt;
+    &lt;h1&gt;The beat of our own drum&lt;/h1&gt;
+    &lt;p&gt;Process improvement necessarily involves collaboration between not only the people who are currently animating an information ecosystem but also those who are explicitly brought in as &amp;ldquo;change agents.&amp;rdquo; Change agents are people whose express purpose is facilitating process change. Change agents are capable of doing this precisely because they do not fulfill a role or value their worth relative to an information ecosystem as it stands today. They are therefore not susceptible to becoming dynamically conservative (though dynamic conservatism may stand in their way)&amp;mdash;they&amp;rsquo;re inherently progressive. &lt;/p&gt;
+    &lt;p&gt;Being a change agent is difficult because it is generally unclear if change is indeed for the better. For this reason, the best change agents act as facilitators rather than dictators by helping people communicate with one another, explain their processes and share their &amp;ldquo;open&amp;rdquo; secrets. Through the co-creation of design artifacts, change agents help government actors see the potential in, and plan for the ramifications of, opening up their processes and translating them across new media.&lt;/p&gt;
+    &lt;p&gt;And that&amp;rsquo;s an unequivocally good thing, because as government infrastructure becomes increasingly open, it allows citizens both inside and outside government to leverage their knowledge of government&amp;rsquo;s structure as a platform towards new conceptions of public value&lt;/p&gt;
+  &lt;/section&gt;
+&lt;/section&gt;
+&lt;section&gt;
+  &lt;h1&gt;A platform for innovation&lt;/h1&gt;
+  &lt;p&gt;In April of this year, the Federal Department of Education (DoE) published on its website a Request for Information (RFI) asking developers how they might use a DoE API in the context of higher education data and student aid programs. Word of the opportunity&amp;mdash;to essentially weigh in on the DoE's data policies&amp;mdash;spread quickly around the Code for America office and soon enough a small cadre of designers and developers formed a working group to consider future use cases of such an API.&lt;/p&gt;
+  
+ &lt;aside class=&quot;api&quot;&gt;
+    &lt;p&gt;API stands for application programing interface. An API is a specification (created on a per-application basis) that provides developers with limited access to the data and functionality held by an application. APIs allow developers to forego another application's graphical user interface (GUI) to access its resources.&lt;/p&gt;
+  &lt;/aside&gt;
+
+  &lt;p&gt;In our estimation, the DoE&amp;rsquo;s RFI posed the following thought exercise: What applications might developers dream up if given an API that allowed them to access the DoE's data about the institutions of higher education as well as student aid programs? While the pragmatist in me longed to understand the technical, monetary, and political details of how such an API might come into existence, the DoE&amp;rsquo;s RFI allowed our group to conveniently ignore those issues for the time being. Regardless of its feasibility, the DoE wanted to know what the private sector might dream up.&lt;/p&gt;
+ 
+  &lt;p&gt;And dream we did. As an organization built around the conception of &amp;ldquo;government by the people, for the people in the 21st century,&amp;rdquo; the Code for America working group focused its efforts on the needs of college-bound students. After an hour-long discussion, we arrived at two problems confronting students for which access to data might help: finding the &amp;ldquo;perfect&amp;rdquo; college and completing the Free Application for Federal Student Aid (FAFSA).&lt;/p&gt;
+  &lt;p&gt;If the Department of Education provided developers with a window into the data they collected about colleges and universities&amp;mdash;for example, the algorithm powering a college&amp;rsquo;s net price calculator, the average scholarship awarded to students, the average cost of attendance, the average class size, etc.&amp;mdash;then developers could create interfaces to colleges and universities that employed robust filtering mechanisms. Interfaces similar to, say, Kayak.com would allow students to more effectively &amp;ldquo;window shop&amp;rdquo; based on the metrics they deemed valuable.&lt;/p&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/images/issue_1/paper_cut/kayak.png&quot; /&gt;
+    &lt;figcaption&gt;What if students could leverage a kayak.com interface to find schools that interested them?&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;p&gt;The Code for America working group also saw ways to improve the experience of completing the FAFSA. Our first thought was to provide a simpler interface for the application, similar to the wizard-like interface employed by Intuit's TurboTax software. Upon further reflection, though, we wondered if it was possible to avoid making students file the FAFSA altogether. Why not? The IRS already holds much of the information that the FAFSA requires, and families can already download their tax information as a PDF from the IRS website. Why couldn&amp;rsquo;t the FAFSA come to students pre-completed?&lt;/p&gt;
+  &lt;p&gt;Eventually our working group &lt;a href=&quot;https://docs.google.com/a/codeforamerica.org/document/d/1vyyTyV-OB65t7hUqm0I5UAgGwTbqRK0peASPUS9hH-8/edit#&quot;&gt;sketched and documented&lt;/a&gt; the interactions that publicly available data might inspire and sent our report off to the DoE. And ever since then I've wondered, &amp;ldquo;What might civic engagement look like if government were able to provide increased access to everything it knew about its citizenry? What interfaces might we create?&amp;rdquo; In order to find out, government will inevitably need to deal with the technical, political and monetary debt that the DoE was able to conveniently ignore in their Request for Information. &lt;/p&gt;
+  &lt;p&gt;Many companies are rising to the challenge, including &lt;a href=&quot;https://www.seamlessdocs.com/&quot;&gt;Seamless Docs&lt;/a&gt; and &lt;a href=&quot;http://captricity.com/&quot;&gt;Captricity&lt;/a&gt;. Seamless Docs helps governments migrate their forms online with an interface that is heavily inspired by Google Docs. Users simply upload a PDF form and Seamless Docs automatically detects its form fields. What's more, Seamless Docs provides a tool that translates PDF forms into responsive webpages, providing citizens the ability to access and submit government forms from any device. While the responsive translation is not 100% perfect, Seamless Docs does help governments seize the opportunities that digital media presents&amp;mdash;no change agents required.&lt;/p&gt;
+  &lt;p&gt;Captricity, on the other hand, is conceptually the reverse of Seamless Docs. While it also offers government employees the ability to upload a PDF form and tag its fields, Captricity's real strength lies in its ability to quickly and easily pull data from stacks of paper forms. As the company's CEO, Kuang Chen, explained to me over the phone: &amp;ldquo;Paper forms have affordances that are important for government: they're cheap, they're reproducible and they don&amp;rsquo;t run on batteries. We're working to bridge the gap between the accessibility of paper forms vs. the accessibility of the data those forms collect.&amp;rdquo; I personally have not had a chance to put Captricity through its paces, but Kuang claims that it is as easy as tagging a form and providing Captricity with a way to access completed copies of paper forms. Governments can provide that access, he explains, by either uploading scanned images, routing their mail to a PO box (where Captricity scans them) or having end users send in pictures of their completed forms.&lt;/p&gt;
+  &lt;p&gt;Companies like Seamless Docs and Captricity are imminently applicable because they address a known problem: government needs to digitize its current workflow. But these companies only scratch the surface of the potential provided by today's communication technologies. In order to see conceive of new futures, we have to be brave enough to ask open-ended questions.&lt;/p&gt;
+  &lt;section&gt;
+    &lt;h1&gt;Through the looking glass&lt;/h1&gt;
+    &lt;p&gt;What might the future of forms look like if we didn&amp;rsquo;t have to worry about how to make it come about? Consider the following ideas:&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+	&lt;h2&gt;What if forms came to us pre-filled?&lt;/h2&gt;
+	&lt;p&gt;Pre-filled forms are not an entirely novel concept; &lt;a href=&quot;http://www.npr.org/2013/04/15/177341740/taxes-without-returns-pipe-dream-or-possibility&quot;&gt;pre-filled tax&lt;/a&gt; returns have been proposed before. What if all forms (except ballots, of course!) came to us pre-filled? This would effectively change forms from a place where citizens provide information&amp;mdash;information to which the government very likely already has access in the first place&amp;mdash;to a place where they review information and manifest their intentions.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+	&lt;h2&gt;What if the government released an API alongside each of its forms?&lt;/h2&gt;
+	&lt;p&gt;If governments provided a way to access the individual components of forms (such as their instructions, their question/response pairs, their validation formulae / due dates, and their accepted payment methods), then developers could easily remix those forms however they saw fit. Essentially, this would open the market for third parties (i.e. companies like Intuit) to wrap beautiful interfaces around any forms, not just tax forms.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+	&lt;h2&gt;Why is it universally easier for citizens to give up personal data than to get that data back?&lt;/h2&gt;
+	&lt;p&gt;While &lt;a href=&quot;http://www.open311.org/&quot;&gt;some&lt;/a&gt; &lt;a href=&quot;http://www.healthit.gov/patients-families/blue-button/about-blue-button&quot;&gt;government&lt;/a&gt; &lt;a href=&quot;http://energy.gov/data/green-button&quot;&gt;departments&lt;/a&gt; are making strides in giving citizens access to their own data, those departments are presently the exception rather than the rule. Why? Public schools seem to indoctrinate us to this concept from day one: Data about student performance is handed over to teachers, departments, schools, districts, states, and the federal government, but individual students would likely find it difficulty to get access to that data. Why? If we are ever going to engage in the co-creation or co-conception of public value, citizens need just as much access to their data as the state.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+	&lt;h2&gt;How do we facilitate a more conversational approach to government? &lt;/h2&gt;
+	&lt;p&gt;Forms are an intermediary. In a perfect world, we would have &lt;em&gt;conversations&lt;/em&gt; with our government&lt;/p&gt;
+	&lt;p&gt;Applications like &lt;a href=&quot;http://prompt.ly/&quot;&gt;prompt.ly&lt;/a&gt;, an SMS platform for government, are a great start, because they allow government agencies to meet citizens where they're at. Similarly, efforts like the &lt;a href=&quot;https://github.com/EFForg/congress-forms&quot;&gt;&lt;abbr title=&quot;Electronic Frontier Foundation&quot;&gt;EFF&lt;/abbr&gt;&amp;rsquo;s Congress Forms &lt;abbr title=&quot;Application Programing Interface&quot;&gt;API&lt;/abbr&gt;&lt;/a&gt; make it easier for citizens to contact their representatives. But how can we &lt;a href=&quot;https://medium.com/@mikeconnery/better-listening-through-civic-technology-736c3af399ac&quot;&gt;facilitate listening&lt;/a&gt; rather than merely creating new mouthpieces with which to talk &lt;em&gt;at&lt;/em&gt; one another?&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;Designing information ecosystems is not a matter of collecting data or running it through some bureaucratic process. Rather, it is a matter of considering the ways in which each component of the system&amp;mdash;protocols, processes and the platform itself&amp;mdash;aids in the sense-making process. It is only through transparency and collaboration that we can work together to evaluate our current conceptions of public value and propose new ones altogether.&lt;/p&gt;
+  &lt;/section&gt;
+&lt;/section&gt;
+&lt;section&gt;
+  &lt;h1&gt;All together, now&lt;/h1&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;The old ways we were taught to interact with government&amp;mdash;by voting, writing letters, calling our representatives&amp;mdash;aren&amp;rsquo;t enough anymore. It&amp;rsquo;s time to break the mold altogether, to embrace a new, technologically aided peer-to-peer way of solving our problems.&lt;/p&gt;
+    &lt;cite&gt;Gavin Newsom, Citizenville&lt;/cite&gt;
+  &lt;/blockquote&gt;
+  &lt;p&gt;I have a confession to make&amp;mdash;one that I hope hasn&amp;rsquo;t been too apparent up until now. When I began drafting what would eventually become this article, I didn&amp;rsquo;t quite know where I wanted to end up. I knew that I wanted to write about forms because, as far as I could tell, nearly every Code for America project utilized them. More selfishly, I wanted to write about forms because &amp;ldquo;form design&amp;rdquo; gave me a pragmatic lens through which to continue &lt;a href=&quot;http://www.uxbooth.com/articles/digital-literacy-part-1-cadence/&quot;&gt;my study of digital literacy&lt;/a&gt;. In the end, however, I have written this article in an attempt to look past forms to the ways in which user-centered design aids in the practices of government and citizen sensemaking. By breaking form design down into &amp;ldquo;protocol, process, and platform&amp;rdquo; design&lt;a id=&quot;fn-14-a&quot; href=&quot;#fn-14&quot; class=&quot;footnote-button&quot; rel=&quot;footnote&quot;&gt;14&lt;/a&gt;, I hope to have shown something about how these elements relate to one another that might inform future design endeavors. &lt;/p&gt;
+  &lt;p&gt;In his doctoral thesis &amp;ldquo;&lt;a href=&quot;http://www.elasticspace.com/downloads/Making_Visible_Timo_Arnall_2014.pdf&quot;&gt;Making Visible&lt;/a&gt;,&amp;rdquo; designer Timo Arnall argues that designers cannot competently work with a medium until they thoroughly understand that medium's physical properties. Industrial designers, for example, will test a material's bendiness, its strength, its resistance to heat, scratching, etc. As far as I can tell, there are no equivalent tests for civic technology. In going about our work, civic technologists must borrow from user-centered design in order to determine the degree to which our work has utility and cultural resonance (i.e. &amp;ldquo;popularity&amp;rdquo;). If design is a rendering of intent, then user-centered design is a way of determining whether or not those intentions are coherently rendered.&lt;/p&gt;
+  &lt;p&gt;Are forms really, then, the best way to help people manifest their understanding or share their perspective, one directional as they are? &lt;/p&gt;
+  &lt;p&gt;Numerous people, from both the academie and the public sector, have acknowledged &lt;a href=&quot;http://www.theatlantic.com/politics/archive/2013/08/the-outsiders-how-can-millennials-change-washington-if-they-hate-it/278920/&quot;&gt;the curious ways&lt;/a&gt; in which millennials approach civic participation. &lt;a href=&quot;http://ypp.dmlcentral.net/sites/all/files/publications/Learning%20Through%20Practice_Kligler-Shresthova_Oct-2-2012.pdf&quot;&gt;A paper authored by Neta Kligler-Vilenchik and Sangita Shresthova&lt;/a&gt; describes this more formally as &amp;ldquo;participatory culture civics.&amp;rdquo; From their paper: &lt;q&gt;[These are] organizations rooted within 'participatory cultures:' cultures which share a strong sense of community, have relatively low barriers to participation, informal mentorship structures and support for creating and sharing one&amp;rsquo;s creations (Jenkins et. al., 2006).&lt;/q&gt; Participatory civic cultures are exemplified by organizations like Code for America as well as designers like Molly, Jake and Dave. Taken together, these actors are indicative of a larger movement in which citizens celebrate the cultural change capacities of digital, media and design literacy.&lt;/p&gt;
+  &lt;p&gt;This is something that the future of government forms hangs upon. In &lt;a href=&quot;http://civicdesigning.org/wp-content/uploads/2014/02/Ballot-simplicity-Chisnell-CCD.pdf&quot;&gt;a white paper released earlier this year&lt;/a&gt;, Dana Chisnell tells a story in which Washington State Ballot Designers invited representatives from companies that manufactured voting machines to observe usability tests of existing ballot designs:&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;After some negotiating, representatives from vendors accompanied a staff designer on a tour of counties to conduct usability test sessions on existing ballot designs. From this evidence, the vendors implemented support for better ballots. The importance of design literacy in the elections division in Washington is not to be missed: the project took persistence, planning, and commitment from both sides.&lt;/p&gt;
+    &lt;cite&gt;Dana Chisnell&lt;/cite&gt;
+  &lt;/blockquote&gt;
+  &lt;p&gt;In this case, Washington ballot designers leveraged not only their design literacy but also their position as potential customers to become de facto change agents in relation to their vendors&amp;mdash;the opposite of the normal relationship between government and its vendors.&lt;/p&gt;
+  &lt;p&gt;The way to ultimately improve the design of government forms, then, is to both invite participation and take part in design-mediated conversations. Examples of this abound. Dana Chisnell&amp;rsquo;s recently launched &lt;a href=&quot;http://centerforcivicdesign.org/&quot;&gt;Center for Civic Design&lt;/a&gt; applies design thinking not only to ballots themselves but to all aspects of the voting experience&amp;mdash;essentially improving the entire ecosystem in which ballot design is embedded. Moreover, Chisnell is not content with keeping her knowledge to herself. Chisnell&amp;rsquo;s &amp;ldquo;&lt;a href=&quot;http://centerforcivicdesign.org/fieldguides/&quot;&gt;field guides&lt;/a&gt;&amp;rdquo; encourage participation by distilling the salient, actionable elements from her research and fieldwork. &lt;/p&gt;
+  &lt;p&gt;Sharing the best practices of form design and promulgating design literacy should not be the remit of any one entity&amp;mdash;in fact, it can&amp;rsquo;t be. The only way for citizens to participate in the design conversations necessary to responsibly govern a 21st century democracy is to acknowledge that these conversations are happening; join in; and share their findings. Through the creation of participatory civic cultures centered around design literacy, civic hackers and government employees alike can work to improve the citizen experience of forms once and, quite literally, for all.&lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;footnotes&quot;&gt;
+  &lt;h1&gt;Footnotes&lt;/h1&gt;
+  &lt;ol&gt;
+    &lt;li class=&quot;footnote&quot; id=&quot;fn-1&quot;&gt;
+      &lt;p&gt;As suggested by Catherine Bracy, Director of Community Organizing at Code for America, in &lt;a href=&quot;https://www.ted.com/talks/catherine_bracy_why_good_hackers_make_good_citizens?language=en&quot;&gt;her TED Talk&lt;/a&gt;&lt;/p&gt;
+      &lt;a href=&quot;#fn-1-a&quot; class=&quot;reversefootnote&quot;&gt;Return&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;footnote&quot; id=&quot;fn-2&quot;&gt;
+      &lt;blockquote&gt;
+        &lt;p&gt;Government 2.0 is not a new kind of government; it is government stripped down to its core, rediscovered and reimagined as if for the first time.&lt;/p&gt;
+        &lt;cite&gt;&lt;a href=&quot;http://chimera.labs.oreilly.com/books/1234000000774/ch02.html&quot;&gt;Tim O&amp;rsquo;Reilly&lt;/a&gt;&lt;/cite&gt;
+      &lt;/blockquote&gt;
+      &lt;a href=&quot;#fn-2-a&quot; class=&quot;reversefootnote&quot;&gt;Return&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;footnote&quot; id=&quot;fn-3&quot;&gt;
+      &lt;blockquote&gt;
+        &lt;p&gt;Hacker actions &amp;hellip; are usually either in legally dubious waters or at the cusp of new legal meaning. Hence, they make visible emerging or contentious dilemmas.&lt;/p&gt;
+        &lt;cite&gt;&lt;a href=&quot;http://gabriellacoleman.org/Coleman-Coding-Freedom.pdf&quot;&gt;Coleman, 2012&lt;/a&gt;&lt;/cite&gt;
+      &lt;/blockquote&gt;
+      &lt;a href=&quot;#fn-3-a&quot; class=&quot;reversefootnote&quot;&gt;Return&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;footnote&quot; id=&quot;fn-4&quot;&gt;
+      &lt;p&gt;I believe &lt;a href=&quot;http://sunlightfoundation.com/blog/2012/03/22/the-missing-open-data-policy/&quot;&gt;this passage from the Sunlight Foundation&lt;/a&gt; does my conception justice:&lt;/p&gt;
+      &lt;blockquote&gt;
+        &lt;p&gt;Now, the question &amp;ldquo;where is all of our information&amp;rdquo; can be a tricky one to answer, but agencies can rely on threshold definitions. For example, any database with a maintenance cost over a certain number should be listed. Any information specifically described in a statute governing the agency should be described. Any form, report, or data described in the regulations governing the agency should be described. Whether the information is usually (or never) accessible via FOI request should be noted, and whether bulk data is available through a central portal should be spelled out as well.&lt;/p&gt; 
+      &lt;/blockquote&gt;
+      &lt;a href=&quot;#fn-4-a&quot; class=&quot;reversefootnote&quot;&gt;Return&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;footnote&quot; id=&quot;fn-5&quot;&gt;
+      &lt;p&gt;An information ecosystem will &lt;em&gt;never&lt;/em&gt; be purely digital. In their most elegant conception, information ecosystems utilize digital protocols with analog fallbacks. They're driven by open, digital processes in all matters requiring conditional logic and employ people only where matters of wisdom and/or judgement are concerned. They store data on an open, redundant, digital platform.&lt;/p&gt;
+      &lt;a href=&quot;#fn-5-a&quot; class=&quot;reversefootnote&quot;&gt;Return&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;footnote&quot; id=&quot;fn-6&quot;&gt;
+      &lt;p&gt;While I don&amp;rsquo;t have the space to re-print the report here, I highly encourage readers to review it&amp;mdash;specifically pages 22-39. Not only it is great to see how this form evolves over two years, it&amp;rsquo;s also great to see how Davies and his team educate the FVAP about each change they&amp;rsquo;ve proposed.&lt;/p&gt;
+      &lt;a href=&quot;#fn-6-a&quot; class=&quot;reversefootnote&quot;&gt;Return&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;footnote&quot; id=&quot;fn-7&quot;&gt;
+      &lt;p&gt;Specifically the work of visual psychologist James J. Gibson&lt;/p&gt;
+      &lt;a href=&quot;#fn-7-a&quot; class=&quot;reversefootnote&quot;&gt;Return&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;footnote&quot; id=&quot;fn-8&quot;&gt;
+      &lt;p&gt;Designer Don Norman first introduced this concept in his book The Design of Everyday Things.&lt;/p&gt;
+      &lt;a href=&quot;#fn-8-a&quot; class=&quot;reversefootnote&quot;&gt;Return&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;footnote&quot; id=&quot;fn-9&quot;&gt;
+      &lt;p&gt;Problems such as the fact that radio buttons have no paper equivalent affects the instructional design of forms as well. Interaction designers are often taught to emphasize &amp;ldquo;recognition over recall,&amp;rdquo; to prioritize a user&amp;rsquo;s pattern-matching capabilities before their ability to recall information such as printed instructions. Thus, radio buttons can serve as a &amp;ldquo;better&amp;rdquo; way to solicit user input than a disconnected arrow because users ostensibly don't need to be taught how to use them (digital media has a bit of an unfair advantage in this regard because, unlike paper, it is inherently interactive). Finally, whereas paper forms are forced to present instructions as static blocks of text, digital forms can use both animation and &amp;ldquo;progressive disclosure&amp;rdquo; to provide engaging instruction at a user&amp;rsquo;s request.&lt;/p&gt;
+      &lt;a href=&quot;#fn-9-a&quot; class=&quot;reversefootnote&quot;&gt;Return&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;footnote&quot; id=&quot;fn-10&quot;&gt;
+      &lt;p&gt;The work of Dana Chisnell, Drew Davies, Caroline Jarrett, Matteo Penzo, Whitney Quesenbery, Ginny Redish, Jared Spool, and Luke Wroblewski is exemplary.&lt;/p&gt;
+      &lt;a href=&quot;#fn-10-a&quot; class=&quot;reversefootnote&quot;&gt;Return&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;footnote&quot; id=&quot;fn-11&quot;&gt;
+      &lt;p&gt;IDEO, for example, designed &lt;a href=&quot;http://www.ideo.com/images/uploads/news/pdfs/Metropolis_IDEO_govt_June2011_1.pdf&quot;&gt;a set of personas&lt;/a&gt; for the Social Security Administration that included &amp;ldquo;Passengers,&amp;rdquo; &amp;ldquo;Explorers,&amp;rdquo; &amp;ldquo;Pathfinders,&amp;rdquo; and &amp;ldquo;Bypasses.&amp;rdquo;&lt;/p&gt;
+      &lt;a href=&quot;#fn-11-a&quot; class=&quot;reversefootnote&quot;&gt;Return&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;footnote&quot; id=&quot;fn-12&quot;&gt;
+      &lt;p&gt;Chisnell introduces these in &lt;a href=&quot;http://oxidedesign.com/wp-content/uploads/2013/07/FVAP-Final-Report-20110520.pdf&quot;&gt;her recommendations to the FVAP&lt;/a&gt;. I inquired as to her source and was told in an email: &amp;ldquo;The research is mostly in the realm of technical communication, but there is a lot related in the world of forms design. Some of the items in the list below also come from the &lt;a href=&quot;http://civicdesigning.org/fieldguides/&quot;&gt;Field Guides To Ensuring Voter Intent&lt;/a&gt;.&amp;rdquo;&lt;/p&gt;
+      &lt;a href=&quot;#fn-12-a&quot; class=&quot;reversefootnote&quot;&gt;Return&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;footnote&quot; id=&quot;fn-13&quot;&gt;
+      &lt;p&gt;Open processes lie at the crossroads of the principles guiding both Open Government and Open Source Software.&lt;/p&gt;
+      &lt;a href=&quot;#fn-13-a&quot; class=&quot;reversefootnote&quot;&gt;Return&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;footnote&quot; id=&quot;fn-14&quot;&gt;
+      &lt;p&gt;I&amp;rsquo;m certainly not the first person to think about interaction design as a compromise between three coppering models. &lt;a href=&quot;icles/DesigningUsableForms.pdf&quot;&gt;Caroline Jarrett&lt;/a&gt; proposes a framework that breaks form design into perceptual design (layout), conversational design (questions and answers) and relationship design. More generally, Don Norman suggests that design represents a marriage between the System Model, a user&amp;rsquo;s Mental Model, and the Representation Model (or GUI).&lt;/p&gt;
+      &lt;a href=&quot;#fn-14-a&quot; class=&quot;reversefootnote&quot;&gt;Return&lt;/a&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/section&gt;</description>
+        <pubDate>Sun, 21 Sep 2014 00:00:00 -0700</pubDate>
+        <link>http://civicquarterly.com/article/paper-cut-the-bleeding-edge-of-government-forms</link>
+        <guid isPermaLink="true">http://civicquarterly.com/article/paper-cut-the-bleeding-edge-of-government-forms</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Open Data Should Serve More Than Good Ideas</title>
+        <description>&lt;section&gt;
+    &lt;p&gt;&lt;span class=&quot;first-letter&quot;&gt;W&lt;/span&gt;alk through any park or college campus and you will quickly notice that dirt-worn pathways lay between and connect the sidewalks to indicate pedestrian shortcuts. These desire lines show an initial and repeated optimization that lays outside the paved paths. These ad-hoc networks are either adopted and paved or left to individual use, muddy in rain, undocumented and unsupported by groundskeeping. There are entire city (and even national) road networks that started as &amp;ldquo;cowpaths&amp;rdquo; and, through continued and growing use, became official infrastructure &amp;mdash; roads and highways &amp;mdash; which are relied on as a matter of business.&lt;/p&gt;
+    &lt;p&gt;This road network is the infrastructure that governments develop and maintain for residents to build communities and businesses to conduct commercial transactions. Information systems are the next generation of government infrastructure. Tim O’Reilly has referred to &amp;ldquo;Government as a Platform,&amp;rdquo; identifying these services as a durable backbone on which we must be able to rely on to build our numerous and diverse applications.&lt;/p&gt;
+  &lt;/section&gt;
+  &lt;section&gt;
+    &lt;h1&gt;Opening data: prototype or infrastructure&lt;/h1&gt;
+    &lt;p&gt;Open data started as simple file sharing. In my own city of Washington, D.C., the data catalog was a large and easy-to-read list of datasets available in common formats that included metadata and the date the dataset was last updated—many of the common features of popular open data websites. Through a series of public contests and challenges, developers downloaded and used these files to build compelling applications that demonstrated the future of government information technology. In 2008 and 2009, apps iLive.at, ParkItDC and 311.socialdc.org made use of thse open datasets and launched to critical recognition. In 2014, none of these apps is still online.&lt;/p&gt;
+    &lt;p&gt;The fact that not one of the three contest-winning apps is currently available shows that the apps were interesting desire lines, but they were not a sustainable platform of information on which citizens could rely. They were indicative of the tendency to build simple, one-time applications that unfortunately miss the next, important step of becoming part of the platform they seek to improve. I have heard similar examples from other cities where civic hackers created well-meaning and well-built applications that sit so far outside of existing government operations that they require continued manual upkeep by volunteers. Commonly, these services simply stop receiving updates.&lt;/p&gt;
+    &lt;p&gt;Unfortunately, even the original Washington, D.C. data catalog has atrophied. Based on my own experience looking for more recent crime data, the data catalog has not been updated since approximately September 2013. I learned that the internal system was being migrated and the transformation process had faltered. It was not a priority to get the data back online. Making crime data available on the portal was too removed from the actual job of analyzing and responding to crime to make a separate feed available with any defined timeline.&lt;/p&gt;
+    &lt;p&gt;Despite the amazing capabilities technology can deliver, Government is foremost responsible for serving people, not technology. Everything governments do in the end is to serve the communities that elect, fund and are generally employed by these governments. When most civil engineers are designing roads, they do not apply grandiose design aesthetics and creativity. They pull open their codes and standards, determine the appropriate concrete mixture, depth and rebars based on specifications and get to work developing the road that fits the expected and reliable operations that citizens need.&lt;/p&gt;
+    &lt;figure class=&quot;track-site-width&quot;&gt;
+      &lt;img src=&quot;/images/issue_1/open_data_should/desire_paths.jpg&quot; alt=&quot;&quot; /&gt;
+      &lt;figcaption&gt;Illustration by Livien Yin&lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/section&gt;
+  &lt;section&gt;
+    &lt;h1&gt;Operational open data is sustainable open data&lt;/h1&gt;
+    &lt;p&gt;Numerous studies, reports, and community practices have made the case that open data has great potential benefit to residents and businesses, but open data also creates the ability for government agencies to more easily share data between one another and improve efficiency and decision making.&lt;/p&gt;
+    &lt;p&gt;Governments have a difficult and important job. As entities, they are not enamored with new techniques or file formats. Attempting to create one-way extracts of data can cause strain that will eventually give way with the pressure of time, money or personnel. Proponents of new technologies need to understand these processes and costs. Technologies must be aligned with government operations if they are to ever become part of the government platform.&lt;/p&gt;
+    &lt;p&gt;For open data to move from a desire line in the grass to a part of the stable infrastructure, we need to design it from the beginning to be practical, sustainable and operational. Open data needs to be the way government operates, and it needs to be part of the living systems that manage and process the data as part of day-to-day business.&lt;/p&gt;
+    &lt;p&gt;Techniques for opening data &amp;mdash; such as extract, transform and load (ETL) &amp;mdash; allow for tremendous flexibility to explore new paths and opportunities. This lets governments observe and understand desire lines of how people want to use data. They can then make the decision to allow these datasets to become part of the supported network or to indicate a necessary redesign to accommodate new uses.&lt;/p&gt;
+    &lt;p&gt;I have seen and built many ETL tools and community applications that
+worked outside of government. While fast and agile to implement, they are not
+ongoing and durable platforms for information access.&lt;/p&gt;
+    &lt;p&gt;We should encourage and work directly with government technical staff to
+specify and prototype application programming interfaces (APIs). APIs provide a
+sustainable infrastructure for bringing prototypes to adoption. By developing an
+external interface to a service, the provider of that service is making a
+contract with end-users that is independent of what tools are being used on
+their side. Further, an API makes clear to developers that this is a service the
+government provider intends to support.&lt;/p&gt;
+    &lt;p&gt;Data service prototypes can be quickly built with one set of tools. If
+successful, they can be migrated to existing government infrastructure while
+maintaining the same interface on which applications already rely. Just as
+observing the increasing erosion of a well-worn dirt path gives insight as to
+how it is used, usage analytics can help prioritize development and
+operationalization of government open data. APIs can measure analytics and usage
+more precisely than flat files. Who knows how many dirt paths there are among
+the flat files provided by governments?&lt;/p&gt;
+  &lt;/section&gt;
+  &lt;section&gt;
+    &lt;h1&gt;Desire to collaboratively craft&lt;/h1&gt;
+    &lt;p&gt;In my six years of living in Washington, D.C., and watching the open
+government movement surge, I have observed the positive growth and excitement of
+people within government to collaborate in public. Publishing an open data
+catalog and running a competition is a start, but government representatives are
+eager to talk about ideas, share code and data and hear where they can open
+their infrastructure for new types of creative developments.&lt;/p&gt;
+    &lt;p&gt;While much of the commercial web is focused on applications, common and
+open access via APIs is often ignored. Perhaps this is one case where it is
+better that the government moves slowly and is just now entering the time of the
+programmable web. For those who volunteer their time and technical expertise
+hoping to improve their communities, remember that open data and the apps it
+powers should not be thought experiments. Work closely with governments to
+create services people need and platforms to power them.&lt;/p&gt;
+  &lt;/section&gt;
+</description>
+        <pubDate>Sun, 21 Sep 2014 00:00:00 -0700</pubDate>
+        <link>http://civicquarterly.com/article/open-data-should-serve-more-than-good-ideas</link>
+        <guid isPermaLink="true">http://civicquarterly.com/article/open-data-should-serve-more-than-good-ideas</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ETL for America</title>
+        <description>&lt;p class=&quot;introduction&quot;&gt;&lt;span class=&quot;first-letter&quot;&gt;N&lt;/span&gt;ow a few months out the intense tunnel of &lt;a href=&quot;http://codeforamerica.org/apps/cityvoice/&quot;&gt;my Code for America fellowship year&lt;/a&gt;, I&amp;rsquo;ve had a bit more time and mental space to sip coffee by Lake Merritt (Oakland, CA) and reflect on issues of technology and government.&lt;/p&gt;
+&lt;section&gt;
+  &lt;h1&gt;The &amp;ldquo;experience problem&amp;rdquo;&lt;/h1&gt;
+  &lt;p&gt;A mantra oft-repeated at Code for America is &amp;ldquo;build interfaces to government that are simple, beautiful, and easy to use.&amp;rdquo;&lt;/p&gt;
+  &lt;p&gt;And that should be a core concern: bringing human-centered design and userexperience thinking to government interfaces is important work. Governments all too often tend to privilege legal accuracy over creating an accessible, enjoyable experience for constituents.&lt;/p&gt;
+  &lt;p&gt;But this &amp;ldquo;experience problem&amp;rdquo; is really only one piece of the civic tech puzzle.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+  &lt;h1&gt;Data integration: a whole other can of worms&lt;/h1&gt;
+  &lt;p&gt;Many of the problems governments confront with technology are fundamentally about data integration: taking the disparate data sets living in a variety of locations and formats (SQL Server databases, exports from ancient ERP systems and Excel spreadsheets on people's desktops, for example) and getting them into a place and shape where they're actually usable.&lt;/p&gt;
+  &lt;p&gt;Among backend software engineers, these are generically referred to as ETL problems, or extract-transform-load operations. The notion is that integrating data involves three distinct steps:&lt;/p&gt;
+  &lt;ol class=&quot;etl-definition&quot;&gt;
+    &lt;li&gt;
+      &lt;img src=&quot;/images/issue_1/etl_for_america/extract.png&quot; alt=&quot;&quot;&gt;
+      &lt;strong&gt;Extract:&lt;/strong&gt; getting data out of some system where it is stored and where updates are made&lt;/li&gt;
+    &lt;li&gt;
+      &lt;img src=&quot;/images/issue_1/etl_for_america/transform.png&quot; alt=&quot;&quot;&gt;
+      &lt;strong&gt;Transform:&lt;/strong&gt; reformatting and reshaping the data in ways that make it usable&lt;/li&gt;
+    &lt;li&gt;
+      &lt;img src=&quot;/images/issue_1/etl_for_america/load.png&quot; alt=&quot;&quot;&gt;
+      &lt;strong&gt;Load:&lt;/strong&gt; putting the transformed data into another system, generally something where analyzing it or combining it with other data is easy for end-users
+    &lt;/li&gt;
+  &lt;/ol&gt;
+  &lt;p&gt;For example: The mayor's staff wants to put a simple dashboard on the city’s web site with building permits data. They'd like a map and some simple counts to provide residents a view of economic development in the city.&lt;/p&gt;
+  &lt;ol&gt;
+    &lt;li&gt;
+      Extract: Building permits are put into software procured in 2002 called PermitManager. IT staff write a script that nightly runs permit_manager_export.exe, which dumps the data (permits.csv) to a shared drive.
+    &lt;/li&gt;
+    &lt;li&gt;
+      Transform: The permit data system only contains addresses in raw text, but coordinates (latitude and longitude) are needed to put them on a map. The GIS team writes a script that every morning takes permits.csv and adds latitude and longitude columns based on the address text.&lt;/li&gt;
+    &lt;li&gt;
+      Load: The city has an open data portal that can generate a web map for any data set on it containing latitude and longitude. Staff write a script that uploads permits-with-latitude-and-longitude.csv to the open data portal every afternoon and then embed the auto-generated web map into the city's web site.&lt;/li&gt;
+  &lt;/ol&gt;
+  &lt;p&gt;I&amp;rsquo;ve explained ETL in this way plenty of times, and almost everyone I talk to finds it easy to understand. They just hadn&amp;rsquo;t thought about it that much. And one of the foibles here is that many government staff – particularly those at the high level – lack the basic technical language to be able to understand the structure of the ETL problem and find and evaluate the resources out there.&lt;/p&gt;
+  &lt;p&gt;The fact that I can go months hearing about &quot;open data&quot; without a single mention of ETL is a problem. ETL is the piping in your house: it's how you open data.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+  &lt;h1&gt;ETL: a hard ^#&amp;@ing problem&lt;/h1&gt;
+  &lt;p&gt;Did you notice in the example above that there are three mentions of city staff writing scripts? Wasn&amp;rsquo;t that weird? Why didn&amp;rsquo;t they use some software that does this automatically? If you search for ETL online, perhaps the most common question is whether to use an existing ETL software/framework or write custom ETL code from scratch.&lt;/p&gt;
+  &lt;p&gt;This is at the core of the ETL issue: because the very problem of data integration is about bringing together disparate, heterogeneous systems, there isn&amp;rsquo;t really a clear-winner, &quot;out-of-the-box&quot; solution.&lt;/p&gt;
+  &lt;p&gt;Couple that with the fact that governments seem to have an almost vampiric thirst for clearly market-dominating, &quot;enterprise&quot; solutions – there’s an old adage that &quot;no one ever got fired for hiring IBM&quot; –  and you find yourself confronting a scary truth.&lt;/p&gt;
+  &lt;p&gt;What's more, ETL is actually an intrinsically difficult technical problem. Palantir, a company which is very good with data, essentially solves the problem by throwing engineers at it. They have a fantastic analyticinfrastructure at their core, and they pay large sums of money to very smart people to do one thing: write scripts to get clients' data into that infrastructure.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+  &lt;h1&gt;What is to be done?&lt;/h1&gt;
+  &lt;p&gt;First a note on what not to do: &lt;em&gt;do not try to buy your way out of this.&lt;/em&gt; There is no single solution, no single piece of software you can buy for this. Anyone who tells you otherwise is is being disingenuous. And if you pay someone external to integrate 100% of your data right now, you will be paying them again in 11 days when you change one tiny part of your system. And I bet it will be at a mark-up.&lt;/p&gt;
+  &lt;p&gt;Here are a few paths forward I see as promising:&lt;/p&gt;
+  &lt;ol&gt;
+    &lt;li&gt;Build internal capacity&lt;/li&gt;
+    &lt;li&gt;Hire smart, intellectually curious people who learn what they need to know to solve a problem. In fact, don&amp;rsquo;t even start by hiring. Many of these people probably already work with you but are hobbled by the inability to, say, install new software on their desktop or by cultural norms that make it unacceptable to try out new things.&lt;/li&gt;
+    &lt;li&gt;Because data integration is a difficult problem with new challenges each time it is approached, the best way to tackle it is to have motivated people who love solving new problems and give them the tools they need (whether that's training, software or a supervisorial mandate). To borrow and modify a phrase, &amp;ldquo;Let them run Linux.&amp;rdquo;&lt;/li&gt;
+  &lt;/ol&gt;
+  &lt;p&gt;As Andrew Clay Shafer &lt;a href=&quot;http://www.youtube.com/watch?v=P_sWGl7MzhU&quot;&gt;has said&lt;/a&gt;, &amp;ldquo;If you're not building a learning organization, you're losing to one.&amp;rdquo; And I can tell you, governments, for the most part, are not building learning organizations right now.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+  &lt;h1&gt;Explore the resources out there&lt;/h1&gt;
+  &lt;p&gt;I&amp;rsquo;ve started putting together &lt;a href=&quot;https://github.com/daguar/ideas/issues/17&quot;&gt;a list of ETL resources for government&lt;/a&gt;. I'd love contributions. With just the knowledge of the acronym &quot;ETL&quot; and the basics of what it means, you can start to think about how you can solve your own data problems with smaller tools. (Windows Job Scheduler is analogous to In-N-Out's secret sauce.)&lt;/p&gt;
+  &lt;p&gt;Because it's a generic problem not limited to government, there are many other resources out there. The data journalism folks have done a great job of writing tutorials that make existing tools accessible, and we need to work with them and follow suit.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+  &lt;h1&gt;Collaborate!&lt;/h1&gt;
+  &lt;p&gt;Every organization dealing with data is dealing with these problems, and governments need to work together on this. This is where open source presents invaluable process lessons for government: working collaboratively and in the open can help everyone achieve a higher level of data proficiency.&lt;/p&gt;
+  &lt;p&gt;Whether it's putting your scripts on GitHub, asking and answering questions on the &lt;a href=&quot;http://opendata.stackexchange.com/&quot;&gt;Open Data StackExchange&lt;/a&gt; or helping others on &lt;a href=&quot;http://support.socrata.com/forums&quot;&gt;the Socrata support forums&lt;/a&gt;, collaboration is a key lever for this government technology problem.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+  &lt;h1&gt;Wanted: government data plumbers&lt;/h1&gt;
+  &lt;p&gt;In part, I'm writing this as a call to arms: all of us doing data work inside government need to start writing more publicly about our processes, hacks and tools and collaborating across boundaries.&lt;/p&gt;
+  &lt;p&gt;From pure policy wonks who know just enough VBA to get stuff done to the Unix geeks whose awk knowledge strikes fear into the hearts of most sysadmins, we need to communicate more, and more publicly.&lt;/p&gt;
+  &lt;p&gt;I&amp;rsquo;ve coded for America. It was hard, hard work, but incredibly fulfilling. So to my fellow plumbers I say: let&amp;rsquo;s ETL for America.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+</description>
+        <pubDate>Sun, 21 Sep 2014 00:00:00 -0700</pubDate>
+        <link>http://civicquarterly.com/article/etl-for-america</link>
+        <guid isPermaLink="true">http://civicquarterly.com/article/etl-for-america</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
