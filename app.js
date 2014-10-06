@@ -64,6 +64,7 @@ app.post('/pay', cors(corsOptions), function(req, res, next) {
     card: req.body.stripeToken,
     email: req.body.email,
     plan: config.stripePlan,
+    coupon: req.body.offerCode,
     metadata: metadata
   }, function(err, customer) {
     if (err) {
