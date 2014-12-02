@@ -16,8 +16,6 @@ var stripe = require('stripe')(config.stripeSecret);
 
 var app = express();
 
-var CORSWhiteList = [];
-
 var corsOptions = {
   origin: function(origin, callback) {
     //callback(null, _.contains(CORSWhiteList, origin));
@@ -38,47 +36,70 @@ app.use(session({
   resave: true,
 }));
 
-// CSRF
-/*app.use(function(req, res, next) {
-  if (_.contains(csrfExclude, req.path)) return next();
-  else csrf(req, res, next);
-});*/
-
-
 app.get('/status', function(res, res, next) {
   return res.json('yo');
 })
 
 app.post('/pay', cors(corsOptions), function(req, res, next) {
 
-  var metadata = {
-    name: req.body.name,
-    address_1: req.body.addressFirst,
-    address_2: req.body.addressSecond,
-    city: req.body.city,
-    zip: req.body.zip,
-    issue: req.body.whichIssue
-  };
+  var issue = req.body.issue, metadata = {};
 
   var customer = {
     card: req.body.stripeToken,
-    email: req.body.email,
-    plan: config.stripePlan,
-    metadata: metadata
-  }
+    email: req.body.email
+  };
 
-  if (req.body.offerCode != '') {
-    customer.coupon = req.body.offerCode.toUpperCase();
-  }
+  if (issue != 'na') {
+    metadata = {
+      name: req.body.name,
+      address_1: req.body.addressFirst,
+      address_2: req.body.addressSecond,
+      city: req.body.city,
+      zip: req.body.zip,
+      issue: req.body.whichIssue
+    };
 
-  stripe.customers.create(customer, function(err, customer) {
-    if (err) {
-      return res.json(err.raw);
+    customer.plan = config.stripePlan;
+    customer.metadata = metadata;
+
+    if (req.body.offerCode != '') {
+      customer.coupon = req.body.offerCode.toUpperCase();
     }
-    else {
-      return res.json(customer);
-    }
-  });
+
+    stripe.customers.create(customer, handleStripeCreateResponse);
+  }
+  else {
+    metadata = {
+      name: req.body.name,
+      issue: 'donation'
+    };
+
+    var donationAmount = req.body['donation-amount'] * 100;
+
+    customer.metadata = metadata;
+
+    stripe.customers.create(customer, function(err, customer) {
+      if (err) {
+        return res.json(err.raw);
+      }
+      else {
+        stripe.charges.create({
+            amount: donationAmount,
+            currency: 'usd',
+            customer: customer.id
+          }, handleStripeCreateResponse);
+      }
+    });
+  }
+});
+
+function handleStripeCreateResponse(err, customer) {
+  if (err) {
+    return res.json(err.raw);
+  }
+  else {
+    return res.json(customer);
+  }
 });
 
 
@@ -88,20 +109,6 @@ app.use(function(req, res, next) {
     err.status = 404;
     next(err);
 });
-
-/// error handlers
-
-// // development error handler
-// // will print stacktrace
-// if (app.get('env') === 'development') {
-//   app.use(function(err, req, res, next) {
-//     res.status(err.status || 500);
-//     res.render('error', {
-//       message: err.message,
-//       error: err
-//     });
-//   });
-// }
 
 // production error handler
 // no stacktraces leaked to user
