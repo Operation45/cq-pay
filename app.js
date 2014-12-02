@@ -66,15 +66,7 @@ app.post('/pay', cors(corsOptions), function(req, res, next) {
       customer.coupon = req.body.offerCode.toUpperCase();
     }
 
-    stripe.customers.create(customer, function(err, customer) {
-      if (err) {
-        return res.json(err.raw);
-      }
-      else {
-        return res.json(customer);
-      }
-    });
-
+    stripe.customers.create(customer, handleStripeCreateResponse);
   }
   else {
     metadata = {
@@ -86,27 +78,28 @@ app.post('/pay', cors(corsOptions), function(req, res, next) {
 
     customer.metadata = metadata;
 
-
     stripe.customers.create(customer, function(err, customer) {
-      console.log('customer', customer);
-      console.log('err', err);
-
       if (err) {
         return res.json(err.raw);
       }
       else {
-
         stripe.charges.create({
-          amount: donationAmount,
-          currency: 'usd',
-          customer: customer.id
-
-        });
-        return res.json(customer);
+            amount: donationAmount,
+            currency: 'usd',
+            customer: customer.id
+          }, handleStripeCreateResponse);
       }
     });
   }
+});
 
+function handleStripeCreateResponse(err, customer) {
+  if (err) {
+    return res.json(err.raw);
+  }
+  else {
+    return res.json(customer);
+  }
 });
 
 
