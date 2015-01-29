@@ -14,14 +14,9 @@ var session = require('express-session');
 var config = require('./config');
 var stripe = require('stripe')(config.stripeSecret);
 
-var app = express();
+var errorHandlers = require('./errorHandlers');
 
-var corsOptions = {
-  origin: function(origin, callback) {
-    //callback(null, _.contains(CORSWhiteList, origin));
-    callback(null, true);
-  }
-}
+var app = express();
 
 app.set('port', config.port);
 app.set('env', config.env);
@@ -36,11 +31,18 @@ app.use(session({
   resave: true,
 }));
 
-app.get('/status', function(res, res, next) {
-  return res.json('yo');
-})
+/*
+app.use(errorHandlers.handle404);
+app.use(errorHandlers.handle500);
+*/
 
-app.post('/pay', cors(corsOptions), function(req, res, next) {
+app.get('/status', function(res, res, next) {
+  return res.json('i be fine');
+});
+
+app.post('/donate', processDonation);
+
+app.post('/pay', function(req, res, next) {
 
   var issue = req.body.issue, metadata = {};
 
@@ -69,9 +71,33 @@ app.post('/pay', cors(corsOptions), function(req, res, next) {
     stripe.customers.create(customer, handleStripeCreateResponse);
   }
   else {
+    processDonation(req);  
+  }
+});
+
+function processDonation(req, res, next) {
+
+    console.log('processing donation for', req.body.name);
+    console.log('request body', req.body);
+
     metadata = {
       name: req.body.name,
       issue: 'donation'
+    };
+    
+    console.log('st length', req.body.stripeToken.length);
+    var stripeToken;
+    if (req.body.stripeToken.length > 1) {
+      lastTokenIndex = req.body.stripeToken.length -1;
+      stripeToken = req.body.stripeToken[lastTokenIndex];
+    }
+    else {
+      stripeToken = req.body.stripeToken;
+    }
+
+    var customer = {
+      card: stripeToken,
+      email: req.body.email
     };
 
     var donationAmount = req.body['donation-amount'] * 100;
@@ -90,36 +116,17 @@ app.post('/pay', cors(corsOptions), function(req, res, next) {
           }, handleStripeCreateResponse);
       }
     });
-  }
-});
+}
 
-function handleStripeCreateResponse(err, customer) {
+function handleStripeCreateResponse(err, sucess) {
   if (err) {
-    return res.json(err.raw);
+    return JSON.stringify(err.raw);
   }
   else {
-    return res.json(customer);
+    return JSON.stringify(sucess);
   }
-});
+};
 
-
-/// catch 404 and forwarding to error handler
-app.use(function(req, res, next) {
-    var err = new Error('Not Found');
-    err.status = 404;
-    next(err);
-});
-
-// production error handler
-// no stacktraces leaked to user
-app.use(function(err, req, res, next) {
-  res.status(err.status || 500).json({
-    message: err.message,
-    error: {}
-  });
-});
-
-
-app.listen(app.get('port'), function() {
+app.listen(app.get('port'), '0.0.0.0', function() {
   console.log("Running at localhost:" + app.get('port'))
 });
