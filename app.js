@@ -31,23 +31,20 @@ app.use(session({
   resave: true,
 }));
 
-/*
-app.use(errorHandlers.handle404);
-app.use(errorHandlers.handle500);
-*/
-
-app.get('/', function(req, res, next) {
-  return res.redirect('https://www.civicquarterly.com');
-});
-
-app.get('/status', function(req, res, next) {
-  return res.json('i be fine');
-});
-
+app.get('/', redirectToCivicQuarterly); 
+app.get('/status', status); 
 app.post('/donate', processDonation);
+app.post('/pay', processSubscription); 
 
-app.post('/pay', function(req, res, next) {
+function redirectToCivicQuarterly(req, res) {
+ return res.redirect('https://www.civicquarterly.com');
+}
 
+function status(req, res) {
+  return res.json('200 A-OK!');
+}
+
+function processSubscription(req, res) {
   var issue = req.body.issue, metadata = {};
 
   var customer = {
@@ -55,7 +52,6 @@ app.post('/pay', function(req, res, next) {
     email: req.body.email
   };
 
-  if (issue != 'na') {
     metadata = {
       name: req.body.name,
       address_1: req.body.addressFirst,
@@ -73,13 +69,9 @@ app.post('/pay', function(req, res, next) {
     }
 
     stripe.customers.create(customer, handleStripeCreateResponse);
-  }
-  else {
-    processDonation(req);  
-  }
-});
+}
 
-function processDonation(req, res, next) {
+function processDonation(req, res) {
 
     console.log('processing donation for', req.body.name);
     console.log('request body', req.body);
@@ -130,6 +122,9 @@ function handleStripeCreateResponse(err, sucess) {
     return JSON.stringify(sucess);
   }
 };
+
+app.use(errorHandlers.handle404);
+app.use(errorHandlers.handle500);
 
 app.listen(app.get('port'), '0.0.0.0', function() {
   console.log("Running at localhost:" + app.get('port'))
