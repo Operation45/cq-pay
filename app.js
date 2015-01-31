@@ -36,7 +36,11 @@ app.use(errorHandlers.handle404);
 app.use(errorHandlers.handle500);
 */
 
-app.get('/status', function(res, res, next) {
+app.get('/', function(req, res, next) {
+  return res.redirect('https://www.civicquarterly.com');
+});
+
+app.get('/status', function(req, res, next) {
   return res.json('i be fine');
 });
 
