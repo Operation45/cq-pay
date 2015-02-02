@@ -18,6 +18,7 @@ var errorHandlers = require('./errorHandlers');
 
 var app = express();
 
+app.disable('x-powered-by');
 app.set('port', config.port);
 app.set('env', config.env);
 app.use(logger('dev'));
@@ -31,9 +32,15 @@ app.use(session({
   resave: true,
 }));
 
+app.use(function(req, res, next) {
+  console.log('%s %s', req.method, req.url);
+  console.log('\tbody', req.body);
+  next();
+});
+
 app.get('/', redirectToCivicQuarterly); 
 app.get('/status', status); 
-app.post('/donate', processDonation);
+// app.post('/donate', processDonation);
 app.post('/pay', processSubscription); 
 
 function redirectToCivicQuarterly(req, res) {
@@ -52,23 +59,26 @@ function processSubscription(req, res) {
     email: req.body.email
   };
 
-    metadata = {
-      name: req.body.name,
-      address_1: req.body.addressFirst,
-      address_2: req.body.addressSecond,
-      city: req.body.city,
-      zip: req.body.zip,
-      issue: req.body.whichIssue
-    };
+  metadata = {
+    name: req.body.name,
+    address_1: req.body.addressFirst,
+    address_2: req.body.addressSecond,
+    city: req.body.city,
+    zip: req.body.zip,
+    issue: req.body.whichIssue
+  };
 
-    customer.plan = config.stripePlan;
-    customer.metadata = metadata;
+  customer.plan = config.stripePlan;
+  customer.metadata = metadata;
 
-    if (req.body.offerCode != '') {
-      customer.coupon = req.body.offerCode.toUpperCase();
-    }
+  if (req.body.offerCode != '') {
+    customer.coupon = req.body.offerCode.toUpperCase();
+  }
 
-    stripe.customers.create(customer, handleStripeCreateResponse);
+  stripe.customers.create(customer, function(err, success) {
+    var apiResponse = handleStripeCreateResponse(err, success);
+    res.send(apiResponse);
+  });
 }
 
 function processDonation(req, res) {
@@ -80,8 +90,7 @@ function processDonation(req, res) {
       name: req.body.name,
       issue: 'donation'
     };
-    
-    console.log('st length', req.body.stripeToken.length);
+
     var stripeToken;
     if (req.body.stripeToken.length > 1) {
       lastTokenIndex = req.body.stripeToken.length -1;
@@ -109,17 +118,23 @@ function processDonation(req, res) {
             amount: donationAmount,
             currency: 'usd',
             customer: customer.id
-          }, handleStripeCreateResponse);
+          }, function(e,s) {
+            console.log('e', e);
+            console.log('s', s);
+            console.log('sending yo');
+
+            return res.json('yo');
+          });
       }
     });
 }
 
-function handleStripeCreateResponse(err, sucess) {
+function handleStripeCreateResponse(err, success) {
   if (err) {
     return JSON.stringify(err.raw);
   }
   else {
-    return JSON.stringify(sucess);
+     return JSON.stringify(success);
   }
 };
 
@@ -127,5 +142,5 @@ app.use(errorHandlers.handle404);
 app.use(errorHandlers.handle500);
 
 app.listen(app.get('port'), '0.0.0.0', function() {
-  console.log("Running at localhost:" + app.get('port'))
+  console.log("Running at 0.0.0.0:" + app.get('port'))
 });
