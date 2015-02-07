@@ -1,5 +1,7 @@
 # CQ-Pay
 
+[ ![Codeship Status for civicquarterly/cq-pay](https://codeship.com/projects/41abf4a0-8a12-0132-349f-7ea459d53ec7/status?branch=master)](https://codeship.com/projects/59905)
+
 ## Running Locally
 
 Make sure you have [Node.js](http://nodejs.org/) installed.
