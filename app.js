@@ -21,6 +21,7 @@ var app = express();
 app.disable('x-powered-by');
 app.set('port', config.port);
 app.set('env', config.env);
+app.set('startTime', new Date());
 app.use(logger('dev'));
 app.use(cors());
 app.use(bodyParser.json());
@@ -48,7 +49,7 @@ function redirectToCivicQuarterly(req, res) {
 }
 
 function status(req, res) {
-  return res.json('200 A-OK!');
+  return res.json('200 A-OK!\nApp alive since' + app.get('startTime'));
 }
 
 function processSubscription(req, res) {
