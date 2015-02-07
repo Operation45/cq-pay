@@ -55,17 +55,17 @@ function processSubscription(req, res) {
   var issue = req.body.issue, metadata = {};
 
   var customer = {
-    card: req.body.stripeToken,
+    card: req.body['stripe-token'],
     email: req.body.email
   };
 
   metadata = {
     name: req.body.name,
-    address_1: req.body.addressFirst,
-    address_2: req.body.addressSecond,
+    address_1: req.body['address-first'],
+    address_2: req.body.['address-second'],
     city: req.body.city,
     zip: req.body.zip,
-    issue: req.body.whichIssue
+    issue: req.body.issue
   };
 
   customer.plan = config.stripePlan;
@@ -92,12 +92,12 @@ function processDonation(req, res) {
     };
 
     var stripeToken;
-    if (req.body.stripeToken.length > 1) {
-      lastTokenIndex = req.body.stripeToken.length -1;
-      stripeToken = req.body.stripeToken[lastTokenIndex];
+    if (req.body['stripe-token'].length > 1) {
+      lastTokenIndex = req.body['stripe-token'].length -1;
+      stripeToken = req.body['stripe-token'][lastTokenIndex];
     }
     else {
-      stripeToken = req.body.stripeToken;
+      stripeToken = req.body['stripe-token'];
     }
 
     var customer = {
@@ -109,16 +109,21 @@ function processDonation(req, res) {
 
     customer.metadata = metadata;
 
+    // var apiResponse = handleStripeCreateResponse(err, success);
+    // res.send(apiResponse);
+
     stripe.customers.create(customer, function(err, customer) {
       if (err) {
         return res.json(err.raw);
       }
       else {
-        stripe.charges.create({
+        var charge = {
             amount: donationAmount,
             currency: 'usd',
             customer: customer.id
-          }, function(e,s) {
+          };
+
+        stripe.charges.create(charge, function(e,s) {
             console.log('e', e);
             console.log('s', s);
             console.log('sending yo');
