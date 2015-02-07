@@ -49,7 +49,7 @@ function redirectToCivicQuarterly(req, res) {
 }
 
 function status(req, res) {
-  return res.json('200 A-OK!\nApp alive since' + app.get('startTime'));
+  return res.send('200 A-OK!\nApp alive since ' + app.get('startTime'));
 }
 
 function processSubscription(req, res) {
