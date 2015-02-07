@@ -63,7 +63,7 @@ function processSubscription(req, res) {
   metadata = {
     name: req.body.name,
     address_1: req.body['address-first'],
-    address_2: req.body.['address-second'],
+    address_2: req.body['address-second'],
     city: req.body.city,
     zip: req.body.zip,
     issue: req.body.issue
