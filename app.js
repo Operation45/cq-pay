@@ -21,6 +21,7 @@ var app = express();
 app.disable('x-powered-by');
 app.set('port', config.port);
 app.set('env', config.env);
+app.set('startTime', new Date());
 app.use(logger('dev'));
 app.use(cors());
 app.use(bodyParser.json());
@@ -40,7 +41,7 @@ app.use(function(req, res, next) {
 
 app.get('/', redirectToCivicQuarterly); 
 app.get('/status', status); 
-// app.post('/donate', processDonation);
+app.post('/donate', processDonation);
 app.post('/pay', processSubscription); 
 
 function redirectToCivicQuarterly(req, res) {
@@ -48,24 +49,24 @@ function redirectToCivicQuarterly(req, res) {
 }
 
 function status(req, res) {
-  return res.json('200 A-OK!');
+  return res.send('App alive since' + app.get('startTime'));
 }
 
 function processSubscription(req, res) {
   var issue = req.body.issue, metadata = {};
 
   var customer = {
-    card: req.body.stripeToken,
+    card: req.body['stripe-token'],
     email: req.body.email
   };
 
   metadata = {
     name: req.body.name,
-    address_1: req.body.addressFirst,
-    address_2: req.body.addressSecond,
+    address_1: req.body['address-first'],
+    address_2: req.body['address-second'],
     city: req.body.city,
     zip: req.body.zip,
-    issue: req.body.whichIssue
+    issue: req.body.issue
   };
 
   customer.plan = config.stripePlan;
@@ -82,51 +83,24 @@ function processSubscription(req, res) {
 }
 
 function processDonation(req, res) {
+  var metadata = {
+    name: req.body.name,
+    email: req.body.email
+  },
+    stripeToken = req.body['stripe-token'],
+    donationAmount = req.body['donation-amount'] * 100;
 
-    console.log('processing donation for', req.body.name);
-    console.log('request body', req.body);
-
-    metadata = {
-      name: req.body.name,
-      issue: 'donation'
-    };
-
-    var stripeToken;
-    if (req.body.stripeToken.length > 1) {
-      lastTokenIndex = req.body.stripeToken.length -1;
-      stripeToken = req.body.stripeToken[lastTokenIndex];
-    }
-    else {
-      stripeToken = req.body.stripeToken;
-    }
-
-    var customer = {
+  var charge = {
+      amount: donationAmount,
+      currency: 'usd',
       card: stripeToken,
-      email: req.body.email
+      metadata: metadata
     };
 
-    var donationAmount = req.body['donation-amount'] * 100;
-
-    customer.metadata = metadata;
-
-    stripe.customers.create(customer, function(err, customer) {
-      if (err) {
-        return res.json(err.raw);
-      }
-      else {
-        stripe.charges.create({
-            amount: donationAmount,
-            currency: 'usd',
-            customer: customer.id
-          }, function(e,s) {
-            console.log('e', e);
-            console.log('s', s);
-            console.log('sending yo');
-
-            return res.json('yo');
-          });
-      }
-    });
+  stripe.charges.create(charge, function(err, success) {
+    var apiResponse = handleStripeCreateResponse(err, success);
+    res.send(apiResponse);
+  });
 }
 
 function handleStripeCreateResponse(err, success) {
