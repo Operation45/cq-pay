@@ -39,13 +39,13 @@ app.use(function(req, res, next) {
   next();
 });
 
-app.get('/', redirectToCivicQuarterly); 
-app.get('/status', status); 
+app.get('/', redirectHome);
+app.get('/status', status);
 app.post('/donate', processDonation);
-app.post('/pay', processSubscription); 
+app.post('/pay', processSubscription);
 
-function redirectToCivicQuarterly(req, res) {
- return res.redirect('https://www.civicquarterly.com');
+function redirectHome(req, res) {
+ return res.redirect(config.homeUrl);
 }
 
 function status(req, res) {

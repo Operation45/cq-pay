@@ -1,6 +1,8 @@
+const config = require('./config')
+
 /// catch 404 and forwarding to error handler
 function handle404(req, res, next) {
-  res.redirect('https://www.civicquarterly.com/404.html');
+  res.redirect(config.notFoundUrl);
 }
 
 // production error handler

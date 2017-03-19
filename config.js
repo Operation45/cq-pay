@@ -3,5 +3,7 @@ module.exports = {
   env: process.env.NODE_ENV || 'development',
   port: process.env.PORT || 3000,
   stripeSecret: process.env.STRIPE_SECRET,
-  stripePlan: process.env.STRIPE_PLAN
+  stripePlan: process.env.STRIPE_PLAN,
+  homeUrl: 'https://www.operationfortyfive.org',
+  notFoundUrl: 'http://www.example.com',
 };

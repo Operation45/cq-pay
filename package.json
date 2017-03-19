@@ -1,7 +1,8 @@
 {
-  "name": "CQPay",
+  "name": "operation45-donate",
+  "private": true,
   "version": "0.1.0",
-  "description": "A Node App To Support Payments for CQ",
+  "description": "Payments API for operationfortyfive.org",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
@@ -19,11 +20,11 @@
     "dotenv": "^0.4.0"
   },
   "engines": {
-    "node": ">=0.10"
+    "node": ">=6.9"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-sample"
+    "url": "https://github.com/operation45/donate"
   },
   "author": "Maksim Pecherskiy",
   "license": "MIT",
