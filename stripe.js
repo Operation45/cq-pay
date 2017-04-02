@@ -14,12 +14,12 @@ const http = axios.create({
 
 const createCharge = ({ amount, customer }) => {
   const charge = {
-    amount,
+    amount: amount * 100,
     currency: 'usd',
     customer: customer.id
   }
 
-  console.log(`creating charge: ${amount} for ${customer.id}`)
+  console.log(`creating charge: ${amount} USD for ${customer.id}`)
   return http.post(`${STRIPE_API}/charges`, qs.stringify(charge)).then(res => {
     if (res.status === 200) return res.data
     throw new Error({ status: res.status, statusText: res.statusText })
@@ -41,11 +41,11 @@ const createCustomer = ({ email, token }) => {
 
 const createPlan = ({ amount }) => {
   const plan = {
-    amount,
+    amount: amount * 100,
     currency: 'usd',
     id: `monthly-donation-${amount}-usd`,
     interval: 'month',
-    name: `Monthly donation of ${amount} USD cents`
+    name: `Monthly donation of ${amount} USD`
   }
 
   console.log(`creating plan: ${plan.id}`)
@@ -70,22 +70,6 @@ const createSubscription = ({ customer, plan }) => {
   })
 }
 
-const createToken = () => {
-  const token = {
-     'card[number]': '4242424242424242',
-     'card[exp_month]': 12,
-     'card[exp_year]': 2018,
-     'card[cvc]': 123
-   }
-
-   console.log('creating token')
-
-   return http.post(`${STRIPE_API}/tokens`, qs.stringify(token)).then(res => {
-     if (res.status === 200) return res.data
-     throw new Error({ status: res.status, statusText: res.statusText })
-   })
-}
-
 const fetchAllPlans = () => {
   return http.get(`${STRIPE_API}/plans`).then(res => {
     if (res.status === 200) return res.data.data
@@ -95,7 +79,7 @@ const fetchAllPlans = () => {
 
 const fetchOrCreatePlan = ({ amount }) => {
   return fetchAllPlans().then(plans => {
-    return plans.find(plan => plan.amount === +amount)
+    return plans.find(plan => plan.amount === amount * 100)
   }).then(plan => {
     if (!plan) return createPlan({ amount })
     return Promise.resolve(plan)
@@ -113,11 +97,9 @@ const recurringDonation = ({ amount, customer }) => {
 }
 
 module.exports = ({ amount, email, monthly, token }) => {
-  return createToken().then(token => {
-    return createCustomer({ email, token: token.id }).then(customer => {
-      const payload = { amount, customer }
-      return (monthly) ? recurringDonation(payload) : onetimeDonation(payload)
-    })
+  return createCustomer({ email, token }).then(customer => {
+    const payload = { amount, customer }
+    return (monthly) ? recurringDonation(payload) : onetimeDonation(payload)
   }).catch(err => {
     if (err.response && err.response.data) {
       console.error(err.response.data)
