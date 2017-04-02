@@ -5,19 +5,18 @@
   "description": "Payments API for operationfortyfive.org",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "watch": "nodemon app.js"
   },
   "dependencies": {
+    "axios": "^0.16.0",
     "body-parser": "^1.6.5",
     "cookie-parser": "^1.3.2",
     "cors": "^2.4.1",
+    "dotenv": "^0.4.0",
     "express": "^4.8.5",
-    "express-session": "^1.7.6",
-    "lodash": "^2.4.1",
     "lusca": "^1.0.1",
-    "morgan": "^1.2.3",
-    "stripe": "^2.8.0",
-    "dotenv": "^0.4.0"
+    "morgan": "^1.2.3"
   },
   "engines": {
     "node": ">=6.9"
@@ -30,6 +29,7 @@
   "license": "MIT",
   "devDependencies": {
     "chai": "^1.9.1",
-    "mocha": "^1.21.4"
+    "mocha": "^1.21.4",
+    "nodemon": "^1.11.0"
   }
 }
