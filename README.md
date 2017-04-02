@@ -9,10 +9,9 @@ cd donate
 npm install
 ```
 
-Now you'll want to set up your environment variables for the Stripe integration. We'll need two:
+Now you'll want to set up your environment variables for the Stripe integration. We'll need:
 
 1. `STRIPE_SECRET` - this will be the secret token that Stripe gives you
-2. `STRIPE_PLAN` - this will be the id of your stripe plan
 
 You can set your own by modifying the env-sample file with your data and renaming it to `.env`. Then you can run the app with `npm start`
 

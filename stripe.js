@@ -5,11 +5,10 @@ const axios = require('axios')
 const config = require('./config')
 
 const STRIPE_API = 'https://api.stripe.com/v1'
-const STRIPE_TOKEN = ''
 
 const http = axios.create({
   headers: {
-    'Authorization': `Bearer ${STRIPE_TOKEN}`
+    'Authorization': `Bearer ${config.stripeSecret}`
   }
 })
 

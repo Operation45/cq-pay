@@ -1,7 +1,3 @@
-// Load dotenv.
-var dotenv = require('dotenv')
-dotenv.load()
-
 var config = require('./config')
 var charge = require('./stripe')
 

@@ -1,2 +1,1 @@
 STRIPE_SECRET=sk_test_SOMETHING
-STRIPE_PLAN=your-stripe-plan

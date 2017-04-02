@@ -1,3 +1,7 @@
+// Load dotenv.
+var dotenv = require('dotenv')
+dotenv.load()
+
 module.exports = {
   sessionSecret: process.env.SESSION_SECRET || 'I Am A Monkey',
   env: process.env.NODE_ENV || 'development',
@@ -5,5 +9,5 @@ module.exports = {
   port: process.env.PORT || 3000,
   stripeSecret: process.env.STRIPE_SECRET,
   homeUrl: 'https://www.operationfortyfive.org',
-  notFoundUrl: 'http://www.example.com',
-};
+  notFoundUrl: 'http://www.example.com'
+}
