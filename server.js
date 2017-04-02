@@ -4,7 +4,6 @@ var path = require('path')
 var logger = require('morgan')
 var cookieParser = require('cookie-parser')
 var bodyParser = require('body-parser')
-var session = require('express-session')
 //var csrf = require('lusca').csrf()
 var config = require('./config')
 
@@ -20,11 +19,6 @@ server.use(cors())
 server.use(bodyParser.json())
 server.use(bodyParser.urlencoded({ extended: true }))
 server.use(cookieParser())
-server.use(session({
-  secret: config.sessionSecret,
-  saveUninitialized: true,
-  resave: true,
-}))
 
 server.use(function(req, res, next) {
   console.log(`${req.method} ${req.url}`)
