@@ -1,13 +1,13 @@
-var express = require('express')
-var cors = require('cors')
-var path = require('path')
-var logger = require('morgan')
-var cookieParser = require('cookie-parser')
-var bodyParser = require('body-parser')
-//var csrf = require('lusca').csrf()
-var config = require('./config')
+const express = require('express')
+const cors = require('cors')
+const path = require('path')
+const logger = require('morgan')
+const cookieParser = require('cookie-parser')
+const bodyParser = require('body-parser')
 
-var server = express()
+const config = require('./config')
+
+const server = express()
 
 server.disable('x-powered-by')
 server.set('host', config.host)
